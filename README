@@ -1,18 +1,24 @@
-
 NAME
-	Tasklicious - Activities management system based on tasks
+    Tasklicious - Activities management system based on tasks
 
 DESCRIPTION
-	This is a simple activities management system based on tasks
-	created using Mojolicious::Lite.
+    This is a simple activities management system based on tasks
+    created using Mojolicious::Lite.
 
-	This is very useful and simple to use in a small and fast 
-	projects.
+    This is very useful and simple to use in a small and fast 
+    projects.
+
+MOTIVATION
+    
+
+FEATURES
+
 
 RUNNING
-	To start run this project is very easy.
+    To start run this project is very easy.
 
-		$ tasklicious.pl daemon
+        $ tasklicious.pl daemon
+        Server available at http://127.0.0.1:3000.
 
 AUTHOR
-	Daniel Vinciguerra < dan.vinciguerra at gmail.com >
+    (c) 2011 Bivee. All rights reserveds.
