@@ -12,11 +12,21 @@ package main;
 
 use Mojolicious::Lite;
 
-# dashboard action
-get '/' => 'dashboard';
-post '/' => sub{} => 'dashboard';
+our $status = { 
+    '1' => 'Opened',
+    '2' => 'Waiting',
+    '3' => 'Analysing',
+    '4' => 'Closed',
+};
 
-# signin action
+our $complex = {
+    '1' => 'Very Easy',
+    '2' => 'Easy',
+    '3' => 'Normal',
+    '4' => 'Hard',
+    '5' => 'Very Hard',
+};
+
 get '/signin' => { message => '' } => 'signin';
 post '/signin' => sub {
 	my $self = shift;
@@ -41,12 +51,27 @@ ladder sub {
 	shift->redirect_to('/signin') and return;
 };
 
+# index action
+get '/' => 'dashboard';
+post '/' => sub{} => 'dashboard';
+
+# task action
+get '/task' => sub { 
+    my $self = shift;
+    $self->stash( 
+        task => {}, 
+        status => $status, 
+        complex => $complex 
+    );
+} => 'taskform';
+post '/task' => sub {
+    my $self = shift;
+} => 'taskform';
+
 # signout action
 get '/signout' => sub {
-	my $self = shift;
-	
-	$self->session( expires => 1 );
-	$self->redirect_to('/signin') and return;
+	$_[0]->session( expires => 1 );
+	shift->redirect_to('/signin') and return;
 };
 
 app->start;
@@ -68,13 +93,35 @@ __DATA__
 @@ dashboard.html.ep
 % layout 'default';
 <h2>Dashboard</h2>
+
+@@ taskform.html.ep
+% layout 'default';
+<h2>Create a new task</h2>
 <form method="POST">
-    <p><label>Project:<br>
-    <select>
-        <option>Select a project...</option>
-    </select></label>&nbsp;or&nbsp;<a href="#">add a new one</a></p>
+    <p><label>Title:<br>
+    <input type="text" name="title" size="100" /></label></p>
     <p><label>Description:<br>
     <input type="text" name="description" size="100" /></label></p>
+    <p><label>Assigned to:<br>
+    <select name="assigned">
+% foreach my $u ( Model::User->select ) {
+        <option value="<%= $u->id %>"><%= $u->name %></option>
+% }
+    </select></label></p>
+    <p><label>Status:<br>
+    <select name="assigned">
+% foreach my $i ( sort keys %$status ) {
+    <option value="<%= $i %>"><%= $status->{$i} %></option>
+% }    
+    </select></label></p>
+    <p><label>Complexibility:<br>
+    <select name="complexibility">
+% foreach my $c ( sort keys %$complex  ) {
+        <option value="<%= $c %>"><%= $complex->{$c} %></option>
+% }        
+    </select></label></p>
+    <p><label>Time estimated:<br>
+    <input type="text" name="estimated" size="100" /></label></p>
     <input type="submit" value="Save" />
 </form>
 
@@ -134,8 +181,8 @@ __DATA__
             <h2>Tasklicious - Project Task Manager</h2>
 % if (session 'user' ) {
             <div id="menu">
-                <a href="<%= url_for 'index' %>">New Paste</a>
-                <a href="#">Source Code</a>
+                <a href="/">Dashboard</a>
+                <a href="/task">Tasks</a>
                 <a href="#">Search</a>
                 <a href="#">About</a>
                 <a href="#">Help</a>
