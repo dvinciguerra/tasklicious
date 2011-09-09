@@ -12,14 +12,14 @@ package main;
 
 use Mojolicious::Lite;
 
-our $status = { 
+my $status = { 
     '1' => 'Opened',
     '2' => 'Waiting',
     '3' => 'Analysing',
     '4' => 'Closed',
 };
 
-our $complex = {
+my $complex = {
     '1' => 'Very Easy',
     '2' => 'Easy',
     '3' => 'Normal',
@@ -27,6 +27,7 @@ our $complex = {
     '5' => 'Very Hard',
 };
 
+# signin action
 get '/signin' => { message => '' } => 'signin';
 post '/signin' => sub {
 	my $self = shift;
@@ -56,7 +57,7 @@ get '/' => 'dashboard';
 post '/' => sub{} => 'dashboard';
 
 # task action
-get '/task' => sub { 
+get '/task/form' => sub { 
     my $self = shift;
     $self->stash( 
         task => {}, 
@@ -64,9 +65,12 @@ get '/task' => sub {
         complex => $complex 
     );
 } => 'taskform';
-post '/task' => sub {
+post '/task/form' => sub {
     my $self = shift;
 } => 'taskform';
+
+get '/task/list' => sub {
+} => 'tasklist';
 
 # signout action
 get '/signout' => sub {
@@ -93,37 +97,123 @@ __DATA__
 @@ dashboard.html.ep
 % layout 'default';
 <h2>Dashboard</h2>
+Latest Task
+
+Projects
+
+Notes
+
+Latest Activities
 
 @@ taskform.html.ep
 % layout 'default';
+<table width="100%" cellspacing="0">
+<tr>
+<td width="80%">
 <h2>Create a new task</h2>
 <form method="POST">
     <p><label>Title:<br>
-    <input type="text" name="title" size="100" /></label></p>
+    <input type="text" name="title" size="60" /></label></p>
     <p><label>Description:<br>
-    <input type="text" name="description" size="100" /></label></p>
-    <p><label>Assigned to:<br>
+    <textarea name="description" rows="6" cols="60"></textarea></label></p>
+    <table>
+    <tr>
+    <td>
+    <label>Assigned to:<br>
     <select name="assigned">
 % foreach my $u ( Model::User->select ) {
         <option value="<%= $u->id %>"><%= $u->name %></option>
 % }
-    </select></label></p>
-    <p><label>Status:<br>
+    </select></label>
+    </td>
+    <td>
+    <label>Status:<br>
     <select name="assigned">
 % foreach my $i ( sort keys %$status ) {
     <option value="<%= $i %>"><%= $status->{$i} %></option>
 % }    
-    </select></label></p>
-    <p><label>Complexibility:<br>
+    </select></label>
+    </td>
+    <td>
+    <label>Complexibility:<br>
     <select name="complexibility">
 % foreach my $c ( sort keys %$complex  ) {
         <option value="<%= $c %>"><%= $complex->{$c} %></option>
 % }        
-    </select></label></p>
+    </select></label>
+    </td>
+    </tr>
+    </table>
     <p><label>Time estimated:<br>
-    <input type="text" name="estimated" size="100" /></label></p>
-    <input type="submit" value="Save" />
+    <input type="text" name="estimated" size="20" /></label><small>Ex.: 1d(day) 2m(min) 3h(hours)</small></p>
+    <input type="submit" value="Save" class="theme-button" />&nbsp;<input type="reset" value="Clear" class="theme-button" />
 </form>
+</td>
+<td width="20%" valign="top">
+<h2>Rapid Menu</h2>
+<ul>
+<li><a href="/task/list">List all tasks</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+@@ tasklist.html.ep
+% layout 'default';
+<table width="100%" cellspacing="0">
+<tr>
+<td width="80%">
+<h2>List all tasks</h2>
+<form method="POST">
+    <table width="600px" cellspacing="0">
+    <tr>
+    <td><select /></td>
+    <td><select /></td>
+    <td><select /></td>
+    <td><select /></td>
+    </tr>
+    </table>
+    <br>
+    <table width="600px" cellspacing="0">
+    <tr>
+    <td>ID</td>
+    <td>Title</td>
+    <td>Created</td>
+    <td>Action</td>
+    </tr>
+    <tr>
+    <td>00</td>
+    <td>Lorem ipsum dolor sit amet</td>
+    <td>00/00/0000</td>
+    <td><a href="#">Show Details</a></td>
+    </tr>
+    <tr>
+    <td>00</td>
+    <td>Lorem ipsum dolor sit amet</td>
+    <td>00/00/0000</td>
+    <td><a href="#">Show Details</a></td>
+    </tr>
+    <tr>
+    <td>00</td>
+    <td>Lorem ipsum dolor sit amet</td>
+    <td>00/00/0000</td>
+    <td><a href="#">Show Details</a></td>
+    </tr>
+    </table>
+    <br>
+    <p>
+    <a href="">1</a>&nbsp;<a href="">2</a>&nbsp;<a href="">3</a>&nbsp;<a href="">4</a>&nbsp;</p>
+    <input type="button" value="Back" class="theme-button" onclick="history.back(-1);" />
+</form>
+</td>
+<td width="20%" valign="top">
+<h2>Rapid Menu</h2>
+<ul>
+<li><a href="/task/form">Create new tasks</a></li>
+</ul>
+</td>
+</tr>
+</table>
 
 @@ layouts/default.html.ep
 <!doctype html>
@@ -143,7 +233,7 @@ __DATA__
             pre.lines{border:0px;padding-right:0.5em;width:50px}
             input[type=text] { border:solid 1px #999;}
             textarea { border:solid 1px #999;}
-            #btn-paste {padding:10px;font-weight:bold;min-width:125px;}
+            .theme-button {color: #333;padding:10px;font-weight:bold;min-width:125px;}
             _body {min-height:100%;height:auto !important;height:100%;margin:0 auto -6em;}
             #header {width:100%;color:#fff;height:75px;background-color:#333;}
             #header h2 {font-family:Arial;color:#fff;text-shadow: 2px 2px 2px #000;padding:10px 0px 0px 25px;}
@@ -157,7 +247,7 @@ __DATA__
             #menu a {color:#fff;font-weight:bold;font-size:12px;text-decoration:none;padding-right:15px;}
             #menu a:hover {color:#FFFF00;}
             #visualization {width:900px;margin-right:auto;margin-left:auto;}
-            #content {font-size:small;min-height:500px;margin-left:50px;margin-right:auto;}
+            #content {font-size:small;min-height:450px;margin-left:50px;margin-right:auto;}
             .content {background:#eee;border:2px solid #ccc;width:700px}
             .created, .modified {color:#999;margin-left:10px;font-size:small;font-style:italic;padding-bottom:0.5em}
             .modified {margin:0px}
@@ -178,11 +268,11 @@ __DATA__
             <%= session 'user' %>, <a href="<%= url_for 'signout' %>">Logout</a>
             </div>
 % }            
-            <h2>Tasklicious - Project Task Manager</h2>
+            <h2>Tasklicious - Simple Task Manager</h2>
 % if (session 'user' ) {
             <div id="menu">
                 <a href="/">Dashboard</a>
-                <a href="/task">Tasks</a>
+                <a href="/task/form">Tasks</a>
                 <a href="#">Search</a>
                 <a href="#">About</a>
                 <a href="#">Help</a>
