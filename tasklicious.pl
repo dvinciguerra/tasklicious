@@ -27,6 +27,14 @@ my $complex = {
     '5' => 'Very Hard',
 };
 
+my $type = {
+    '1' => 'Task',
+    '2' => 'Feature',
+    '3' => 'Bug',
+    '4' => 'Improvement',
+    '5' => 'Others',
+};
+
 # signin action
 get '/signin' => { message => '' } => 'signin';
 post '/signin' => sub {
@@ -60,9 +68,9 @@ post '/' => sub{} => 'dashboard';
 get '/task/form' => sub { 
     my $self = shift;
     $self->stash( 
-        task => {}, 
-        status => $status, 
-        complex => $complex 
+        status  => $status, 
+        complex => $complex,
+        type    => $type,
     );
 } => 'taskform';
 post '/task/form' => sub {
@@ -96,14 +104,86 @@ __DATA__
 
 @@ dashboard.html.ep
 % layout 'default';
-<h2>Dashboard</h2>
-Latest Task
-
-Projects
-
-Notes
-
-Latest Activities
+<table id="user-infor" width="100%" cellspacing="0">
+<tr>
+<td width="5%"><img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="48" height="48" /></td>
+<td valign="top"><h1>Daniel Vinciguerra&nbsp;</h1>
+<small><a href="#">dan.vinciguerra@gmail.com</a>&nbsp;[<a href="#">Edit Profile</a>]</small>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" cellspacing="0">
+<tr>
+<td width="60%" valign="top">
+<h2>Latest Tasks</h2>
+<div class="alert-task">
+    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+    <small>created by <a href="#">dvinciguerra</a></small>
+</div>
+<div class="alert-task">
+    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+    <small>created by <a href="#">dvinciguerra</a></small>
+</div>
+<div class="alert-task">
+    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+    <small>created by <a href="#">dvinciguerra</a></small>
+</div>
+<div class="alert-task">
+    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+    <small>created by <a href="#">dvinciguerra</a></small>
+</div>
+<div class="alert-task">
+    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+    <small>created by <a href="#">dvinciguerra</a></small>
+</div>
+<div style="text-align:center;">
+    <a href="#" class="link-button">See More Tasks</a>
+</div>
+</td>
+<td width="20%" valign="top">
+<h2>Online Contacts</h2>
+<div>
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
+</div>
+<h2>Latest Documents</h2>
+<div style="width:90%;max-height:62px;min-height:48px;background-image:url(/doc.png);background-repeat:no-repeat;background-position:0 0;padding-left:48px;padding-top:10px;font-size:10px;text-align:left;">
+<strong>Arquivo:</strong>Teste do amor<br> created by <a href="#">dvinciguerra</a> </div>
+<div style="width:90%;max-height:62px;min-height:48px;margin:5px;background-image:url(/doc.png);background-repeat:no-repeat;background-position:0 0;padding-left:48px;padding-top:10px;font-size:10px;text-align:left;">
+<strong>Arquivo:</strong>Teste do amor<br> created by <a href="#">dvinciguerra</a> </div>
+<div style="width:90%;max-height:62px;min-height:48px;margin:5px;background-image:url(/doc.png);background-repeat:no-repeat;background-position:0 0;padding-left:48px;padding-top:10px;font-size:10px;text-align:left;">
+<strong>Arquivo:</strong>Teste do amor<br> created by <a href="#">dvinciguerra</a> </div>
+<p><small><a href="#">See More</a></small>&nbsp;</p>
+</td>
+<td width="20%" valign="top">
+<h2>Activities</h2>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+</td>
+</tr>
+</table>
 
 @@ taskform.html.ep
 % layout 'default';
@@ -135,6 +215,14 @@ Latest Activities
     </select></label>
     </td>
     <td>
+    <label>Type:<br>
+    <select name="type">
+% foreach my $t ( sort keys %$type  ) {
+        <option value="<%= $t %>"><%= $type->{$t} %></option>
+% }        
+    </select></label>
+    </td>
+    <td>
     <label>Complexibility:<br>
     <select name="complexibility">
 % foreach my $c ( sort keys %$complex  ) {
@@ -145,7 +233,10 @@ Latest Activities
     </tr>
     </table>
     <p><label>Time estimated:<br>
-    <input type="text" name="estimated" size="20" /></label><small>Ex.: 1d(day) 2m(min) 3h(hours)</small></p>
+    <input type="text" name="estimated" size="20" /></label>&nbsp;<small>Ex.: 1d(day) 2m(min) 3h(hours)</small></p>
+    <p><label>Tags:<br>
+    <input type="text" name="tags" size="40" /></label>&nbsp;<small>Separe tags by comma.</small></p>
+    <p><label><input type="checkbox" name="notify" value="1" checked="checked"/>&nbsp;Send notification?</label></p>
     <input type="submit" value="Save" class="theme-button" />&nbsp;<input type="reset" value="Clear" class="theme-button" />
 </form>
 </td>
@@ -163,8 +254,9 @@ Latest Activities
 <table width="100%" cellspacing="0">
 <tr>
 <td width="80%">
-<h2>List all tasks</h2>
 <form method="POST">
+    <h2>Task List - What do you want to see?</h2>
+    <p><input name="search" style="width:400px;height:22px;padding:5px 10px;border:solid 1px #999;"></p>
     <table width="600px" cellspacing="0">
     <tr>
     <td><select /></td>
@@ -174,32 +266,36 @@ Latest Activities
     </tr>
     </table>
     <br>
-    <table width="600px" cellspacing="0">
-    <tr>
-    <td>ID</td>
-    <td>Title</td>
-    <td>Created</td>
-    <td>Action</td>
-    </tr>
-    <tr>
-    <td>00</td>
-    <td>Lorem ipsum dolor sit amet</td>
-    <td>00/00/0000</td>
-    <td><a href="#">Show Details</a></td>
-    </tr>
-    <tr>
-    <td>00</td>
-    <td>Lorem ipsum dolor sit amet</td>
-    <td>00/00/0000</td>
-    <td><a href="#">Show Details</a></td>
-    </tr>
-    <tr>
-    <td>00</td>
-    <td>Lorem ipsum dolor sit amet</td>
-    <td>00/00/0000</td>
-    <td><a href="#">Show Details</a></td>
-    </tr>
-    </table>
+    <h2>All Tasks Listing</h2>
+    <br>
+    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="#">dvinciguerra</a></small>
+    </div>
+    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="#">dvinciguerra</a></small>
+    </div>
+    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="#">dvinciguerra</a></small>
+    </div>
+    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="#">dvinciguerra</a></small>
+    </div>
+    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="#">dvinciguerra</a></small>
+    </div>
+    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="#">dvinciguerra</a></small>
+    </div>
+    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="#">dvinciguerra</a></small>
+    </div>
     <br>
     <p>
     <a href="">1</a>&nbsp;<a href="">2</a>&nbsp;<a href="">3</a>&nbsp;<a href="">4</a>&nbsp;</p>
@@ -210,10 +306,27 @@ Latest Activities
 <h2>Rapid Menu</h2>
 <ul>
 <li><a href="/task/form">Create new tasks</a></li>
+<li><a href="/task/form">Create new documents</a></li>
+<li><a href="/task/form">Create new </a></li>
+<li><a href="/task/form">Create new tasks</a></li>
 </ul>
 </td>
 </tr>
 </table>
+
+@@ not_found.html.ep
+% layout 'default';
+<h2>PAGE NOT FOUND MAN!</h2>
+The requested page has not been found or can be moved by our magic elfs team.
+<p>Please come back later and if our elfs team has not resolved the problem... talk with web applications admin about it. ;)</p>
+<input type="button" value="Back" onclick="history.back(-1);" class="theme-button" />
+
+@@ exception.html.ep
+% layout 'default';
+<h2>Ooooow man, you found a big shit here!</h2>
+Your request is walking about some clouds and passed from time tunel... or simply get an error!
+<p>We are checking the problem, then... please come back later and try again. ;)</p>
+<input type="button" value="Back" onclick="history.back(-1);" class="theme-button" />
 
 @@ layouts/default.html.ep
 <!doctype html>
@@ -241,13 +354,19 @@ Latest Activities
             #menu ul {width:900px;margin:0px;padding:0px;list-style:none;}
             _menu ul li {margin:0px;padding:0px;float:left;}
             _menu ul li input[type=text] {border:solid 1px #333;font-size:9px;font-weight:bold;}
+            .alert-task {padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;}
+            .alert-task h3 {padding:0px;margin:0px;line-height:20px;}
+            .alert-activity {color:#333;margin-bottom:10px;}
+            .link-button {border:solid 1px #999;background-color:#ccc;padding:3px 10px;font-size:10px;font-weight:bold;}
+            #user-infor {border-bottom:solid 1px #ccc;}
+            #avatar {border:solid 1px #CCC;padding:2px;}
             #top {float:right;width:300px;padding:5px;20px;text-align:right;font-size:9px;font-weight:bold;}
             #top a {color:#FFF;font-weight:bold;}
             #top a:hover {color:#F00;font-weight:bold;}
             #menu a {color:#fff;font-weight:bold;font-size:12px;text-decoration:none;padding-right:15px;}
             #menu a:hover {color:#FFFF00;}
             #visualization {width:900px;margin-right:auto;margin-left:auto;}
-            #content {font-size:small;min-height:450px;margin-left:50px;margin-right:auto;}
+            #content {font-size:small;min-height:450px;margin-left:50px;margin-right:50px;}
             .content {background:#eee;border:2px solid #ccc;width:700px}
             .created, .modified {color:#999;margin-left:10px;font-size:small;font-style:italic;padding-bottom:0.5em}
             .modified {margin:0px}
@@ -285,8 +404,17 @@ Latest Activities
         </div>
     </div>
     <div id="footer">
-        <p>Powered by <a href="http://perl.org">Perl</a>.<br>
-        <strong>(c) 2011 Bivee. All rights reserveds.</strong></p>
+        <p>
+        <strong>(c) 2011 Bivee. All rights reserveds.</strong><br>
+        <img src="/perl-powered.png" alt="Perl.Org" />
+        </p>
     </div>
     </body>
 </html>
+
+@@ perl-powered.png (base64)
+R0lGODlhUAAPAPcAAAAAAGZmZk5dhP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAUAAPAAAI0QADCBxIsKDBgwgTKlzIcOCAhxAjSpxIsaLFixgzCszIEaKAjyBDihxJsqTJkAM2duR4sqXLlyBTBljJEqbNmzFVPgTAEyJPADt77pwo0mPMATGTCjBqdOnDj01zzvQ5dABQqlarRiwKtevSrkiRflUqVqxXs1B1WhW69upPrFtRPj0LdizTuU7LepUa8SrcrH79Rh1Ltq7epGbRHub7t21Vt2zREj6KkjDTs3MHL1VLsyLOzzBldsYIuvRJ0aMtml49EnXq17BpNpxNu7ZtgwEBADs=
+
+@@ doc.png (base64)
+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
+
