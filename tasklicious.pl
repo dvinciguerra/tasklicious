@@ -75,7 +75,22 @@ get '/task/form' => sub {
 } => 'taskform';
 post '/task/form' => sub {
     my $self = shift;
-} => 'taskform';
+
+    Model::Task->new(
+        title => $self->param('title'),
+        description => $self->param('description'),
+        assigned => $self->param('assigned'),
+        status => $self->param('status'),
+        type => $self->param('type'),
+        complex => $self->param('complexibility'),
+        estimated => $self->param('estimated'),
+        tags => $self->param('tags'),
+        notification => $self->param('notify'),
+    )->insert;
+
+    return $self->redirect_to('/task/form');
+
+};
 
 get '/task/list' => sub {
 } => 'tasklist';
@@ -208,7 +223,7 @@ __DATA__
     </td>
     <td>
     <label>Status:<br>
-    <select name="assigned">
+    <select name="status">
 % foreach my $i ( sort keys %$status ) {
     <option value="<%= $i %>"><%= $status->{$i} %></option>
 % }    
