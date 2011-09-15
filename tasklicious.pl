@@ -40,11 +40,14 @@ get '/signin' => { message => '' } => 'signin';
 post '/signin' => sub {
 	my $self = shift;
 
-	my @list = Model::User->select('where email = ? and password = ?', 
+	my @list = Model::User->select('WHERE email = ? AND password = ?', 
 			$self->param('username'), $self->param('password'));
 
 	if (scalar @list > 0) {
-		$self->session( user => $list[0]->name );
+		$self->session( 
+            name => $list[0]->name,
+            id => $list[0]->id,
+        );
 		$self->redirect_to('/');
         return;
 	}
@@ -56,7 +59,7 @@ post '/signin' => sub {
 
 # check if user is authenticated
 ladder sub {
-	return 1 if $_[0]->session('user');
+	return 1 if $_[0]->session('name');
 	shift->redirect_to('/signin') and return;
 };
 
@@ -89,10 +92,11 @@ post '/task/form' => sub {
     )->insert;
 
     return $self->redirect_to('/task/form');
-
 };
 
 get '/task/list' => sub {
+    my $self = shift;
+    
 } => 'tasklist';
 
 # signout action
@@ -122,8 +126,8 @@ __DATA__
 <table id="user-infor" width="100%" cellspacing="0">
 <tr>
 <td width="5%"><img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="48" height="48" /></td>
-<td valign="top"><h1>Daniel Vinciguerra&nbsp;</h1>
-<small><a href="#">dan.vinciguerra@gmail.com</a>&nbsp;[<a href="#">Edit Profile</a>]</small>
+<td valign="top"><h1><%= session 'name' %>&nbsp;</h1>
+<small><a href="mailto:<%= Model::User->load( session 'id' )->email %>"><%= Model::User->load( session 'id' )->email %></a>&nbsp;[<a href="/user/edit/<%= session 'id' %>">Edit Profile</a>]</small>
 </td>
 </tr>
 </table>
@@ -132,43 +136,18 @@ __DATA__
 <tr>
 <td width="60%" valign="top">
 <h2>Latest Tasks</h2>
-<div class="alert-task">
-    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-    <small>created by <a href="#">dvinciguerra</a></small>
-</div>
-<div class="alert-task">
-    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-    <small>created by <a href="#">dvinciguerra</a></small>
-</div>
-<div class="alert-task">
-    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-    <small>created by <a href="#">dvinciguerra</a></small>
-</div>
-<div class="alert-task">
-    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-    <small>created by <a href="#">dvinciguerra</a></small>
-</div>
-<div class="alert-task">
-    <h3><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-    <small>created by <a href="#">dvinciguerra</a></small>
-</div>
+% foreach my $task ( Model::Task->select( 'ORDER BY id DESC LIMIT 25' ) ) {    
+    <div class="alert-task">
+        <h3><a href="/task/view/<%= $task->id %>"><%= $task->title %> at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="/user/view/<%= Model::User->load( $task->assigned )->id %>"><%= Model::User->load( $task->assigned )->name  %></a></small>
+    </div>
+% }
+<br>
 <div style="text-align:center;">
-    <a href="#" class="link-button">See More Tasks</a>
+    <a href="/task/list" class="link-button">See More Tasks</a>
 </div>
 </td>
 <td width="20%" valign="top">
-<h2>Online Contacts</h2>
-<div>
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-<img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="22" height="22" style="padding:3px;" />
-</div>
 <h2>Latest Documents</h2>
 <div style="width:90%;max-height:62px;min-height:48px;background-image:url(/doc.png);background-repeat:no-repeat;background-position:0 0;padding-left:48px;padding-top:10px;font-size:10px;text-align:left;">
 <strong>Arquivo:</strong>Teste do amor<br> created by <a href="#">dvinciguerra</a> </div>
@@ -283,37 +262,15 @@ __DATA__
     <br>
     <h2>All Tasks Listing</h2>
     <br>
-    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
-        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-        <small>created by <a href="#">dvinciguerra</a></small>
+% foreach my $task ( Model::Task->select( 'ORDER BY id DESC LIMIT 25' ) ) {    
+    <div class="alert-task">
+        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="/task/view/<%= $task->id %>"><%= $task->title %> at 10/09/2011 12:00</a></h3>
+        <small>created by <a href="/user/view/<%= Model::User->load( $task->assigned )->id %>"><%= Model::User->load( $task->assigned )->name  %></a></small>
     </div>
-    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
-        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-        <small>created by <a href="#">dvinciguerra</a></small>
-    </div>
-    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
-        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-        <small>created by <a href="#">dvinciguerra</a></small>
-    </div>
-    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
-        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-        <small>created by <a href="#">dvinciguerra</a></small>
-    </div>
-    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
-        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-        <small>created by <a href="#">dvinciguerra</a></small>
-    </div>
-    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
-        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-        <small>created by <a href="#">dvinciguerra</a></small>
-    </div>
-    <div class="alert-task" style="padding:5px;border:solid 1px #ccc;width:90%;background-color:#ccc;margin-bottom:10px;">
-        <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="#">Lorem ipsum dolor sit amet at 10/09/2011 12:00</a></h3>
-        <small>created by <a href="#">dvinciguerra</a></small>
-    </div>
+% }     
     <br>
     <p>
-    <a href="">1</a>&nbsp;<a href="">2</a>&nbsp;<a href="">3</a>&nbsp;<a href="">4</a>&nbsp;</p>
+    <!-- a href="">1</a>&nbsp;<a href="">2</a>&nbsp;<a href="">3</a>&nbsp;<a href="">4</a //-->&nbsp;</p>
     <input type="button" value="Back" class="theme-button" onclick="history.back(-1);" />
 </form>
 </td>
@@ -322,9 +279,9 @@ __DATA__
 <ul>
 <li><a href="/task/form">Create new tasks</a></li>
 <li><a href="/task/form">Create new documents</a></li>
-<li><a href="/task/form">Create new </a></li>
-<li><a href="/task/form">Create new tasks</a></li>
 </ul>
+<br>
+<h2>Tag Cloud</h2>
 </td>
 </tr>
 </table>
@@ -336,12 +293,13 @@ The requested page has not been found or can be moved by our magic elfs team.
 <p>Please come back later and if our elfs team has not resolved the problem... talk with web applications admin about it. ;)</p>
 <input type="button" value="Back" onclick="history.back(-1);" class="theme-button" />
 
-@@ exception.html.ep
+<!-- exception.html.ep
 % layout 'default';
 <h2>Ooooow man, you found a big shit here!</h2>
 Your request is walking about some clouds and passed from time tunel... or simply get an error!
 <p>We are checking the problem, then... please come back later and try again. ;)</p>
 <input type="button" value="Back" onclick="history.back(-1);" class="theme-button" />
+-->
 
 @@ layouts/default.html.ep
 <!doctype html>
@@ -397,16 +355,17 @@ Your request is walking about some clouds and passed from time tunel... or simpl
     <body>
     <div id="body">
         <div id="header">
-% if (session 'user' ) {        
+% if (session 'name' ) {        
             <div id="top">
-            <%= session 'user' %>, <a href="<%= url_for 'signout' %>">Logout</a>
+            <%= session 'name' %>, <a href="<%= url_for 'signout' %>">Logout</a>
             </div>
 % }            
             <h2>Tasklicious - Simple Task Manager</h2>
-% if (session 'user' ) {
+% if (session 'name' ) {
             <div id="menu">
                 <a href="/">Dashboard</a>
                 <a href="/task/form">Tasks</a>
+                <a href="/doc/form">Documents</a>
                 <a href="#">Search</a>
                 <a href="#">About</a>
                 <a href="#">Help</a>
