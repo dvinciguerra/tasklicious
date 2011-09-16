@@ -57,6 +57,21 @@ post '/signin' => sub {
     );
 } => 'signin';
 
+# user registration action
+get '/user/registration' => 'registration';
+post '/user/registration' => sub {
+    my $self = shift;
+
+    Model::User->new(
+        name => $self->param( 'name' ),
+        email => $self->param( 'email' ),
+        password => $self->param( 'password' ),
+    )->insert;
+
+    return $self->redirect_to('/signin');
+
+} => 'registration';
+
 # check if user is authenticated
 ladder sub {
 	return 1 if $_[0]->session('name');
@@ -94,6 +109,7 @@ post '/task/form' => sub {
     return $self->redirect_to('/task/form');
 };
 
+# task list action
 get '/task/list' => sub {
     my $self = shift;
     
@@ -110,6 +126,9 @@ __DATA__
 
 @@ signin.html.ep
 % layout 'default';
+<table width="100%" cellspacing="0">
+<tr>
+<td width="50%">
 <h2>Tasklicious - Simple Mojo Task List</h2>
 <form method="POST">
 	<p><label>Username:<br />
@@ -120,6 +139,40 @@ __DATA__
 	<p><a href="#">forgot your password?</a></p>
 	<span style="color: red;"><%= $message %></span>
 </form>
+</td>
+<td width="50%" valign="top">
+<h2>Create a New Account Now!</h2>
+<ul>
+<li><a href="/user/registration">User Registration</a></li>
+</ul>
+</td>
+</tr>
+</table>
+
+@@ registration.html.ep
+% layout 'default';
+<table width="100%" cellspacing="0">
+<tr>
+<td width="80%">
+<h2>Create a new user account</h2>
+<form method="POST">
+    <p><label>Name:<br>
+    <input type="text" name="name" size="40" /></label></p>
+    <p><label>E-mail:<br>
+    <input type="text" name="email" size="40" /></label></p>
+    <p><label>Password:<br>
+    <input type="password" name="password" size="20" /></label></p>
+    <input type="submit" value="Save" class="theme-button" />&nbsp;<input type="reset" value="Clear" class="theme-button" />
+</form>
+</td>
+<td width="20%" valign="top">
+<!--h2>Rapid Menu</h2>
+<ul>
+<li><a href="/task/list">List all tasks</a></li>
+</ul-->
+</td>
+</tr>
+</table>
 
 @@ dashboard.html.ep
 % layout 'default';
@@ -318,8 +371,9 @@ Your request is walking about some clouds and passed from time tunel... or simpl
             pre{padding:0.5em;overflow:auto;overflow-y:visible;width:600px;}
             pre.lines{border:0px;padding-right:0.5em;width:50px}
             input[type=text] { border:solid 1px #999;}
+            input[type=password] { border:solid 1px #999;}
             textarea { border:solid 1px #999;}
-            .theme-button {color: #333;padding:10px;font-weight:bold;min-width:125px;}
+            .theme-button {text-align:center;color: #333;padding:10px;font-weight:bold;min-width:125px;}
             _body {min-height:100%;height:auto !important;height:100%;margin:0 auto -6em;}
             #header {width:100%;color:#fff;height:75px;background-color:#333;}
             #header h2 {font-family:Arial;color:#fff;text-shadow: 2px 2px 2px #000;padding:10px 0px 0px 25px;}
