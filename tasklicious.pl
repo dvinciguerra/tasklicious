@@ -10,6 +10,7 @@ use ORLite {
 
 package main;
 
+use Datetime;
 use Mojolicious::Lite;
 
 my $status = { 
@@ -63,9 +64,9 @@ post '/user/registration' => sub {
     my $self = shift;
 
     Model::User->new(
-        name => $self->param( 'name' ),
-        email => $self->param( 'email' ),
-        password => $self->param( 'password' ),
+        name        => $self->param( 'name' ),
+        email       => $self->param( 'email' ),
+        password    => $self->param( 'password' ),
     )->insert;
 
     return $self->redirect_to('/signin');
@@ -95,15 +96,17 @@ post '/task/form' => sub {
     my $self = shift;
 
     Model::Task->new(
-        title => $self->param('title'),
-        description => $self->param('description'),
-        assigned => $self->param('assigned'),
-        status => $self->param('status'),
-        type => $self->param('type'),
-        complex => $self->param('complexibility'),
-        estimated => $self->param('estimated'),
-        tags => $self->param('tags'),
-        notification => $self->param('notify'),
+        title           => $self->param('title'),
+        description     => $self->param('description'),
+        assigned        => $self->param('assigned'),
+        status          => $self->param('status'),
+        type            => $self->param('type'),
+        complex         => $self->param('complexibility'),
+        estimated       => $self->param('estimated'),
+        tags            => $self->param('tags'),
+        notification    => $self->param('notify'),
+        author          => $self->session('id'),
+        created         => DateTime->now,
     )->insert;
 
     return $self->redirect_to('/task/form');
@@ -189,7 +192,7 @@ __DATA__
 <tr>
 <td width="60%" valign="top">
 <h2>Latest Tasks</h2>
-% foreach my $task ( Model::Task->select( 'ORDER BY id DESC LIMIT 25' ) ) {    
+% foreach my $task ( Model::Task->select( 'WHERE author = ? ORDER BY id DESC LIMIT 25', session 'id' ) ) {    
     <div class="alert-task">
         <h3><a href="/task/view/<%= $task->id %>"><%= $task->title %> at 10/09/2011 12:00</a></h3>
         <small>created by <a href="/user/view/<%= Model::User->load( $task->assigned )->id %>"><%= Model::User->load( $task->assigned )->name  %></a></small>
@@ -315,7 +318,7 @@ __DATA__
     <br>
     <h2>All Tasks Listing</h2>
     <br>
-% foreach my $task ( Model::Task->select( 'ORDER BY id DESC LIMIT 25' ) ) {    
+% foreach my $task ( Model::Task->select( 'WHERE author = ? ORDER BY id DESC LIMIT 25', session 'id' ) ) {    
     <div class="alert-task">
         <h3 style="padding:0px;margin:0px;line-height:20px;"><a href="/task/view/<%= $task->id %>"><%= $task->title %> at 10/09/2011 12:00</a></h3>
         <small>created by <a href="/user/view/<%= Model::User->load( $task->assigned )->id %>"><%= Model::User->load( $task->assigned )->name  %></a></small>
