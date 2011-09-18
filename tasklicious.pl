@@ -6,11 +6,39 @@ package Model;
 
 use ORLite {
 	file => 'tasklicious.db',
+    cleanup => 'VACUUM',
+    create => sub {
+        my $db = shift;
+        $db->do('
+            CREATE TABLE "user" (
+                "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                "name" TEXT NOT NULL,
+                "email" TEXT NOT NULL,
+                "password" TEXT NOT NULL
+            )
+        ');
+        $db->do('
+            CREATE TABLE "task" (
+                "id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+                "title" TEXT NOT NULL,
+                "description" TEXT,
+                "assigned" INTEGER NOT NULL,
+                "status" TEXT NOT NULL,
+                "type" TEXT NOT NULL,
+                "complex" TEXT NOT NULL,
+                "estimated" TEXT NOT NULL,
+                "tags" TEXT,
+                "notification" INTEGER NOT NULL DEFAULT (1),
+                "author" INTEGER NOT NULL,
+                "created" DateTime
+            )
+        ');
+    }
 };
 
 package main;
 
-use Datetime;
+use DateTime;
 use Mojolicious::Lite;
 
 my $status = { 
@@ -82,6 +110,14 @@ ladder sub {
 # index action
 get '/' => 'dashboard';
 post '/' => sub{} => 'dashboard';
+
+# user view action
+get '/user/view/(.id)' => sub {
+    my $self = shift;
+    $self->stash( 
+        user => Model::User->load( $self->param('id') ) 
+    );
+} => 'userview';
 
 # task action
 get '/task/form' => sub { 
@@ -183,7 +219,7 @@ __DATA__
 <tr>
 <td width="5%"><img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="48" height="48" /></td>
 <td valign="top"><h1><%= session 'name' %>&nbsp;</h1>
-<small><a href="mailto:<%= Model::User->load( session 'id' )->email %>"><%= Model::User->load( session 'id' )->email %></a>&nbsp;[<a href="/user/edit/<%= session 'id' %>">Edit Profile</a>]</small>
+<small><a href="mailto:<%= Model::User->load( session 'id' )->email %>"><%= Model::User->load( session 'id' )->email %></a>&nbsp;[<a href="/user/edit">Edit Profile</a>]</small>
 </td>
 </tr>
 </table>
@@ -214,6 +250,62 @@ __DATA__
 <p><small><a href="#">See More</a></small>&nbsp;</p>
 </td>
 <td width="20%" valign="top">
+<h2>Activities</h2>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+</td>
+</tr>
+</table>
+
+@@ userview.html.ep
+% layout 'default';
+<table id="user-infor" width="100%" cellspacing="0">
+<tr>
+<td width="5%"><img src="https://secure.gravatar.com/avatar/2c0746836fdbfb32bd77af072ad56db9?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png" alt="Profile Photo" id="avatar" width="48" height="48" /></td>
+<td valign="top"><h1><%= session 'name' %>&nbsp;</h1>
+<small><a href="mailto:<%= $user->email %>"><%= $user->email %></a>&nbsp;
+% if( $user->id eq session 'id') {
+    [<a href="/user/edit">Edit Profile</a>]
+% }
+</small>
+</td>
+</tr>
+</table>
+<br>
+<table width="100%" cellspacing="0">
+<tr>
+<td width="60%" valign="top">
+<h2>User Informations</h2>
+    <div class="alert-task">
+        <p><h3>Company</h3>
+        <small>Bivee</small></p>
+        <p><h3>Web Site</h3>
+        <small><a href="#">www.bivee.com.br</a></small></p>
+        <p><h3>Bio</h3>
+        <small>
+        asdsadasd sadasd asd adaasdasdsa d ad sadsadasda das dasd
+         asdsadasd asdadasd asda sdas dsa dsa da dadadsdadas dad
+         asdadasdasdasd asd asdasd sadasdsadadas da
+        </small></p>
+    </div>
+<br>
+<a href="javascript:void(0);" class="link-button" onclick="history.back(-1);">Go Back</a>
+</td>
+<td width="40%" valign="top">
 <h2>Activities</h2>
 <div class="alert-activity">
     <strong>Lorem ipsum dolor sit amet</strong><br>
