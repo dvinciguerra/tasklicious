@@ -154,6 +154,17 @@ get '/task/list' => sub {
     
 } => 'tasklist';
 
+# task viewer action
+get '/task/view/(.id)' => sub {
+    my $self = shift;
+    $self->stash(
+        type => $type,
+        complex => $complex,
+        status => $status,
+        task => Model::Task->load( $self->param('id') )
+    );
+} => 'taskview';
+
 # signout action
 get '/signout' => sub {
 	$_[0]->session( expires => 1 );
@@ -430,6 +441,66 @@ __DATA__
 </ul>
 <br>
 <h2>Tag Cloud</h2>
+</td>
+</tr>
+</table>
+
+@@ taskview.html.ep
+% layout 'default';
+<table width="100%" cellspacing="0">
+<tr>
+<td width="60%" valign="top">
+<h2>Task Informations</h2>
+    <div class="alert-task">
+        <h2>#<%= $task->id%> - <%= $task->title %></h2>
+        <p><h3>Description:</h3>
+        <small><%= $task->description %></small></p>
+        <table>
+        <tr>
+        <td>
+        <p><h3>Assigned To:</h3>
+        <small><%= Model::User->load( $task->assigned )->name %></small></p></td>
+        <td>
+        <p><h3>Status:</h3>
+        <small><%= $status->{$task->status} %></small></p></td>
+        <td>
+        <p><h3>Type:</h3>
+        <small><%= $type->{$task->type} %></small></p></td>
+        <td>
+        <p><h3>Complexibility:</h3>
+        <small><%= $complex->{$task->type} %></small></p></td>
+        </tr>
+        </table>
+        <p><h3>Estimated Time:</h3>
+        <small><%= $task->estimated %></small></p>
+        <p><h3>Tags:</h3>
+        <small><%= $task->tags %></small></p>
+        <p><h3>Notify Me:</h3>
+        <small><%= ($task->notification == 1)? "Yes": "No" %></small></p>
+        <p><h3>Created By:</h3>
+        <small><%= Model::User->load( $task->author )->name %> at <%= $task->created %></small></p>
+    </div>
+<br>
+<a href="javascript:void(0);" class="link-button" onclick="history.back(-1);">Go Back</a>
+</td>
+<td width="40%" valign="top">
+<h2>Activities</h2>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
+<div class="alert-activity">
+    <strong>Lorem ipsum dolor sit amet</strong><br>
+    <small>created by <strong>dvinciguerra</strong> at 11/05/2011</small>
+</div>
 </td>
 </tr>
 </table>
