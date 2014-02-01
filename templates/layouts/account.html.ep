@@ -17,7 +17,13 @@
 
    </head>
    <body>
-      <%= content %> 
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+              <%= content %> 
+            </div>
+         </div>
+      </div>
    </body>
 </html>
 

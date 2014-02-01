@@ -10,6 +10,9 @@ sub load {
 
     # custom routes
     my $custom = {
+        '/login' => 
+            {controller=>'Account', action=>'login'},
+
         # route for /profile
         '/profile' => 
             {controller=>'Home', action=>'profile', authenticated=>1},

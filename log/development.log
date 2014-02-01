@@ -20,3 +20,304 @@
 [Wed Oct 16 23:43:23 2013] [debug] Rendering template "layouts/default.html.ep".
 [Wed Oct 16 23:43:23 2013] [debug] 200 OK (0.131663s, 7.595/s).
 [Sat Feb  1 13:07:45 2014] [info] Listening at "http://*:3000".
+[Sat Feb  1 19:02:22 2014] [info] Listening at "http://*:3000".
+[Sat Feb  1 19:09:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:09:09 2014] [debug] GET "/".
+[Sat Feb  1 19:09:09 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Sat Feb  1 19:09:09 2014] [debug] Rendering template "home/index.html.ep".
+[Sat Feb  1 19:09:09 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Feb  1 19:09:09 2014] [debug] 200 OK (0.052498s, 19.048/s).
+[Sat Feb  1 19:09:15 2014] [debug] GET "/login".
+[Sat Feb  1 19:09:15 2014] [debug] Controller "Tasklicious::Controller::Login" does not exist.
+[Sat Feb  1 19:09:15 2014] [debug] Template "login/index.html.ep" not found.
+[Sat Feb  1 19:09:15 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 19:09:15 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 19:09:15 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:09:15 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:09:15 2014] [debug] 404 Not Found (0.068122s, 14.680/s).
+[Sat Feb  1 19:09:41 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:09:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:09:41 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:09:41 2014] [debug] 200 OK (0.006808s, 146.886/s).
+[Sat Feb  1 19:10:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:10:22 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:10:22 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:10:22 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:10:22 2014] [error] syntax error at template account/login.html.ep line 2, near "'account' 
+$_M "
+1: % layout 'account'
+2: 
+3: %= form_for '' => (method => 'POST') => begin
+4: 
+5: % end
+
+[Sat Feb  1 19:10:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 19:10:22 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 19:10:22 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:10:22 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:10:22 2014] [debug] 500 Internal Server Error (0.078483s, 12.742/s).
+[Sat Feb  1 19:10:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:10:36 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:10:36 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:10:36 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:10:36 2014] [error] syntax error at template account/login.html.ep line 1, near "layouts 'account'"
+1: % layouts 'account'
+2: 
+3: %= form_for '' => (method => 'POST') => begin
+4: 
+5: % end
+
+[Sat Feb  1 19:10:36 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 19:10:36 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 19:10:36 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:10:36 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:10:36 2014] [debug] 500 Internal Server Error (0.084533s, 11.830/s).
+[Sat Feb  1 19:10:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:10:50 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:10:50 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:10:50 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:10:50 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:10:50 2014] [debug] 200 OK (0.049081s, 20.374/s).
+[Sat Feb  1 19:11:42 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:11:42 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:11:42 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:11:42 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:11:42 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:11:42 2014] [debug] 200 OK (0.044857s, 22.293/s).
+[Sat Feb  1 19:12:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:12:19 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:12:19 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:12:19 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:12:19 2014] [error] Bareword "email" not allowed while "strict subs" in use at template account/login.html.ep line 7.
+2: 
+3: %= form_for '' => (method => 'POST') => begin
+4: 
+5: <div>
+6:     %= label_for '', 'Test'
+7:     %= text_field email, id => 'email'
+8: </div>
+9: 
+10: % end
+
+[Sat Feb  1 19:12:19 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 19:12:19 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 19:12:19 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:12:20 2014] [debug] Rendering inline template.
+[Sat Feb  1 19:12:20 2014] [debug] 500 Internal Server Error (0.083864s, 11.924/s).
+[Sat Feb  1 19:12:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:12:33 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:12:33 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:12:33 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:12:33 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:12:33 2014] [debug] 200 OK (0.051012s, 19.603/s).
+[Sat Feb  1 19:12:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:12:59 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:12:59 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:12:59 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:12:59 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:12:59 2014] [debug] 200 OK (0.053256s, 18.777/s).
+[Sat Feb  1 19:13:01 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:13:01 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:13:01 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:13:01 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:13:01 2014] [debug] 200 OK (0.002810s, 355.872/s).
+[Sat Feb  1 19:13:02 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:13:02 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:13:02 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:13:02 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:13:02 2014] [debug] 200 OK (0.002959s, 337.952/s).
+[Sat Feb  1 19:13:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:13:37 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:13:37 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:13:37 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:13:37 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:13:37 2014] [debug] 200 OK (0.062140s, 16.093/s).
+[Sat Feb  1 19:14:33 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:14:33 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:14:33 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:14:33 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:14:33 2014] [debug] 200 OK (0.004443s, 225.073/s).
+[Sat Feb  1 19:14:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:14:36 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:14:36 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:14:36 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:14:36 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:14:36 2014] [debug] 200 OK (0.051270s, 19.505/s).
+[Sat Feb  1 19:15:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:15:19 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:15:19 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:15:19 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:15:19 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:15:19 2014] [debug] 200 OK (0.052635s, 18.999/s).
+[Sat Feb  1 19:30:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:30:25 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:30:25 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:30:25 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:30:25 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:30:25 2014] [debug] 200 OK (0.054194s, 18.452/s).
+[Sat Feb  1 19:32:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:32:59 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:32:59 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:32:59 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:32:59 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:32:59 2014] [debug] 200 OK (0.057275s, 17.460/s).
+[Sat Feb  1 19:33:03 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:33:03 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:33:03 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:33:03 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:33:03 2014] [debug] 200 OK (0.005013s, 199.481/s).
+[Sat Feb  1 19:35:41 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:35:41 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:35:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:35:41 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:35:41 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:35:41 2014] [debug] 200 OK (0.056695s, 17.638/s).
+[Sat Feb  1 19:36:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:36:02 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:36:02 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:36:02 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:36:02 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:36:02 2014] [debug] 200 OK (0.056187s, 17.798/s).
+[Sat Feb  1 19:36:23 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:36:23 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:36:23 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:36:23 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:36:23 2014] [debug] 200 OK (0.003712s, 269.397/s).
+[Sat Feb  1 19:37:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:37:48 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:37:48 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:37:48 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:37:48 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:37:48 2014] [debug] 200 OK (0.059278s, 16.870/s).
+[Sat Feb  1 19:40:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:40:00 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:40:00 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:40:00 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:40:00 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:40:00 2014] [debug] 200 OK (0.079489s, 12.580/s).
+[Sat Feb  1 19:40:03 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:40:03 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:40:03 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:40:03 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:40:03 2014] [debug] 200 OK (0.003330s, 300.300/s).
+[Sat Feb  1 19:40:35 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:40:35 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:40:35 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:40:35 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:40:35 2014] [debug] 200 OK (0.003571s, 280.034/s).
+[Sat Feb  1 19:40:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:40:36 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:40:36 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:40:36 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:40:36 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:40:36 2014] [debug] 200 OK (0.051785s, 19.311/s).
+[Sat Feb  1 19:40:38 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:40:38 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:40:38 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:40:38 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:40:38 2014] [debug] 200 OK (0.003946s, 253.421/s).
+[Sat Feb  1 19:40:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:40:49 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:40:49 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:40:49 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:40:49 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:40:49 2014] [debug] 200 OK (0.055133s, 18.138/s).
+[Sat Feb  1 19:41:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:41:19 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:41:19 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:41:19 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:41:19 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:41:19 2014] [debug] 200 OK (0.046138s, 21.674/s).
+[Sat Feb  1 19:41:20 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:41:20 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:41:20 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:41:20 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:41:20 2014] [debug] 200 OK (0.004759s, 210.128/s).
+[Sat Feb  1 19:41:21 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:41:21 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:41:21 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:41:21 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:41:21 2014] [debug] 200 OK (0.003319s, 301.296/s).
+[Sat Feb  1 19:42:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:42:30 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:42:30 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:42:30 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:42:30 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:42:30 2014] [debug] 200 OK (0.050396s, 19.843/s).
+[Sat Feb  1 19:42:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:42:50 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:42:50 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:42:50 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:42:50 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:42:50 2014] [debug] 200 OK (0.048309s, 20.700/s).
+[Sat Feb  1 19:44:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:44:28 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:44:28 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:44:28 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:44:28 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:44:28 2014] [debug] 200 OK (0.057239s, 17.471/s).
+[Sat Feb  1 19:44:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:44:49 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:44:49 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:44:49 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:44:49 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:44:49 2014] [debug] 200 OK (0.049657s, 20.138/s).
+[Sat Feb  1 19:45:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:45:19 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:45:19 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:45:19 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:45:19 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:45:19 2014] [debug] 200 OK (0.049150s, 20.346/s).
+[Sat Feb  1 19:45:46 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:45:46 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:45:46 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 19:45:46 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 19:45:46 2014] [debug] 200 OK (0.004778s, 209.293/s).
+[Sat Feb  1 19:45:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:45:47 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:45:47 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:45:47 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:45:47 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:45:47 2014] [debug] 200 OK (0.049575s, 20.171/s).
+[Sat Feb  1 19:48:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:48:01 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:48:01 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:48:01 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:48:01 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:48:01 2014] [debug] 200 OK (0.049044s, 20.390/s).
+[Sat Feb  1 19:48:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:48:45 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:48:45 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:48:45 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:48:45 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:48:45 2014] [debug] 200 OK (0.050336s, 19.866/s).
+[Sat Feb  1 19:49:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:49:01 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:49:01 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:49:01 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:49:01 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:49:01 2014] [debug] 200 OK (0.053063s, 18.846/s).
+[Sat Feb  1 19:49:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:49:35 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:49:35 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:49:35 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:49:35 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:49:35 2014] [debug] 200 OK (0.053087s, 18.837/s).
+[Sat Feb  1 19:50:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:50:12 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:50:12 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:50:12 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:50:12 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:50:12 2014] [debug] 200 OK (0.052787s, 18.944/s).
+[Sat Feb  1 19:51:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:51:32 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:51:32 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:51:32 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:51:32 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:51:32 2014] [debug] 200 OK (0.050942s, 19.630/s).
+[Sat Feb  1 19:51:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 19:51:53 2014] [debug] GET "/account/login".
+[Sat Feb  1 19:51:53 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 19:51:53 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 19:51:53 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 19:51:53 2014] [debug] 200 OK (0.049777s, 20.090/s).
