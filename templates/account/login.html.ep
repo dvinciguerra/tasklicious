@@ -1,6 +1,6 @@
 % layout 'account';
 
-<div class="panel panel-default" style="margin-top:100px;">
+<div class="panel panel-default" style="margin-top:75px;">
     <div class="panel-heading">
        <strong>Tasklicious Login</strong>
     </div>
@@ -14,7 +14,7 @@
                 %= text_field 'email', id => 'email', class => 'form-control'
             </div>
             <div class="form-group">
-                %= label_for 'password', 'Test'
+                %= label_for 'password', 'Password'
                 %= password_field 'password', id => 'password', class => 'form-control'
             </div>
             <div class="form-group">
@@ -28,4 +28,8 @@
         % end
     </div>
 </div>
-
+% if ($message) {
+    <div class="alert alert-<%= $message->{type} %>">
+        %= $message->{text}
+    </div>
+% }
