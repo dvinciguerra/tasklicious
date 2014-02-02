@@ -17,4 +17,9 @@ __PACKAGE__->load_namespaces;
 
 
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
+sub init_db {
+    my $self = shift;
+    return $self->connect('dbi:mysql:dbname=tasklicious;host=localhost', 'root', 'bivee@258');
+}
+
 1;
