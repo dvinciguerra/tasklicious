@@ -5,22 +5,21 @@ use Tasklicious::Model;
 sub load_user {
     my ($class, $app, $uid) = @_;
 
-    my $model = Tasklicious::Model->load('User');
-    return $model->find( where => [id => $uid], single => 1);
+    my $schema = Tasklicious::Model->init_db;
+    return $schema->resultset('User')->find($uid);
 }
 
 sub validate_user {
     my ($class, $app, $username, $password, $extas) = @_;
 
-    my $model = Tasklicious::Model->load('User');
-    my $user = $model->find( 
-        where => [ email=>$username, password=>$password], single => 1
+    my $schema = Tasklicious::Model->init_db;
+    my $user_rs = $schema->resultset('User');
+    my $user = $user_rs->find( 
+        { email => $username, password => $password }
     );
 
     # user found
-    return $user->column('id') || undef if $user;
-
-    return;
+    return $user->id || undef if $user;
 }
 
 1;

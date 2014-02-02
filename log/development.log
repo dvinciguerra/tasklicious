@@ -321,3 +321,629 @@ $_M "
 [Sat Feb  1 19:51:53 2014] [debug] Rendering template "account/login.html.ep".
 [Sat Feb  1 19:51:53 2014] [debug] Rendering template "layouts/account.html.ep".
 [Sat Feb  1 19:51:53 2014] [debug] 200 OK (0.049777s, 20.090/s).
+[Sat Feb  1 20:04:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:04:34 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:04:34 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:04:34 2014] [debug] Template "message.html.ep" not found.
+[Sat Feb  1 20:04:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:04:34 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:04:34 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:04:34 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:04:34 2014] [debug] 404 Not Found (0.072392s, 13.814/s).
+[Sat Feb  1 20:04:39 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:04:39 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:04:39 2014] [debug] Template "message.html.ep" not found.
+[Sat Feb  1 20:04:39 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:04:39 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:04:39 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:04:39 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:04:39 2014] [debug] 404 Not Found (0.019043s, 52.513/s).
+[Sat Feb  1 20:04:54 2014] [debug] GET "/login".
+[Sat Feb  1 20:04:54 2014] [debug] Controller "Tasklicious::Controller::Login" does not exist.
+[Sat Feb  1 20:04:54 2014] [debug] Template "login/index.html.ep" not found.
+[Sat Feb  1 20:04:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:04:54 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:04:54 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:04:54 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:04:54 2014] [debug] 404 Not Found (0.017424s, 57.392/s).
+[Sat Feb  1 20:05:21 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:05:21 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:05:21 2014] [debug] Template "message.html.ep" not found.
+[Sat Feb  1 20:05:21 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:05:21 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:05:21 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:05:21 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:05:21 2014] [debug] 404 Not Found (0.008751s, 114.273/s).
+[Sat Feb  1 20:05:22 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:05:22 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:05:22 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:05:22 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:05:22 2014] [error] Global symbol "$message" requires explicit package name at template account/login.html.ep line 31.
+Global symbol "$message" requires explicit package name at template account/login.html.ep line 31.
+26:                 <small><%= link_to 'Create an account!' => '/register' %></small>
+27:             </div>
+28:         % end
+29:     </div>
+30: </div>
+31: <div class="alert alert-<%= $message->{type} %> <%= ($message)?'': 'hide' %>">
+32:     teste
+33: </div>
+
+[Sat Feb  1 20:05:22 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 20:05:22 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 20:05:22 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:05:22 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:05:22 2014] [debug] 500 Internal Server Error (0.087315s, 11.453/s).
+[Sat Feb  1 20:05:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:05:37 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:05:37 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:05:37 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:05:37 2014] [error] Can't use string ("0") as a HASH ref while "strict refs" in use at template account/login.html.ep line 31.
+26:                 <small><%= link_to 'Create an account!' => '/register' %></small>
+27:             </div>
+28:         % end
+29:     </div>
+30: </div>
+31: <div class="alert alert-<%= $message->{type} %> <%= ($message)?'': 'hide' %>">
+32:     teste
+33: </div>
+
+[Sat Feb  1 20:05:37 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 20:05:37 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 20:05:37 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:05:37 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:05:37 2014] [debug] 500 Internal Server Error (0.087896s, 11.377/s).
+[Sat Feb  1 20:05:39 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:05:39 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:05:39 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 20:05:39 2014] [error] Can't use string ("0") as a HASH ref while "strict refs" in use at template account/login.html.ep line 31.
+26:                 <small><%= link_to 'Create an account!' => '/register' %></small>
+27:             </div>
+28:         % end
+29:     </div>
+30: </div>
+31: <div class="alert alert-<%= $message->{type} %> <%= ($message)?'': 'hide' %>">
+32:     teste
+33: </div>
+
+[Sat Feb  1 20:05:39 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 20:05:39 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 20:05:39 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:05:39 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:05:39 2014] [debug] 500 Internal Server Error (0.016324s, 61.259/s).
+[Sat Feb  1 20:06:35 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:06:35 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:06:35 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 20:06:35 2014] [error] Can't use string ("0") as a HASH ref while "strict refs" in use at template account/login.html.ep line 31.
+26:                 <small><%= link_to 'Create an account!' => '/register' %></small>
+27:             </div>
+28:         % end
+29:     </div>
+30: </div>
+31: <div class="alert alert-<%= $message->{type} %> <%= ($message)?'': 'hide' %>">
+32:     teste
+33: </div>
+
+[Sat Feb  1 20:06:35 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 20:06:35 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 20:06:35 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:06:35 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:06:35 2014] [debug] 500 Internal Server Error (0.021007s, 47.603/s).
+[Sat Feb  1 20:06:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:06:35 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:06:35 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:06:35 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:06:35 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:06:35 2014] [debug] 200 OK (0.050955s, 19.625/s).
+[Sat Feb  1 20:06:36 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:06:36 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:06:36 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 20:06:36 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 20:06:36 2014] [debug] 200 OK (0.003831s, 261.028/s).
+[Sat Feb  1 20:06:39 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:06:39 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:06:39 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 20:06:39 2014] [error] Can't use string ("1") as a HASH ref while "strict refs" in use at template account/login.html.ep line 32.
+27:             </div>
+28:         % end
+29:     </div>
+30: </div>
+31: % if ($message) {
+32:     <div class="alert alert-<%= $message->{type} %>">
+33:         teste
+34:     </div>
+35: % }
+
+[Sat Feb  1 20:06:39 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 20:06:39 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 20:06:39 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:06:39 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:06:39 2014] [debug] 500 Internal Server Error (0.046258s, 21.618/s).
+[Sat Feb  1 20:06:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:06:58 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:06:58 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:06:58 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:06:58 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:06:58 2014] [debug] 200 OK (0.057105s, 17.512/s).
+[Sat Feb  1 20:07:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:07:44 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:07:44 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:07:44 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:07:44 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:07:44 2014] [debug] 200 OK (0.069124s, 14.467/s).
+[Sat Feb  1 20:10:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:10:44 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:10:44 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:10:44 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:10:44 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:10:44 2014] [debug] 200 OK (0.065980s, 15.156/s).
+[Sat Feb  1 20:13:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:13:58 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:13:58 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:13:58 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:13:58 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:13:58 2014] [debug] 200 OK (0.057210s, 17.479/s).
+[Sat Feb  1 20:14:03 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:14:03 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:14:03 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 20:14:03 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 20:14:03 2014] [debug] 200 OK (0.003639s, 274.801/s).
+[Sat Feb  1 20:14:05 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:14:05 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:14:05 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 20:14:05 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 20:14:05 2014] [debug] 200 OK (0.004066s, 245.942/s).
+[Sat Feb  1 20:27:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:27:32 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:27:32 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:27:32 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:27:32 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:27:32 2014] [debug] 200 OK (0.053262s, 18.775/s).
+[Sat Feb  1 20:27:35 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:27:35 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:27:35 2014] [error] Can't locate object method "init_db" via package "Tasklicious::Model" at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Authentication.pm line 15.
+
+[Sat Feb  1 20:27:35 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 20:27:35 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 20:27:35 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:27:35 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:27:35 2014] [debug] 500 Internal Server Error (0.047565s, 21.024/s).
+[Sat Feb  1 20:31:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:31:24 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:31:24 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:31:24 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 20:31:24 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:31:24 2014] [debug] 200 OK (0.242421s, 4.125/s).
+[Sat Feb  1 20:31:28 2014] [debug] GET "/account/login".
+[Sat Feb  1 20:31:28 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:31:28 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 20:31:28 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 20:31:28 2014] [debug] 200 OK (0.005707s, 175.223/s).
+[Sat Feb  1 20:31:33 2014] [debug] POST "/account/login".
+[Sat Feb  1 20:31:33 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 20:31:33 2014] [debug] 302 Found (0.015550s, 64.309/s).
+[Sat Feb  1 20:31:33 2014] [debug] GET "/profile".
+[Sat Feb  1 20:31:33 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Feb  1 20:31:33 2014] [debug] Action not found in controller.
+[Sat Feb  1 20:31:33 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Feb  1 20:31:33 2014] [debug] 200 OK (0.002250s, 444.444/s).
+[Sat Feb  1 20:31:49 2014] [debug] GET "/register".
+[Sat Feb  1 20:31:49 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:31:49 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:31:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:31:49 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:31:49 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:31:49 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:31:49 2014] [debug] 404 Not Found (0.029935s, 33.406/s).
+[Sat Feb  1 20:33:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:33:15 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:15 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:15 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:15 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:15 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:15 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:33:15 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:33:15 2014] [debug] 404 Not Found (0.077437s, 12.914/s).
+[Sat Feb  1 20:33:16 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:16 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:16 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:16 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:16 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:16 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:16 2014] [debug] 404 Not Found (0.010017s, 99.830/s).
+[Sat Feb  1 20:33:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:33:47 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:47 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:47 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:47 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:47 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:33:47 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:33:47 2014] [debug] 404 Not Found (0.064016s, 15.621/s).
+[Sat Feb  1 20:33:47 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:47 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:47 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:47 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:47 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:47 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:47 2014] [debug] 404 Not Found (0.015092s, 66.260/s).
+[Sat Feb  1 20:33:48 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:48 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:48 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:48 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:48 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:48 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:48 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:48 2014] [debug] 404 Not Found (0.014041s, 71.220/s).
+[Sat Feb  1 20:33:48 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:48 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:48 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:48 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:48 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:48 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:48 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:48 2014] [debug] 404 Not Found (0.011171s, 89.518/s).
+[Sat Feb  1 20:33:49 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:49 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:49 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:49 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:49 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:49 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:49 2014] [debug] 404 Not Found (0.011619s, 86.066/s).
+[Sat Feb  1 20:33:49 2014] [debug] GET "/register".
+[Sat Feb  1 20:33:49 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:33:49 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:33:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:33:49 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:33:49 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:49 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:33:49 2014] [debug] 404 Not Found (0.012479s, 80.135/s).
+[Sat Feb  1 20:34:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:34:11 2014] [debug] GET "/register".
+[Sat Feb  1 20:34:11 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:34:11 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:34:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:34:11 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:34:11 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:34:11 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:34:11 2014] [debug] 404 Not Found (0.063717s, 15.694/s).
+[Sat Feb  1 20:34:12 2014] [debug] GET "/register".
+[Sat Feb  1 20:34:12 2014] [debug] Controller "Tasklicious::Controller::Register" does not exist.
+[Sat Feb  1 20:34:12 2014] [debug] Template "register/index.html.ep" not found.
+[Sat Feb  1 20:34:12 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Feb  1 20:34:12 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Feb  1 20:34:12 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:34:12 2014] [debug] Rendering cached inline template.
+[Sat Feb  1 20:34:12 2014] [debug] 404 Not Found (0.010890s, 91.827/s).
+[Sat Feb  1 20:58:49 2014] [info] Listening at "http://*:3000".
+[Sat Feb  1 20:58:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:58:56 2014] [debug] GET "/register".
+[Sat Feb  1 20:58:56 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 20:58:56 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 20:58:56 2014] [error] Global symbol "$message" requires explicit package name at template account/register.html.ep line 31.
+Global symbol "$message" requires explicit package name at template account/register.html.ep line 32.
+Global symbol "$message" requires explicit package name at template account/register.html.ep line 33.
+28:         % end
+29:     </div>
+30: </div>
+31: % if ($message) {
+32:     <div class="alert alert-<%= $message->{type} %>">
+33:         %= $message->{text}
+34:     </div>
+35: % }
+
+[Sat Feb  1 20:58:56 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 20:58:56 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 20:58:56 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:58:56 2014] [debug] Rendering inline template.
+[Sat Feb  1 20:58:56 2014] [debug] 500 Internal Server Error (0.064109s, 15.598/s).
+[Sat Feb  1 20:59:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 20:59:56 2014] [debug] GET "/register".
+[Sat Feb  1 20:59:56 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 20:59:56 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 20:59:56 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 20:59:56 2014] [debug] 200 OK (0.029684s, 33.688/s).
+[Sat Feb  1 21:06:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:06:33 2014] [debug] GET "/register".
+[Sat Feb  1 21:06:33 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:06:33 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:06:33 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:06:33 2014] [debug] 200 OK (0.035998s, 27.779/s).
+[Sat Feb  1 21:09:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:09:58 2014] [debug] GET "/register".
+[Sat Feb  1 21:09:58 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:09:58 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:09:58 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:09:58 2014] [debug] 200 OK (0.029801s, 33.556/s).
+[Sat Feb  1 21:12:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:12:39 2014] [debug] GET "/register".
+[Sat Feb  1 21:12:39 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:12:39 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:12:39 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:12:39 2014] [debug] 200 OK (0.032038s, 31.213/s).
+[Sat Feb  1 21:13:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:13:06 2014] [debug] GET "/register".
+[Sat Feb  1 21:13:06 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:13:06 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:13:06 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:13:06 2014] [debug] 200 OK (0.029245s, 34.194/s).
+[Sat Feb  1 21:13:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:13:17 2014] [debug] GET "/register".
+[Sat Feb  1 21:13:17 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:13:17 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:13:17 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:13:17 2014] [debug] 200 OK (0.030086s, 33.238/s).
+[Sat Feb  1 21:13:23 2014] [debug] GET "/login".
+[Sat Feb  1 21:13:23 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:13:23 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 21:13:23 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:23 2014] [debug] 200 OK (0.008322s, 120.163/s).
+[Sat Feb  1 21:13:25 2014] [debug] GET "/register".
+[Sat Feb  1 21:13:25 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:13:25 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:13:25 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:25 2014] [debug] 200 OK (0.003343s, 299.133/s).
+[Sat Feb  1 21:13:27 2014] [debug] GET "/login".
+[Sat Feb  1 21:13:27 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:13:27 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:13:27 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:27 2014] [debug] 200 OK (0.005586s, 179.019/s).
+[Sat Feb  1 21:13:28 2014] [debug] GET "/register".
+[Sat Feb  1 21:13:28 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:13:28 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:13:28 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:28 2014] [debug] 200 OK (0.008267s, 120.963/s).
+[Sat Feb  1 21:13:29 2014] [debug] GET "/login".
+[Sat Feb  1 21:13:29 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:13:29 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:13:29 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:29 2014] [debug] 200 OK (0.004620s, 216.450/s).
+[Sat Feb  1 21:13:31 2014] [debug] GET "/register".
+[Sat Feb  1 21:13:31 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:13:31 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:13:31 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:31 2014] [debug] 200 OK (0.003411s, 293.169/s).
+[Sat Feb  1 21:13:33 2014] [debug] GET "/login".
+[Sat Feb  1 21:13:33 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:13:33 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:13:33 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:33 2014] [debug] 200 OK (0.004682s, 213.584/s).
+[Sat Feb  1 21:13:37 2014] [debug] GET "/register".
+[Sat Feb  1 21:13:37 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:13:37 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:13:37 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:37 2014] [debug] 200 OK (0.004815s, 207.684/s).
+[Sat Feb  1 21:13:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:13:57 2014] [debug] GET "/login".
+[Sat Feb  1 21:13:57 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:13:57 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 21:13:57 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:13:57 2014] [debug] 200 OK (0.029768s, 33.593/s).
+[Sat Feb  1 21:13:59 2014] [debug] GET "/register".
+[Sat Feb  1 21:13:59 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:13:59 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:13:59 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:13:59 2014] [debug] 200 OK (0.011280s, 88.652/s).
+[Sat Feb  1 21:14:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:14:40 2014] [debug] GET "/register".
+[Sat Feb  1 21:14:40 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:14:40 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:14:40 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:14:40 2014] [debug] 200 OK (0.034113s, 29.314/s).
+[Sat Feb  1 21:14:43 2014] [debug] GET "/login".
+[Sat Feb  1 21:14:43 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:14:43 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 21:14:43 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:14:43 2014] [debug] 200 OK (0.007968s, 125.502/s).
+[Sat Feb  1 21:14:46 2014] [debug] GET "/register".
+[Sat Feb  1 21:14:46 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:14:46 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:14:46 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:14:46 2014] [debug] 200 OK (0.004815s, 207.684/s).
+[Sat Feb  1 21:14:47 2014] [debug] POST "/register".
+[Sat Feb  1 21:14:47 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:14:47 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:14:47 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:14:47 2014] [debug] 200 OK (0.006176s, 161.917/s).
+[Sat Feb  1 21:14:49 2014] [debug] GET "/login".
+[Sat Feb  1 21:14:49 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:14:49 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:14:49 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:14:49 2014] [debug] 200 OK (0.004063s, 246.124/s).
+[Sat Feb  1 21:14:50 2014] [debug] POST "/login".
+[Sat Feb  1 21:14:50 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:14:50 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:14:50 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:14:50 2014] [debug] 200 OK (0.013764s, 72.653/s).
+[Sat Feb  1 21:14:53 2014] [debug] GET "/register".
+[Sat Feb  1 21:14:53 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:14:53 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:14:53 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:14:53 2014] [debug] 200 OK (0.006431s, 155.497/s).
+[Sat Feb  1 21:19:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:19:29 2014] [debug] POST "/register".
+[Sat Feb  1 21:19:29 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:19:29 2014] [error] Can't locate object method "schema" via package "Tasklicious::Controller::Account" at /usr/local/share/perl/5.14.2/Mojolicious.pm line 157.
+
+[Sat Feb  1 21:19:29 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 21:19:29 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 21:19:29 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:19:29 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:19:29 2014] [debug] 500 Internal Server Error (0.062434s, 16.017/s).
+[Sat Feb  1 21:21:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:21:35 2014] [debug] GET "/register".
+[Sat Feb  1 21:21:35 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:21:35 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:21:35 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:21:35 2014] [debug] 200 OK (0.029688s, 33.684/s).
+[Sat Feb  1 21:21:38 2014] [debug] POST "/register".
+[Sat Feb  1 21:21:38 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:21:38 2014] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Column 'email' cannot be null [for Statement "INSERT INTO user ( email, name, password) VALUES ( ?, ?, ? )" with ParamValues: 0=undef, 1=undef, 2=undef] at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Account.pm line 40
+
+[Sat Feb  1 21:21:38 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 21:21:38 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 21:21:38 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:21:38 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:21:38 2014] [debug] 500 Internal Server Error (0.048382s, 20.669/s).
+[Sat Feb  1 21:22:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:22:06 2014] [debug] POST "/register".
+[Sat Feb  1 21:22:06 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:22:06 2014] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Column 'email' cannot be null [for Statement "INSERT INTO user ( email, name, password) VALUES ( ?, ?, ? )" with ParamValues: 0=undef, 1=undef, 2=undef] at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Account.pm line 40
+
+[Sat Feb  1 21:22:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 21:22:06 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 21:22:06 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:22:06 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:22:06 2014] [debug] 500 Internal Server Error (0.062622s, 15.969/s).
+[Sat Feb  1 21:22:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:22:30 2014] [debug] POST "/register".
+[Sat Feb  1 21:22:30 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:22:30 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:22:30 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:22:30 2014] [debug] 200 OK (0.042979s, 23.267/s).
+[Sat Feb  1 21:22:49 2014] [debug] POST "/register".
+[Sat Feb  1 21:22:49 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:22:49 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:22:49 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:22:49 2014] [debug] 200 OK (0.086206s, 11.600/s).
+[Sat Feb  1 21:23:07 2014] [debug] GET "/login".
+[Sat Feb  1 21:23:07 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:23:07 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 21:23:07 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:23:07 2014] [debug] 200 OK (0.009785s, 102.197/s).
+[Sat Feb  1 21:23:11 2014] [debug] POST "/login".
+[Sat Feb  1 21:23:11 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:23:11 2014] [debug] 302 Found (0.014534s, 68.804/s).
+[Sat Feb  1 21:23:11 2014] [debug] GET "/profile".
+[Sat Feb  1 21:23:11 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Feb  1 21:23:11 2014] [debug] Action not found in controller.
+[Sat Feb  1 21:23:11 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Feb  1 21:23:11 2014] [debug] 200 OK (0.002980s, 335.570/s).
+[Sat Feb  1 21:23:43 2014] [debug] GET "/register".
+[Sat Feb  1 21:23:43 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:23:43 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:23:43 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:23:43 2014] [debug] 200 OK (0.004897s, 204.207/s).
+[Sat Feb  1 21:23:48 2014] [debug] POST "/register".
+[Sat Feb  1 21:23:48 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:23:48 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:23:48 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:23:48 2014] [debug] 200 OK (0.015539s, 64.354/s).
+[Sat Feb  1 21:23:52 2014] [debug] GET "/login".
+[Sat Feb  1 21:23:52 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:23:52 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:23:52 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:23:52 2014] [debug] 200 OK (0.005685s, 175.901/s).
+[Sat Feb  1 21:23:54 2014] [debug] POST "/login".
+[Sat Feb  1 21:23:54 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:23:54 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:23:54 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:23:54 2014] [debug] 200 OK (0.015874s, 62.996/s).
+[Sat Feb  1 21:28:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:28:25 2014] [debug] POST "/login".
+[Sat Feb  1 21:28:25 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:28:25 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 21:28:26 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:28:26 2014] [debug] 200 OK (0.036001s, 27.777/s).
+[Sat Feb  1 21:28:32 2014] [debug] GET "/register".
+[Sat Feb  1 21:28:32 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:28:32 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:28:32 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:28:32 2014] [debug] 200 OK (0.008381s, 119.318/s).
+[Sat Feb  1 21:28:34 2014] [debug] POST "/register".
+[Sat Feb  1 21:28:34 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:28:34 2014] [error] Can't locate object method "log" via package "Tasklicious::Controller::Account" at /usr/local/share/perl/5.14.2/Mojolicious.pm line 157.
+
+[Sat Feb  1 21:28:34 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Feb  1 21:28:34 2014] [debug] Template "exception.html.ep" not found.
+[Sat Feb  1 21:28:34 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:28:34 2014] [debug] Rendering inline template.
+[Sat Feb  1 21:28:34 2014] [debug] 500 Internal Server Error (0.046874s, 21.334/s).
+[Sat Feb  1 21:28:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:28:48 2014] [debug] POST "/register".
+[Sat Feb  1 21:28:48 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:30:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:30:49 2014] [debug] GET "/register".
+[Sat Feb  1 21:30:49 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:30:49 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:30:49 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:30:49 2014] [debug] 200 OK (0.029562s, 33.827/s).
+[Sat Feb  1 21:31:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:31:07 2014] [debug] GET "/register".
+[Sat Feb  1 21:31:07 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:31:07 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:31:07 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:31:07 2014] [debug] 200 OK (0.030454s, 32.836/s).
+[Sat Feb  1 21:31:09 2014] [debug] POST "/register".
+[Sat Feb  1 21:31:09 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:31:09 2014] [debug] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Column 'email' cannot be null [for Statement "INSERT INTO user ( email, name, password) VALUES ( ?, ?, ? )" with ParamValues: 0=undef, 1=undef, 2=undef] at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Account.pm line 40
+
+[Sat Feb  1 21:31:09 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:31:09 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:31:09 2014] [debug] 200 OK (0.016362s, 61.117/s).
+[Sat Feb  1 21:32:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 21:32:40 2014] [debug] GET "/register".
+[Sat Feb  1 21:32:40 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:32:40 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 21:32:40 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 21:32:40 2014] [debug] 200 OK (0.028389s, 35.225/s).
+[Sat Feb  1 21:32:42 2014] [debug] GET "/login".
+[Sat Feb  1 21:32:42 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:32:42 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 21:32:42 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:32:42 2014] [debug] 200 OK (0.014157s, 70.636/s).
+[Sat Feb  1 21:32:44 2014] [debug] POST "/login".
+[Sat Feb  1 21:32:44 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:32:44 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:32:44 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:32:44 2014] [debug] 200 OK (0.010083s, 99.177/s).
+[Sat Feb  1 21:32:47 2014] [debug] GET "/register".
+[Sat Feb  1 21:32:47 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:32:47 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:32:47 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:32:47 2014] [debug] 200 OK (0.003722s, 268.673/s).
+[Sat Feb  1 21:32:50 2014] [debug] POST "/register".
+[Sat Feb  1 21:32:50 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 21:32:50 2014] [debug] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Column 'email' cannot be null [for Statement "INSERT INTO user ( email, name, password) VALUES ( ?, ?, ? )" with ParamValues: 0=undef, 1=undef, 2=undef] at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Account.pm line 40
+
+[Sat Feb  1 21:32:50 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 21:32:50 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:32:50 2014] [debug] 200 OK (0.014113s, 70.857/s).
+[Sat Feb  1 21:32:52 2014] [debug] GET "/login".
+[Sat Feb  1 21:32:52 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 21:32:52 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Feb  1 21:32:52 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 21:32:52 2014] [debug] 200 OK (0.004362s, 229.253/s).
+[Sat Feb  1 22:12:32 2014] [debug] GET "/register".
+[Sat Feb  1 22:12:32 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 22:12:32 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 22:12:32 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 22:12:32 2014] [debug] 200 OK (0.006061s, 164.989/s).
+[Sat Feb  1 22:13:18 2014] [debug] GET "/register".
+[Sat Feb  1 22:13:18 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 22:13:18 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 22:13:18 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 22:13:18 2014] [debug] 200 OK (0.003436s, 291.036/s).
+[Sat Feb  1 22:15:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 22:15:41 2014] [debug] POST "/register".
+[Sat Feb  1 22:15:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 22:15:41 2014] [debug] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: Column 'email' cannot be null [for Statement "INSERT INTO user ( created, email, name, password) VALUES ( ?, ?, ?, ? )" with ParamValues: 0='2014-02-02 00:15:41', 1=undef, 2=undef, 3=undef] at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Account.pm line 42
+
+[Sat Feb  1 22:15:41 2014] [debug] Rendering template "account/register.html.ep".
+[Sat Feb  1 22:15:41 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 22:15:41 2014] [debug] 200 OK (0.697891s, 1.433/s).
+[Sat Feb  1 22:15:48 2014] [debug] POST "/register".
+[Sat Feb  1 22:15:48 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sat Feb  1 22:15:48 2014] [debug] 
+[Sat Feb  1 22:15:48 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sat Feb  1 22:15:48 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Feb  1 22:15:48 2014] [debug] 200 OK (0.071854s, 13.917/s).
+[Sat Feb  1 22:26:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Feb  1 22:26:28 2014] [debug] GET "/login".
+[Sat Feb  1 22:26:28 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Feb  1 22:26:28 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Feb  1 22:26:28 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Feb  1 22:26:28 2014] [debug] 200 OK (0.134051s, 7.460/s).

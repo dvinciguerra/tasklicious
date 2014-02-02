@@ -9,25 +9,29 @@ sub load {
       unless $route && $route->isa('Mojolicious::Routes');
 
     # custom routes
-    my $custom = {
-        '/login' => 
-            {controller=>'Account', action=>'login'},
+    my $custom = [
+        ['/login' => {controller=>'Account', action=>'login'}],
+        ['/register' => {controller=>'Account', action=>'register'}],
+
 
         # route for /profile
-        '/profile' => 
-            {controller=>'Home', action=>'profile', authenticated=>1},
+        ['/profile' => {controller=>'Home', action=>'profile', authenticated=>1}],
 
         # route for /user/edit/0
-        '/:controller/:action/:id' => 
-            {controller=>'Home', action=>'index', id=>0},
+        ['/:controller/:action/:id' => {controller=>'Home', action=>'index', id=>0}],
 
 
         #add custom route here
-    };
+    ];
 
     # add routes
-    $route->any($_)->over(authenticated => $custom->{$_}->{authenticated} || 0)->to( $custom->{$_} )
-        for keys %$custom;
+    map {
+        my ($key, $value) = @$_;
+        
+        $route->any($key)
+            ->over(authenticated => $value->{authenticated} || 0)
+            ->to( $value )
+    } @$custom;
 
     return $route;
 }
