@@ -1,0 +1,25 @@
+% layout 'account';
+
+<div class="panel panel-default" style="margin-top:75px;">
+    <div class="panel-heading">
+       <strong>Tasklicious Forgot Password</strong>
+    </div>
+    <div class="panel-body">
+        %= form_for '' => (method => 'POST') => begin
+            <div class="form-group">
+                %= label_for 'email', 'E-mail'
+                %= text_field 'email', id => 'email', class => 'form-control'
+            </div>
+            <div class="form-group">
+                %= submit_button 'Change Password', class => 'btn btn-danger'
+                &nbsp;
+                <small><%= link_to 'Go to Login!' => '/login' %></small>
+            </div>
+        % end
+    </div>
+</div>
+% if ($message) {
+    <div class="alert alert-<%= $message->{type} %>">
+        %= $message->{text}
+    </div>
+% }
