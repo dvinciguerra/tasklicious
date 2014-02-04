@@ -38,7 +38,19 @@ sub register {
 
         # user found
         my $user_rs = $self->schema->resultset('User');
-        my $user    = eval {
+        my $user = $user_rs->find({ email => $email });
+
+        # error: user found
+        if($user){
+            return $self->render(
+                message => {
+                    type => 'warning',
+                    text => 'This e-mail is aready have an account!'
+                }
+            );
+        }
+
+        $user    = eval {
             $user_rs->create(
                 {
                     name     => $name,
@@ -47,6 +59,45 @@ sub register {
                     created  => DateTime->now
                 }
             );
+        };
+
+        # debug
+        $self->app->log->debug($@);
+
+        # error
+        unless ( $user && $user->in_storage ) {
+            return $self->render(
+                message => {
+                    type => 'danger',
+                    text => 'Error saving your registration data!'
+                }
+            );
+        }
+
+        # success
+        return $self->stash(
+            message => {
+                type => 'success',
+                text => 'User account been created with success!'
+            }
+        );
+    }
+
+    return $self->render( message => 0 );
+}
+
+sub forgot {
+    my $self = shift;
+
+    if ( $self->is_post ) {
+
+        # form params
+        my $email    = $self->param('email')    || undef;
+
+        # user found
+        my $user_rs = $self->schema->resultset('User');
+        my $user    = eval {
+            $user_rs->find({ email => $email });
         };
 
         # debug
