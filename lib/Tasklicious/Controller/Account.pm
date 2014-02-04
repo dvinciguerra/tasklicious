@@ -103,21 +103,30 @@ sub forgot {
         # debug
         $self->app->log->debug($@);
 
+
         # error
-        unless ( $user && $user->in_storage ) {
-            return $self->render(
+        if ( $user && $user->in_storage ) {
+
+            # seting user token
+            $user->update({ token => 'The token goes here' });
+
+            # TODO send here an email to user with
+            #   change-password form link
+
+            # success
+            return $self->stash(
                 message => {
-                    type => 'danger',
-                    text => 'Error saving your registration data!'
+                    type => 'success',
+                    text => 'The e-email has been sent!'
                 }
             );
         }
 
-        # success
-        return $self->stash(
+        # not found
+        return $self->render(
             message => {
-                type => 'success',
-                text => 'User account been created with success!'
+                type => 'danger',
+                text => 'E-mail address is not found!'
             }
         );
     }

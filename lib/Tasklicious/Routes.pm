@@ -21,6 +21,10 @@ sub load {
         ['/:controller/:action/:id' => {controller=>'Home', action=>'index', id=>0}],
 
 
+        # route for /api/v1/task/...
+        ['/api/v1/task/:id' => {controller=>'Task', action=>'index'}],
+
+
         #add custom route here
     ];
 

@@ -5,6 +5,8 @@
        <strong>Tasklicious Forgot Password</strong>
     </div>
     <div class="panel-body">
+        <p>Please! Enter with your e-mail address to get a new
+            password.</p>
         %= form_for '' => (method => 'POST') => begin
             <div class="form-group">
                 %= label_for 'email', 'E-mail'
