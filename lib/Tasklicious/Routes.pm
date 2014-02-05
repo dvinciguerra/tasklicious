@@ -10,34 +10,44 @@ sub load {
 
     # custom routes
     my $custom = [
-        ['/login' => {controller=>'Account', action=>'login'}],
-        ['/register' => {controller=>'Account', action=>'register'}],
+        
+        # routes for authentication
+        [ '/login'    => { controller => 'Account', action => 'login' } ],
+        [ '/register' => { controller => 'Account', action => 'register' } ],
+        [ '/forgot'   => { controller => 'Account', action => 'register' } ],
+        [
+            '/change/:token' =>
+              { controller => 'Account', action => 'change', token => 0 }
+        ],
 
+        # route for user dashboard
+        [
+            '/profile' =>
+              { controller => 'Home', action => 'profile', authenticated => 1 }
+        ],
 
-        # route for /profile
-        ['/profile' => {controller=>'Home', action=>'profile', authenticated=>1}],
-
-        # route for [ANY] /api/v1/task/...
-        ['/api/task/(:id)' => {controller=>'Task', action=>'index', id=>0}],
-        #['/api/task/:id' => {controller=>'Task', action=>'edit', id=>0}],
-        #['/api/task/list' => {controller=>'Task', action=>'list'}],
-        #['/api/task/create' => {controller=>'Task', action=>'create'}],
+        
+        # route for task API
+        [
+            '/api/task/(:id)' =>
+              { controller => 'Task', action => 'index', id => 0 }
+        ],
 
         # route for /user/edit/0
-        ['/:controller/:action/:id' => {controller=>'Home', action=>'index', id=>0}],
-
-
+        [
+            '/:controller/:action/:id' =>
+              { controller => 'Home', action => 'index', id => 0 }
+        ],
 
         #add custom route here
     ];
 
     # add routes
     map {
-        my ($key, $value) = @$_;
-        
+        my ( $key, $value ) = @$_;
+
         $route->any($key)
-            ->over(authenticated => $value->{authenticated} || 0)
-            ->to( $value )
+          ->over( authenticated => $value->{authenticated} || 0 )->to($value)
     } @$custom;
 
     return $route;
@@ -50,13 +60,13 @@ __END__
 
 =head1 NAME
 
-Tasklicious::Routes - Route container for MyAPP app
+Tasklicious::Routes - Route container for Tasklicious
 
 
 =head1 DESCRIPTION
 
 This class is a simple container where you will add all your custom routes 
-used at your MyAPP app.
+used at your Tasklicious.
 
 
 =head2 Methods
@@ -73,13 +83,13 @@ used at your MyAPP app.
 
 =head1 AUTHOR
 
-2013 (c) Bivee
+2013-2014 (c) Bivee
 
 L<http://bivee.com.br>
 
 =head1 COPYRIGHT AND LICENSE
 
-2013 (c) Bivee
+2013-2014 (c) Bivee
 
 This is a free software; you can redistribute it and/or modify it under the same terms 
 as a Perl 5 programming language system itself.

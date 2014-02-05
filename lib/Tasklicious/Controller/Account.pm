@@ -2,6 +2,8 @@ package Tasklicious::Controller::Account;
 use Mojo::Base 'Tasklicious::Controller::Base';
 
 use DateTime;
+use Mojo::ByteStream;
+
 
 sub login {
     my $self = shift;
@@ -26,6 +28,7 @@ sub login {
     return $self->render( message => 0 );
 }
 
+
 sub register {
     my $self = shift;
 
@@ -36,51 +39,68 @@ sub register {
         my $email    = $self->param('email')    || undef;
         my $password = $self->param('password') || undef;
 
-        # user found
-        my $user_rs = $self->schema->resultset('User');
-        my $user = $user_rs->find({ email => $email });
 
-        # error: user found
-        if($user){
-            return $self->render(
+        if ($name && $email && $password){
+
+            # password to hash
+            my $bs = Mojo::ByteStream->new( $password );
+            $password = $bs->sha1_sum;
+
+            # user found
+            my $user_rs = $self->schema->resultset('User');
+            my $user = $user_rs->find({ email => $email });
+
+            # error: user found
+            if($user){
+                return $self->render(
+                    message => {
+                        type => 'warning',
+                        text => ' This e-mail is already an account!'
+                    }
+                );
+            }
+
+            $user    = eval {
+                $user_rs->create(
+                    {
+                        name     => $name,
+                        email    => $email,
+                        password => $password,
+                        created  => DateTime->now( time_zone => 'local' )
+                    }
+                );
+            };
+
+            # debug
+            $self->app->log->debug($@);
+
+            # error
+            unless ( $user && $user->in_storage ) {
+                return $self->render(
+                    message => {
+                        type => 'danger',
+                        text => 'Error saving your registration data!'
+                    }
+                );
+            }
+
+            # success
+            return $self->stash(
                 message => {
-                    type => 'warning',
-                    text => 'This e-mail is aready have an account!'
+                    type => 'success',
+                    text => 'User account been created with success!'
                 }
             );
         }
-
-        $user    = eval {
-            $user_rs->create(
-                {
-                    name     => $name,
-                    email    => $email,
-                    password => $password,
-                    created  => DateTime->now
-                }
-            );
-        };
-
-        # debug
-        $self->app->log->debug($@);
-
-        # error
-        unless ( $user && $user->in_storage ) {
+        else {
+            # required fields
             return $self->render(
                 message => {
                     type => 'danger',
-                    text => 'Error saving your registration data!'
+                    text => 'All fields are required!'
                 }
             );
         }
-
-        # success
-        return $self->stash(
-            message => {
-                type => 'success',
-                text => 'User account been created with success!'
-            }
-        );
     }
 
     return $self->render( message => 0 );
@@ -107,8 +127,13 @@ sub forgot {
         # error
         if ( $user && $user->in_storage ) {
 
+            # generate token
+            my $bs = Mojo::ByteStream
+                ->new($user->email . DateTime->now);
+            
+
             # seting user token
-            $user->update({ token => 'The token goes here' });
+            $user->update({ token => $bs->sha1_sum });
 
             # TODO send here an email to user with
             #   change-password form link
@@ -133,5 +158,57 @@ sub forgot {
 
     return $self->render( message => 0 );
 }
+
+
+sub change {
+    my $self = shift;
+
+    my $token = $self->param('token') || 0;
+
+    # user found
+    my $user_rs = $self->schema->resultset('User');
+    my $user    = eval {
+        $user_rs->find({ token => $token });
+    };
+
+    # not found
+    unless ($user) {
+        return $self->render(
+            message => {
+                type => 'danger',
+                text => 'Token is invalid or expired!'
+            }
+        );
+    }
+
+    if ( $self->is_post ) {
+
+        # form params
+        my $password    = $self->param('password')    || undef;
+        my $confirm    = $self->param('confirm')    || undef;
+
+        # user found
+        if($user && ($password eq $confirm)){
+            
+            my $bs = Mojo::ByteStream->new($password);
+
+            # seting user token
+            $user->update({ password => $bs->sha1_sum });
+
+
+            # success
+            return $self->stash(
+                message => {
+                    type => 'success',
+                    text => 'Account password has been changed!'
+                }
+            );
+        }
+    }
+
+    return $self->render( message => 0 );
+}
+
+
 
 1;
