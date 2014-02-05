@@ -6,6 +6,12 @@
 
 This is a simple task application build using C<Mojolicious>
 
+The project will provide a simple web application for users can manage projects
+and tasks with a simple dashboard and very easy to use.
+
+Note that I'm not a designer and I dont have all knowledge to build top screens
+with all usability things in the head. ;)
+
 
 =head3 Technologies used
 
@@ -35,14 +41,14 @@ Now you can run morbo to start local server...
 
 =head3 Author 
 
-2013 (c) Bivee L<http://bivee.com.br>
+2013-2014 (c) Bivee L<http://bivee.com.br>
 
 Daniel Vinciguerra <daniel.vinciguerra at bivee.com.br>
 
 
 =head3 Copyright and License
 
-This software is copyright (c) 2013 by Bivee.
+This software is copyright (c) 2013-2014 by Bivee.
 
 This is a free software; you can redistribute it and/or modify it under the same terms of Perl 5 programming 
 languagem system itself.
