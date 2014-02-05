@@ -17,12 +17,15 @@ sub load {
         # route for /profile
         ['/profile' => {controller=>'Home', action=>'profile', authenticated=>1}],
 
+        # route for [ANY] /api/v1/task/...
+        ['/api/task/(:id)' => {controller=>'Task', action=>'index', id=>0}],
+        #['/api/task/:id' => {controller=>'Task', action=>'edit', id=>0}],
+        #['/api/task/list' => {controller=>'Task', action=>'list'}],
+        #['/api/task/create' => {controller=>'Task', action=>'create'}],
+
         # route for /user/edit/0
         ['/:controller/:action/:id' => {controller=>'Home', action=>'index', id=>0}],
 
-
-        # route for /api/v1/task/...
-        ['/api/v1/task/:id' => {controller=>'Task', action=>'index'}],
 
 
         #add custom route here

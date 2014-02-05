@@ -1,0 +1,19 @@
+% layout 'default';
+
+Teste do amor
+
+
+<script>
+    $(function(){
+        
+        $.ajax({
+            url: '/api/task/1',
+            type: 'GET',
+            data: 'json',
+            success: function(data){
+                alert(data.title);
+            }
+        });
+
+    });
+</script>

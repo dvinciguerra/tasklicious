@@ -10,7 +10,7 @@ sub load {
     
     # try load
     if( my $e = $loader->load($module) ){
-        die "API loader: $!";
+        die "API loader: $e";
     }
 
     # getting instance
