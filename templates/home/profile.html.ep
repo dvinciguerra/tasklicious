@@ -1,19 +1,48 @@
 % layout 'default';
 
-Teste do amor
+<div class="row">
+    <div class="col-xs-4">
+        <h2>Todo <small>Todo task list</small></h2>
+        <ul id="todo-list" class="list-group">
+          <li class="list-group-item">
+            <span class="badge"> <i class="glyphicon-comment"></i>&nbsp; 14</span>
+            Cras justo odio
+          </li>
+        </ul>
+    </div>
+    <div class="col-xs-4">
+        <h2>Doing <small>Tasks that are doing</small></h2>
+    </div>
+    <div class="col-xs-4">
+        <h2>Done <small>Finished task list</small></h2>
+    </div>
+</div>
 
 
-<script>
+% content_for 'javascript' => begin
     $(function(){
         
         $.ajax({
-            url: '/api/task/1',
+            url: '<%= url_for '/api/task' %>',
             type: 'GET',
             data: 'json',
             success: function(data){
-                alert(data.title);
+                $('#todo-list').html('');
+
+                $.each(data, function(index, item){
+                    var tmpl = "";
+                    tmpl += '<li class="list-group-item">';
+                    tmpl += '    <span class="badge"> <i class="glyphicon-comment"></i>&nbsp; 0</span>';
+                    tmpl += item.title;
+                    tmpl += '</li>';
+
+                    $('#todo-list').append(tmpl);
+
+                    //alert(item.title);//JSON.stringify(this));
+                });
             }
         });
 
     });
-</script>
+% end    
+

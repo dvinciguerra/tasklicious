@@ -23,7 +23,7 @@
             <div class="form-group">
                 %= submit_button 'Login', class => 'btn btn-danger'
                 &nbsp;
-                <small><%= link_to 'Create an account!' => '/register' %></small>
+                <small><%= link_to 'Create an account!' => '/register', class => 'btn btn-default btn-xs' %></small>
             </div>
         % end
     </div>

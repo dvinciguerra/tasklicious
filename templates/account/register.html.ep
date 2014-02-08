@@ -25,7 +25,7 @@
             <div class="form-group">
                 %= submit_button 'Register', class => 'btn btn-danger'
                 &nbsp;
-                <small><%= link_to 'Go to Login!' => '/login' %></small>
+                <small><%= link_to 'Go to Login!' => '/login', class => 'btn btn-default btn-xs' %></small>
             </div>
         % end
     </div>
