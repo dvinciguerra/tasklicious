@@ -30,7 +30,7 @@ sub load {
         # route for task API
         [
             '/api/task/(:id)' =>
-              { controller => 'Task', action => 'index', id => 0 }
+              { controller => 'Task', action => 'index', id => 0, authenticated => 1 }
         ],
 
         # route for /user/edit/0
