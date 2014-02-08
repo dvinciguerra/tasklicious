@@ -1,5 +1,6 @@
 package Tasklicious::Authentication;
 
+use Mojo::ByteStream;
 use Tasklicious::Model;
 
 sub load_user {
@@ -14,8 +15,11 @@ sub validate_user {
 
     my $schema = Tasklicious::Model->init_db;
     my $user_rs = $schema->resultset('User');
+
+    my $bs = Mojo::ByteStream->new($password);
+
     my $user = $user_rs->find( 
-        { email => $username, password => $password }
+        { email => $username, password => $bs->sha1_sum }
     );
 
     # user found
