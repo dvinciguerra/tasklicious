@@ -2,19 +2,37 @@
 
 <div class="row">
     <div class="col-xs-4">
-        <h2>Todo <small>Todo task list</small></h2>
-        <ul id="todo-list" class="list-group">
-          <li class="list-group-item">
-            <span class="badge"> <i class="glyphicon-comment"></i>&nbsp; 14</span>
-            Cras justo odio
-          </li>
-        </ul>
+      <section class="tasks">
+        <header class="tasks-header">
+          <h2 class="tasks-title">Tasks: All</h2>
+          <!-- a href="#" class="tasks-lists">Lists</a>
+          <a href="#" class="tasks-lists">Lists</a -->
+        </header>
+        <fieldset class="tasks-list">
+          <div class="tasks-list-item">
+            <input type="checkbox" name="task_1" value="1" class="tasks-list-cb" checked>
+            <span class="tasks-list-mark"></span>
+            <span class="tasks-list-desc">On your mark</span>
+            <a class="badge" style="float:right">Edit</a>
+          </div>
+          <label class="tasks-list-item">
+            <input type="checkbox" name="task_2" value="1" class="tasks-list-cb" checked>
+            <span class="tasks-list-mark"></span>
+            <span class="tasks-list-desc">Get set</span>
+            <span class="badge" style="float:right">Edit</span>
+          </label>
+          <label class="tasks-list-item">
+            <input type="checkbox" name="task_3" value="1" class="tasks-list-cb">
+            <span class="tasks-list-mark"></span>
+            <span class="tasks-list-desc">Go!</span>
+            <span class="badge" style="float:right">Edit</span>
+          </label>
+        </fieldset>
+      </section>
+    
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-8">
         <h2>Doing <small>Tasks that are doing</small></h2>
-    </div>
-    <div class="col-xs-4">
-        <h2>Done <small>Finished task list</small></h2>
     </div>
 </div>
 

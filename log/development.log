@@ -3194,3 +3194,1382 @@ Compilation failed in require at (eval 324) line 1.
 [Wed Feb  5 09:21:38 2014] [debug] Rendering template "account/change.html.ep".
 [Wed Feb  5 09:21:38 2014] [debug] Rendering template "layouts/account.html.ep".
 [Wed Feb  5 09:21:38 2014] [debug] 200 OK (0.301936s, 3.312/s).
+[Wed Feb  5 09:33:24 2014] [debug] GET "/login".
+[Wed Feb  5 09:33:24 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:33:24 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 09:33:24 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 09:33:24 2014] [debug] 200 OK (0.009512s, 105.130/s).
+[Wed Feb  5 09:34:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 09:34:44 2014] [debug] GET "/login".
+[Wed Feb  5 09:34:44 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:34:44 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 09:34:44 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 09:34:44 2014] [debug] 200 OK (0.137177s, 7.290/s).
+[Wed Feb  5 09:34:49 2014] [debug] GET "/register".
+[Wed Feb  5 09:34:49 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Wed Feb  5 09:34:49 2014] [debug] Rendering template "account/register.html.ep".
+[Wed Feb  5 09:34:49 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:34:49 2014] [debug] 200 OK (0.012703s, 78.722/s).
+[Wed Feb  5 09:34:52 2014] [debug] GET "/login".
+[Wed Feb  5 09:34:52 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:34:52 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:34:52 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:34:52 2014] [debug] 200 OK (0.004350s, 229.885/s).
+[Wed Feb  5 09:34:56 2014] [debug] GET "/account/forgot".
+[Wed Feb  5 09:34:56 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "forgot".
+[Wed Feb  5 09:34:56 2014] [debug] Rendering template "account/forgot.html.ep".
+[Wed Feb  5 09:34:56 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 09:34:56 2014] [debug] 200 OK (0.038069s, 26.268/s).
+[Wed Feb  5 09:35:00 2014] [debug] GET "/login".
+[Wed Feb  5 09:35:00 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:35:00 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:35:00 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:35:00 2014] [debug] 200 OK (0.003413s, 292.997/s).
+[Wed Feb  5 09:36:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 09:36:09 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 09:36:09 2014] [debug] Controller "Tasklicious::Controller::Api" does not exist.
+[Wed Feb  5 09:36:09 2014] [debug] Template "api/task.html.ep" not found.
+[Wed Feb  5 09:36:09 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 09:36:09 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 09:36:09 2014] [debug] Rendering inline template.
+[Wed Feb  5 09:36:09 2014] [debug] Rendering inline template.
+[Wed Feb  5 09:36:09 2014] [debug] 404 Not Found (0.063823s, 15.668/s).
+[Wed Feb  5 09:36:17 2014] [debug] POST "/login".
+[Wed Feb  5 09:36:17 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:36:17 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 09:36:17 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 09:36:17 2014] [debug] 200 OK (0.241473s, 4.141/s).
+[Wed Feb  5 09:36:23 2014] [debug] POST "/login".
+[Wed Feb  5 09:36:23 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:36:23 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:36:23 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:36:23 2014] [debug] 200 OK (0.014930s, 66.979/s).
+[Wed Feb  5 09:36:27 2014] [debug] POST "/login".
+[Wed Feb  5 09:36:27 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:36:27 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:36:27 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:36:27 2014] [debug] 200 OK (0.014576s, 68.606/s).
+[Wed Feb  5 09:36:34 2014] [debug] GET "/register".
+[Wed Feb  5 09:36:34 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Wed Feb  5 09:36:34 2014] [debug] Rendering template "account/register.html.ep".
+[Wed Feb  5 09:36:34 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:36:34 2014] [debug] 200 OK (0.011627s, 86.007/s).
+[Wed Feb  5 09:36:35 2014] [debug] GET "/login".
+[Wed Feb  5 09:36:35 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:36:35 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:36:35 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:36:35 2014] [debug] 200 OK (0.006507s, 153.681/s).
+[Wed Feb  5 09:36:37 2014] [debug] GET "/account/forgot".
+[Wed Feb  5 09:36:37 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "forgot".
+[Wed Feb  5 09:36:37 2014] [debug] Rendering template "account/forgot.html.ep".
+[Wed Feb  5 09:36:37 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 09:36:37 2014] [debug] 200 OK (0.010440s, 95.785/s).
+[Wed Feb  5 09:36:42 2014] [debug] POST "/account/forgot".
+[Wed Feb  5 09:36:42 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "forgot".
+[Wed Feb  5 09:36:43 2014] [debug] 
+[Wed Feb  5 09:36:43 2014] [debug] Rendering cached template "account/forgot.html.ep".
+[Wed Feb  5 09:36:43 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:36:43 2014] [debug] 200 OK (0.081334s, 12.295/s).
+[Wed Feb  5 09:36:59 2014] [debug] GET "/account/change/e0c53224b92b5d851e7e138dc95eb5b201d05cd8".
+[Wed Feb  5 09:36:59 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "change".
+[Wed Feb  5 09:36:59 2014] [debug] Rendering template "account/change.html.ep".
+[Wed Feb  5 09:36:59 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:36:59 2014] [debug] 200 OK (0.012372s, 80.828/s).
+[Wed Feb  5 09:37:03 2014] [debug] GET "/account/change/e0c53224b92b5d851e7e138dc95eb5b201d05cd8".
+[Wed Feb  5 09:37:03 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "change".
+[Wed Feb  5 09:37:03 2014] [debug] Rendering cached template "account/change.html.ep".
+[Wed Feb  5 09:37:03 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:37:03 2014] [debug] 200 OK (0.013168s, 75.942/s).
+[Wed Feb  5 09:37:21 2014] [debug] GET "/account/change/e0c53224b92b5d851e7e138dc95eb5b201d05cd8".
+[Wed Feb  5 09:37:21 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "change".
+[Wed Feb  5 09:37:21 2014] [debug] Rendering cached template "account/change.html.ep".
+[Wed Feb  5 09:37:21 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:37:21 2014] [debug] 200 OK (0.011137s, 89.791/s).
+[Wed Feb  5 09:38:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 09:38:27 2014] [debug] GET "/login".
+[Wed Feb  5 09:38:28 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:38:28 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 09:38:28 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 09:38:28 2014] [debug] 200 OK (0.138633s, 7.213/s).
+[Wed Feb  5 09:38:31 2014] [debug] POST "/login".
+[Wed Feb  5 09:38:31 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:38:31 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:38:31 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:38:31 2014] [debug] 200 OK (0.131467s, 7.606/s).
+[Wed Feb  5 09:38:37 2014] [debug] POST "/login".
+[Wed Feb  5 09:38:37 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:38:37 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:38:37 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:38:37 2014] [debug] 200 OK (0.009796s, 102.082/s).
+[Wed Feb  5 09:38:43 2014] [debug] POST "/login".
+[Wed Feb  5 09:38:43 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:38:43 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:38:43 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:38:43 2014] [debug] 200 OK (0.012793s, 78.168/s).
+[Wed Feb  5 09:39:55 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 09:39:55 2014] [debug] POST "/login".
+[Wed Feb  5 09:39:55 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:39:56 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 09:39:56 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 09:39:56 2014] [debug] 200 OK (0.260546s, 3.838/s).
+[Wed Feb  5 09:40:00 2014] [debug] POST "/login".
+[Wed Feb  5 09:40:00 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:40:00 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:40:00 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:40:00 2014] [debug] 200 OK (0.011462s, 87.245/s).
+[Wed Feb  5 09:40:06 2014] [debug] POST "/login".
+[Wed Feb  5 09:40:06 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:40:06 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 09:40:06 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 09:40:06 2014] [debug] 200 OK (0.011449s, 87.344/s).
+[Wed Feb  5 09:40:10 2014] [debug] POST "/login".
+[Wed Feb  5 09:40:10 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 09:40:10 2014] [debug] 302 Found (0.016553s, 60.412/s).
+[Wed Feb  5 09:40:10 2014] [debug] GET "/profile".
+[Wed Feb  5 09:40:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 09:40:10 2014] [debug] Action not found in controller.
+[Wed Feb  5 09:40:10 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 09:40:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 09:40:10 2014] [debug] 200 OK (0.008023s, 124.642/s).
+[Wed Feb  5 09:40:10 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 09:40:10 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 09:40:10 2014] [debug] 200 OK (0.022593s, 44.261/s).
+[Wed Feb  5 09:40:18 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 09:40:18 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 09:40:18 2014] [debug] 200 OK (0.007207s, 138.754/s).
+[Wed Feb  5 12:04:03 2014] [debug] GET "/profile".
+[Wed Feb  5 12:04:03 2014] [debug] Controller "Tasklicious::Controller::Profile" does not exist.
+[Wed Feb  5 12:04:03 2014] [debug] Template "profile/index.html.ep" not found.
+[Wed Feb  5 12:04:03 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 12:04:03 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 12:04:03 2014] [debug] Rendering inline template.
+[Wed Feb  5 12:04:03 2014] [debug] Rendering inline template.
+[Wed Feb  5 12:04:03 2014] [debug] 404 Not Found (0.049619s, 20.154/s).
+[Wed Feb  5 12:04:05 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 12:04:05 2014] [debug] Controller "Tasklicious::Controller::Api" does not exist.
+[Wed Feb  5 12:04:05 2014] [debug] Template "api/task.html.ep" not found.
+[Wed Feb  5 12:04:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 12:04:05 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 12:04:05 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 12:04:05 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 12:04:05 2014] [debug] 404 Not Found (0.015617s, 64.033/s).
+[Wed Feb  5 13:22:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 13:22:39 2014] [debug] GET "/profile".
+[Wed Feb  5 13:22:39 2014] [debug] Controller "Tasklicious::Controller::Profile" does not exist.
+[Wed Feb  5 13:22:39 2014] [debug] Template "profile/index.html.ep" not found.
+[Wed Feb  5 13:22:39 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:22:39 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:22:39 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:22:39 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:22:39 2014] [debug] 404 Not Found (0.064152s, 15.588/s).
+[Wed Feb  5 13:22:47 2014] [debug] GET "/".
+[Wed Feb  5 13:22:47 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Wed Feb  5 13:22:47 2014] [debug] Rendering template "home/index.html.ep".
+[Wed Feb  5 13:22:47 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 13:22:47 2014] [debug] 200 OK (0.022671s, 44.109/s).
+[Wed Feb  5 13:22:54 2014] [debug] GET "/login".
+[Wed Feb  5 13:22:54 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 13:22:54 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 13:22:54 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 13:22:54 2014] [debug] 200 OK (0.236254s, 4.233/s).
+[Wed Feb  5 13:22:58 2014] [debug] POST "/login".
+[Wed Feb  5 13:22:58 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 13:22:59 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 13:22:59 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 13:22:59 2014] [debug] 200 OK (0.199298s, 5.018/s).
+[Wed Feb  5 13:30:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 13:30:09 2014] [debug] GET "/login".
+[Wed Feb  5 13:30:09 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 13:30:09 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 13:30:09 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 13:30:09 2014] [debug] 200 OK (0.131638s, 7.597/s).
+[Wed Feb  5 13:30:20 2014] [debug] GET "/login".
+[Wed Feb  5 13:30:20 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 13:30:20 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 13:30:20 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 13:30:20 2014] [debug] 200 OK (0.007425s, 134.680/s).
+[Wed Feb  5 13:39:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 13:39:32 2014] [debug] GET "/account/forgot".
+[Wed Feb  5 13:39:32 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "forgot".
+[Wed Feb  5 13:39:32 2014] [debug] Rendering template "account/forgot.html.ep".
+[Wed Feb  5 13:39:32 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 13:39:32 2014] [debug] 200 OK (0.148943s, 6.714/s).
+[Wed Feb  5 13:39:38 2014] [debug] POST "/account/forgot".
+[Wed Feb  5 13:39:38 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "forgot".
+[Wed Feb  5 13:39:38 2014] [debug] 
+[Wed Feb  5 13:39:38 2014] [debug] Rendering cached template "account/forgot.html.ep".
+[Wed Feb  5 13:39:38 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 13:39:38 2014] [debug] 200 OK (0.245595s, 4.072/s).
+[Wed Feb  5 13:41:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 13:41:16 2014] [debug] GET "/account/change/6f219cac9ee07346d4e14628f0f69ca3c394c394".
+[Wed Feb  5 13:41:16 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "change".
+[Wed Feb  5 13:41:17 2014] [debug] Rendering template "account/change.html.ep".
+[Wed Feb  5 13:41:17 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 13:41:17 2014] [debug] 200 OK (0.273889s, 3.651/s).
+[Wed Feb  5 13:41:27 2014] [debug] GET "/change/6f219cac9ee07346d4e14628f0f69ca3c394c394".
+[Wed Feb  5 13:41:27 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "change".
+[Wed Feb  5 13:41:27 2014] [debug] Rendering template "account/change.html.ep".
+[Wed Feb  5 13:41:27 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 13:41:27 2014] [debug] 200 OK (0.023792s, 42.031/s).
+[Wed Feb  5 13:41:40 2014] [debug] POST "/change/6f219cac9ee07346d4e14628f0f69ca3c394c394".
+[Wed Feb  5 13:41:40 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "change".
+[Wed Feb  5 13:41:41 2014] [debug] Rendering cached template "account/change.html.ep".
+[Wed Feb  5 13:41:41 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 13:41:41 2014] [debug] 200 OK (0.114358s, 8.744/s).
+[Wed Feb  5 13:41:50 2014] [debug] GET "/login".
+[Wed Feb  5 13:41:50 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 13:41:50 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 13:41:50 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 13:41:50 2014] [debug] 200 OK (0.015167s, 65.933/s).
+[Wed Feb  5 13:45:49 2014] [debug] GET "/profile".
+[Wed Feb  5 13:45:49 2014] [debug] Controller "Tasklicious::Controller::Profile" does not exist.
+[Wed Feb  5 13:45:49 2014] [debug] Template "profile/index.html.ep" not found.
+[Wed Feb  5 13:45:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:45:49 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:45:49 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:45:49 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:45:49 2014] [debug] 404 Not Found (0.064920s, 15.404/s).
+[Wed Feb  5 13:45:58 2014] [debug] GET "/login".
+[Wed Feb  5 13:45:58 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 13:45:58 2014] [debug] Rendering cached template "account/login.html.ep".
+[Wed Feb  5 13:45:58 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Wed Feb  5 13:45:58 2014] [debug] 200 OK (0.006058s, 165.071/s).
+[Wed Feb  5 13:46:03 2014] [debug] POST "/login".
+[Wed Feb  5 13:46:03 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 13:46:03 2014] [debug] 302 Found (0.037978s, 26.331/s).
+[Wed Feb  5 13:46:03 2014] [debug] GET "/profile".
+[Wed Feb  5 13:46:03 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 13:46:03 2014] [debug] Action not found in controller.
+[Wed Feb  5 13:46:03 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 13:46:03 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 13:46:03 2014] [debug] 200 OK (0.051552s, 19.398/s).
+[Wed Feb  5 13:46:04 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:46:04 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:46:04 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:46:04 2014] [debug] 404 Not Found (0.027989s, 35.728/s).
+[Wed Feb  5 13:46:04 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:46:04 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:46:04 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] 404 Not Found (0.010650s, 93.897/s).
+[Wed Feb  5 13:46:04 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:46:04 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:46:04 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] 404 Not Found (0.010142s, 98.600/s).
+[Wed Feb  5 13:46:04 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:46:04 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:46:04 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] 404 Not Found (0.014401s, 69.440/s).
+[Wed Feb  5 13:46:04 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:46:04 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:46:04 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] 404 Not Found (0.010701s, 93.449/s).
+[Wed Feb  5 13:46:04 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:46:04 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:46:04 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:46:04 2014] [debug] 404 Not Found (0.013623s, 73.405/s).
+[Wed Feb  5 13:46:04 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 13:46:04 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 13:46:04 2014] [debug] 200 OK (0.079480s, 12.582/s).
+[Wed Feb  5 13:46:06 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 13:46:06 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 13:46:06 2014] [debug] 200 OK (0.005021s, 199.164/s).
+[Wed Feb  5 13:47:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 13:47:50 2014] [debug] GET "/profile".
+[Wed Feb  5 13:47:50 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 13:47:50 2014] [debug] Action not found in controller.
+[Wed Feb  5 13:47:50 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 13:47:50 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 13:47:50 2014] [debug] 200 OK (0.028863s, 34.646/s).
+[Wed Feb  5 13:47:51 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:47:51 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:47:51 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:47:51 2014] [debug] 404 Not Found (0.046031s, 21.724/s).
+[Wed Feb  5 13:47:51 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:47:51 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:47:51 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] 404 Not Found (0.018390s, 54.377/s).
+[Wed Feb  5 13:47:51 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:47:51 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:47:51 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] 404 Not Found (0.016482s, 60.672/s).
+[Wed Feb  5 13:47:51 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:47:51 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:47:51 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] 404 Not Found (0.010614s, 94.215/s).
+[Wed Feb  5 13:47:51 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:47:51 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:47:51 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] 404 Not Found (0.013749s, 72.733/s).
+[Wed Feb  5 13:47:51 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:47:51 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:47:51 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:47:51 2014] [debug] 404 Not Found (0.017402s, 57.465/s).
+[Wed Feb  5 13:47:52 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 13:47:52 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 13:47:52 2014] [debug] 200 OK (0.143326s, 6.977/s).
+[Wed Feb  5 13:48:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 13:48:21 2014] [debug] GET "/profile".
+[Wed Feb  5 13:48:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 13:48:21 2014] [debug] Action not found in controller.
+[Wed Feb  5 13:48:21 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 13:48:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 13:48:21 2014] [debug] 200 OK (0.030777s, 32.492/s).
+[Wed Feb  5 13:48:21 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:48:21 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:48:21 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:48:21 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:48:21 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:48:21 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:21 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:21 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:48:21 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:48:21 2014] [debug] 404 Not Found (0.048102s, 20.789/s).
+[Wed Feb  5 13:48:23 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:48:23 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:48:23 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:23 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:23 2014] [debug] 404 Not Found (0.011434s, 87.458/s).
+[Wed Feb  5 13:48:23 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:48:23 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:48:23 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:23 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:23 2014] [debug] 404 Not Found (0.016915s, 59.119/s).
+[Wed Feb  5 13:48:23 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:48:23 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:48:23 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:23 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:23 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:23 2014] [debug] 404 Not Found (0.012221s, 81.826/s).
+[Wed Feb  5 13:48:24 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:48:24 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:48:24 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:24 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:24 2014] [debug] 404 Not Found (0.011030s, 90.662/s).
+[Wed Feb  5 13:48:24 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:48:24 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:48:24 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:24 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:24 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:24 2014] [debug] 404 Not Found (0.012404s, 80.619/s).
+[Wed Feb  5 13:48:24 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 13:48:24 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 13:48:24 2014] [debug] 200 OK (0.140314s, 7.127/s).
+[Wed Feb  5 13:48:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 13:48:40 2014] [debug] GET "/profile".
+[Wed Feb  5 13:48:40 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 13:48:40 2014] [debug] Action not found in controller.
+[Wed Feb  5 13:48:40 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 13:48:40 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 13:48:40 2014] [debug] 200 OK (0.028271s, 35.372/s).
+[Wed Feb  5 13:48:40 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:48:40 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:48:40 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:48:40 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:48:40 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:48:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:40 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:40 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:48:40 2014] [debug] Rendering inline template.
+[Wed Feb  5 13:48:40 2014] [debug] 404 Not Found (0.047336s, 21.126/s).
+[Wed Feb  5 13:48:41 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:48:41 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:48:41 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] 404 Not Found (0.012206s, 81.927/s).
+[Wed Feb  5 13:48:41 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 13:48:41 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 13:48:41 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] 404 Not Found (0.010190s, 98.135/s).
+[Wed Feb  5 13:48:41 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:48:41 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:48:41 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] 404 Not Found (0.015411s, 64.889/s).
+[Wed Feb  5 13:48:41 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 13:48:41 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 13:48:41 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] 404 Not Found (0.010570s, 94.607/s).
+[Wed Feb  5 13:48:41 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 13:48:41 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 13:48:41 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 13:48:41 2014] [debug] 404 Not Found (0.011205s, 89.246/s).
+[Wed Feb  5 13:48:41 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 13:48:41 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 13:48:41 2014] [debug] 200 OK (0.115534s, 8.655/s).
+[Wed Feb  5 14:00:24 2014] [debug] GET "/profile".
+[Wed Feb  5 14:00:24 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:00:24 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:00:24 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Wed Feb  5 14:00:24 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Feb  5 14:00:24 2014] [debug] 200 OK (0.002510s, 398.406/s).
+[Wed Feb  5 14:00:24 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 14:00:24 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 14:00:24 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 14:00:24 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 14:00:24 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 14:00:24 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:00:24 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:00:24 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:24 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:24 2014] [debug] 404 Not Found (0.011806s, 84.703/s).
+[Wed Feb  5 14:00:25 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:00:25 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:00:25 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:25 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:25 2014] [debug] 404 Not Found (0.010947s, 91.349/s).
+[Wed Feb  5 14:00:25 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:00:25 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:00:25 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:00:25 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] 404 Not Found (0.010806s, 92.541/s).
+[Wed Feb  5 14:00:26 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 14:00:26 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 14:00:26 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] 404 Not Found (0.010147s, 98.551/s).
+[Wed Feb  5 14:00:26 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:00:26 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:00:26 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] 404 Not Found (0.020448s, 48.905/s).
+[Wed Feb  5 14:00:26 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:00:26 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:00:26 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:00:26 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:00:26 2014] [debug] 404 Not Found (0.016041s, 62.340/s).
+[Wed Feb  5 14:00:26 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 14:00:26 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 14:00:26 2014] [debug] 200 OK (0.004992s, 200.321/s).
+[Wed Feb  5 14:03:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:03:32 2014] [debug] GET "/profile".
+[Wed Feb  5 14:03:32 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:03:32 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:03:32 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:03:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:03:32 2014] [debug] 200 OK (0.028446s, 35.154/s).
+[Wed Feb  5 14:03:32 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 14:03:32 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 14:03:32 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 14:03:32 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 14:03:32 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 14:03:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:03:32 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:03:32 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:03:32 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:03:32 2014] [debug] 404 Not Found (0.045796s, 21.836/s).
+[Wed Feb  5 14:03:34 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:03:34 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:03:34 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] 404 Not Found (0.011461s, 87.252/s).
+[Wed Feb  5 14:03:34 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:03:34 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:03:34 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] 404 Not Found (0.014664s, 68.194/s).
+[Wed Feb  5 14:03:34 2014] [debug] GET "/dashboard.css".
+[Wed Feb  5 14:03:34 2014] [debug] Controller "Tasklicious::Controller::Dashboard" does not exist.
+[Wed Feb  5 14:03:34 2014] [debug] Template "dashboard/index.css.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] 404 Not Found (0.016510s, 60.569/s).
+[Wed Feb  5 14:03:34 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:03:34 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:03:34 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] 404 Not Found (0.015322s, 65.266/s).
+[Wed Feb  5 14:03:34 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:03:34 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:03:34 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:03:34 2014] [debug] 404 Not Found (0.011469s, 87.192/s).
+[Wed Feb  5 14:03:34 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 14:03:34 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 14:03:34 2014] [debug] 200 OK (0.145093s, 6.892/s).
+[Wed Feb  5 14:04:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:04:46 2014] [debug] GET "/profile".
+[Wed Feb  5 14:04:46 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:04:46 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:04:46 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:04:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:04:46 2014] [debug] 200 OK (0.034243s, 29.203/s).
+[Wed Feb  5 14:04:46 2014] [debug] GET "/css/dashboard.css".
+[Wed Feb  5 14:04:46 2014] [debug] Controller "Tasklicious::Controller::Css" does not exist.
+[Wed Feb  5 14:04:46 2014] [debug] Template "css/dashboard.css.ep" not found.
+[Wed Feb  5 14:04:46 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 14:04:46 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 14:04:46 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:04:46 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:04:46 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:04:46 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:04:46 2014] [debug] 404 Not Found (0.051906s, 19.266/s).
+[Wed Feb  5 14:04:46 2014] [debug] GET "/css/dashboard.css".
+[Wed Feb  5 14:04:47 2014] [debug] Controller "Tasklicious::Controller::Css" does not exist.
+[Wed Feb  5 14:04:47 2014] [debug] Template "css/dashboard.css.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.css.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.css.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] 404 Not Found (0.015554s, 64.292/s).
+[Wed Feb  5 14:04:47 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:04:47 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:04:47 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] 404 Not Found (0.012272s, 81.486/s).
+[Wed Feb  5 14:04:47 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:04:47 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:04:47 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] 404 Not Found (0.010473s, 95.484/s).
+[Wed Feb  5 14:04:47 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:04:47 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:04:47 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] 404 Not Found (0.010650s, 93.897/s).
+[Wed Feb  5 14:04:47 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:04:47 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:04:47 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:04:47 2014] [debug] 404 Not Found (0.015746s, 63.508/s).
+[Wed Feb  5 14:04:47 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 14:04:47 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 14:04:47 2014] [debug] 200 OK (0.114103s, 8.764/s).
+[Wed Feb  5 14:05:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:05:00 2014] [debug] GET "/profile".
+[Wed Feb  5 14:05:00 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:05:00 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:05:00 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:05:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:05:00 2014] [debug] 200 OK (0.029116s, 34.345/s).
+[Wed Feb  5 14:05:01 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:05:01 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:05:01 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:05:01 2014] [debug] 404 Not Found (0.046157s, 21.665/s).
+[Wed Feb  5 14:05:01 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:05:01 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:05:01 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:01 2014] [debug] 404 Not Found (0.011359s, 88.036/s).
+[Wed Feb  5 14:05:01 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:05:01 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:05:01 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:01 2014] [debug] 404 Not Found (0.016495s, 60.624/s).
+[Wed Feb  5 14:05:01 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:05:01 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:05:01 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:01 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:01 2014] [debug] 404 Not Found (0.012239s, 81.706/s).
+[Wed Feb  5 14:05:01 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 14:05:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 14:05:01 2014] [debug] 200 OK (0.114508s, 8.733/s).
+[Wed Feb  5 14:05:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:05:37 2014] [debug] GET "/profile".
+[Wed Feb  5 14:05:37 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:05:37 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:05:37 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:05:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:05:37 2014] [debug] 200 OK (0.028022s, 35.686/s).
+[Wed Feb  5 14:05:38 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:05:38 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:05:38 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering inline template.
+[Wed Feb  5 14:05:38 2014] [debug] 404 Not Found (0.049598s, 20.162/s).
+[Wed Feb  5 14:05:38 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:05:38 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:05:38 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:38 2014] [debug] 404 Not Found (0.010803s, 92.567/s).
+[Wed Feb  5 14:05:38 2014] [debug] GET "/dist/js/bootstrap.min.js".
+[Wed Feb  5 14:05:38 2014] [debug] Controller "Tasklicious::Controller::Dist" does not exist.
+[Wed Feb  5 14:05:38 2014] [debug] Template "dist/js.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:38 2014] [debug] 404 Not Found (0.011494s, 87.002/s).
+[Wed Feb  5 14:05:38 2014] [debug] GET "/assets/js/docs.min.js".
+[Wed Feb  5 14:05:38 2014] [debug] Controller "Tasklicious::Controller::Assets" does not exist.
+[Wed Feb  5 14:05:38 2014] [debug] Template "assets/js.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.min.js.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:38 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 14:05:38 2014] [debug] 404 Not Found (0.010129s, 98.726/s).
+[Wed Feb  5 14:05:39 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 14:05:39 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 14:05:39 2014] [debug] 200 OK (0.113821s, 8.786/s).
+[Wed Feb  5 14:12:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:12:56 2014] [debug] GET "/profile".
+[Wed Feb  5 14:12:56 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:12:56 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:12:56 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:12:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:12:56 2014] [debug] 200 OK (0.026847s, 37.248/s).
+[Wed Feb  5 14:17:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:17:29 2014] [debug] GET "/profile".
+[Wed Feb  5 14:17:29 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:17:29 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:17:29 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:17:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:17:29 2014] [debug] 200 OK (0.027057s, 36.959/s).
+[Wed Feb  5 14:18:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:18:21 2014] [debug] GET "/profile".
+[Wed Feb  5 14:18:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:18:21 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:18:21 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:18:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:18:21 2014] [debug] 200 OK (0.027091s, 36.913/s).
+[Wed Feb  5 14:20:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:20:45 2014] [debug] GET "/profile".
+[Wed Feb  5 14:20:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:20:45 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:20:45 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:20:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:20:45 2014] [debug] 200 OK (0.031066s, 32.190/s).
+[Wed Feb  5 14:20:56 2014] [debug] GET "/profile".
+[Wed Feb  5 14:20:56 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:20:56 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:20:56 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Wed Feb  5 14:20:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Feb  5 14:20:56 2014] [debug] 200 OK (0.003110s, 321.543/s).
+[Wed Feb  5 14:23:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:23:20 2014] [debug] GET "/profile".
+[Wed Feb  5 14:23:20 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:23:20 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:23:20 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:23:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:23:20 2014] [debug] 200 OK (0.029711s, 33.658/s).
+[Wed Feb  5 14:24:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 14:24:04 2014] [debug] GET "/profile".
+[Wed Feb  5 14:24:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:24:04 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:24:04 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 14:24:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 14:24:04 2014] [debug] 200 OK (0.029599s, 33.785/s).
+[Wed Feb  5 14:24:17 2014] [debug] GET "/profile".
+[Wed Feb  5 14:24:17 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 14:24:17 2014] [debug] Action not found in controller.
+[Wed Feb  5 14:24:17 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Wed Feb  5 14:24:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Feb  5 14:24:17 2014] [debug] 200 OK (0.003038s, 329.164/s).
+[Wed Feb  5 18:42:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 18:42:40 2014] [debug] GET "/profile".
+[Wed Feb  5 18:42:40 2014] [debug] Controller "Tasklicious::Controller::Profile" does not exist.
+[Wed Feb  5 18:42:40 2014] [debug] Template "profile/index.html.ep" not found.
+[Wed Feb  5 18:42:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 18:42:40 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 18:42:40 2014] [debug] Rendering inline template.
+[Wed Feb  5 18:42:40 2014] [debug] Rendering inline template.
+[Wed Feb  5 18:42:40 2014] [debug] 404 Not Found (0.174427s, 5.733/s).
+[Wed Feb  5 18:42:43 2014] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Wed Feb  5 18:42:43 2014] [debug] Controller "Tasklicious::Controller::Mojo" does not exist.
+[Wed Feb  5 18:42:43 2014] [debug] Template "mojo/jquery.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] 404 Not Found (0.022761s, 43.935/s).
+[Wed Feb  5 18:42:43 2014] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Wed Feb  5 18:42:43 2014] [debug] Controller "Tasklicious::Controller::Mojo" does not exist.
+[Wed Feb  5 18:42:43 2014] [debug] Template "mojo/jquery.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] 404 Not Found (0.013876s, 72.067/s).
+[Wed Feb  5 18:42:43 2014] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Wed Feb  5 18:42:43 2014] [debug] Controller "Tasklicious::Controller::Mojo" does not exist.
+[Wed Feb  5 18:42:43 2014] [debug] Template "mojo/jquery.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] 404 Not Found (0.018236s, 54.837/s).
+[Wed Feb  5 18:42:43 2014] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Wed Feb  5 18:42:43 2014] [debug] Controller "Tasklicious::Controller::Mojo" does not exist.
+[Wed Feb  5 18:42:43 2014] [debug] Template "mojo/jquery.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] 404 Not Found (0.013192s, 75.804/s).
+[Wed Feb  5 18:42:43 2014] [debug] GET "/mojo/jquery/jquery-2.0.3.min.map".
+[Wed Feb  5 18:42:43 2014] [debug] Controller "Tasklicious::Controller::Mojo" does not exist.
+[Wed Feb  5 18:42:43 2014] [debug] Template "mojo/jquery.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.0.3.min.map.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] Rendering cached inline template.
+[Wed Feb  5 18:42:43 2014] [debug] 404 Not Found (0.017949s, 55.713/s).
+[Wed Feb  5 18:42:50 2014] [debug] GET "/login".
+[Wed Feb  5 18:42:51 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 18:42:51 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Feb  5 18:42:51 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Feb  5 18:42:51 2014] [debug] 200 OK (0.731763s, 1.367/s).
+[Wed Feb  5 18:43:00 2014] [debug] POST "/login".
+[Wed Feb  5 18:43:00 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Feb  5 18:43:01 2014] [debug] 302 Found (1.898822s, 0.527/s).
+[Wed Feb  5 18:43:02 2014] [debug] GET "/profile".
+[Wed Feb  5 18:43:02 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 18:43:02 2014] [debug] Action not found in controller.
+[Wed Feb  5 18:43:02 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 18:43:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 18:43:02 2014] [debug] 200 OK (0.064534s, 15.496/s).
+[Wed Feb  5 19:21:44 2014] [debug] GET "/profile".
+[Wed Feb  5 19:21:44 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 19:21:44 2014] [debug] Action not found in controller.
+[Wed Feb  5 19:21:44 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Wed Feb  5 19:21:44 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Feb  5 19:21:44 2014] [debug] 200 OK (0.002409s, 415.110/s).
+[Wed Feb  5 19:21:48 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 19:21:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 19:21:49 2014] [debug] 200 OK (0.091129s, 10.973/s).
+[Wed Feb  5 19:46:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 19:46:25 2014] [debug] GET "/profile".
+[Wed Feb  5 19:46:25 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 19:46:25 2014] [debug] Action not found in controller.
+[Wed Feb  5 19:46:25 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 19:46:25 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 19:46:25 2014] [debug] 200 OK (0.030204s, 33.108/s).
+[Wed Feb  5 19:47:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 19:47:34 2014] [debug] GET "/profile".
+[Wed Feb  5 19:47:34 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 19:47:34 2014] [debug] Action not found in controller.
+[Wed Feb  5 19:47:34 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 19:47:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 19:47:34 2014] [debug] 200 OK (0.028738s, 34.797/s).
+[Wed Feb  5 19:53:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:17:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:17:21 2014] [debug] GET "/profile".
+[Wed Feb  5 20:17:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:17:21 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:17:21 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 20:17:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 20:17:21 2014] [debug] 200 OK (0.029116s, 34.345/s).
+[Wed Feb  5 20:17:28 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 20:17:28 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 20:17:28 2014] [debug] 200 OK (0.158893s, 6.294/s).
+[Wed Feb  5 20:20:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:20:32 2014] [debug] GET "/profile".
+[Wed Feb  5 20:20:32 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:20:32 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:20:32 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 20:20:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 20:20:32 2014] [debug] 200 OK (0.032629s, 30.648/s).
+[Wed Feb  5 20:20:33 2014] [debug] GET "/api/task".
+[Wed Feb  5 20:20:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 20:20:33 2014] [debug] 200 OK (0.174486s, 5.731/s).
+[Wed Feb  5 20:21:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:21:47 2014] [debug] GET "/profile".
+[Wed Feb  5 20:21:47 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:21:47 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:21:47 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 20:21:47 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 20:21:47 2014] [debug] 200 OK (0.028975s, 34.513/s).
+[Wed Feb  5 20:22:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:29:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:29:38 2014] [debug] GET "/profile".
+[Wed Feb  5 20:29:38 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:29:38 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:29:38 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 20:29:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 20:29:38 2014] [debug] 200 OK (0.030329s, 32.972/s).
+[Wed Feb  5 20:29:38 2014] [debug] GET "/profile".
+[Wed Feb  5 20:29:38 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:29:38 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:29:38 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Wed Feb  5 20:29:38 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Feb  5 20:29:38 2014] [debug] 200 OK (0.002129s, 469.704/s).
+[Wed Feb  5 20:29:40 2014] [debug] GET "/api/task".
+[Wed Feb  5 20:29:40 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 20:29:41 2014] [debug] 200 OK (0.115607s, 8.650/s).
+[Wed Feb  5 20:30:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:30:21 2014] [debug] GET "/profile".
+[Wed Feb  5 20:30:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:30:21 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:30:21 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 20:30:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 20:30:21 2014] [debug] 200 OK (0.033174s, 30.144/s).
+[Wed Feb  5 20:30:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 20:30:48 2014] [debug] GET "/profile".
+[Wed Feb  5 20:30:48 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:30:48 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:30:48 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 20:30:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 20:30:48 2014] [debug] 200 OK (0.034112s, 29.315/s).
+[Wed Feb  5 20:30:51 2014] [debug] GET "/profile".
+[Wed Feb  5 20:30:51 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 20:30:51 2014] [debug] Action not found in controller.
+[Wed Feb  5 20:30:51 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Wed Feb  5 20:30:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Feb  5 20:30:51 2014] [debug] 200 OK (0.002787s, 358.809/s).
+[Wed Feb  5 20:30:52 2014] [debug] GET "/api/task".
+[Wed Feb  5 20:30:52 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 20:30:52 2014] [debug] 200 OK (0.117611s, 8.503/s).
+[Wed Feb  5 20:51:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:00:22 2014] [debug] GET "/profile".
+[Wed Feb  5 21:00:22 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:00:22 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:00:22 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:00:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:00:22 2014] [debug] 200 OK (0.017268s, 57.911/s).
+[Wed Feb  5 21:00:23 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:00:23 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:00:24 2014] [debug] 200 OK (0.205785s, 4.859/s).
+[Wed Feb  5 21:39:16 2014] [debug] GET "/api/task/1".
+[Wed Feb  5 21:39:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:39:16 2014] [debug] 200 OK (0.006389s, 156.519/s).
+[Wed Feb  5 21:40:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:40:02 2014] [debug] GET "/profile".
+[Wed Feb  5 21:40:02 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:40:02 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:40:02 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:40:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:40:02 2014] [debug] 200 OK (0.031691s, 31.555/s).
+[Wed Feb  5 21:40:03 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:40:03 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:40:04 2014] [debug] 200 OK (0.162396s, 6.158/s).
+[Wed Feb  5 21:40:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:40:34 2014] [debug] GET "/profile".
+[Wed Feb  5 21:40:34 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:40:34 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:40:34 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:40:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:40:34 2014] [debug] 200 OK (0.036257s, 27.581/s).
+[Wed Feb  5 21:40:35 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:40:35 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:40:35 2014] [debug] 200 OK (0.162167s, 6.166/s).
+[Wed Feb  5 21:41:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:41:06 2014] [debug] GET "/profile".
+[Wed Feb  5 21:41:06 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:41:06 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:41:06 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:41:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:41:06 2014] [debug] 200 OK (0.034667s, 28.846/s).
+[Wed Feb  5 21:41:07 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:41:08 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:41:08 2014] [debug] 200 OK (0.142160s, 7.034/s).
+[Wed Feb  5 21:42:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:42:20 2014] [debug] GET "/profile".
+[Wed Feb  5 21:42:20 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:42:20 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:42:20 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:42:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:42:20 2014] [debug] 200 OK (0.036431s, 27.449/s).
+[Wed Feb  5 21:42:20 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:42:20 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:42:21 2014] [debug] 200 OK (0.140633s, 7.111/s).
+[Wed Feb  5 21:44:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:44:04 2014] [debug] GET "/profile".
+[Wed Feb  5 21:44:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:44:04 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:44:04 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:44:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:44:05 2014] [debug] 200 OK (0.040838s, 24.487/s).
+[Wed Feb  5 21:44:07 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:44:07 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:44:07 2014] [debug] 200 OK (0.146557s, 6.823/s).
+[Wed Feb  5 21:44:08 2014] [debug] GET "/profile".
+[Wed Feb  5 21:44:08 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:44:08 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:44:08 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Wed Feb  5 21:44:08 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Wed Feb  5 21:44:08 2014] [debug] 200 OK (0.004326s, 231.160/s).
+[Wed Feb  5 21:44:09 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:44:09 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:44:09 2014] [debug] 200 OK (0.007498s, 133.369/s).
+[Wed Feb  5 21:47:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:47:30 2014] [debug] GET "/profile".
+[Wed Feb  5 21:47:30 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:47:30 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:47:30 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:47:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:47:30 2014] [debug] 200 OK (0.033458s, 29.888/s).
+[Wed Feb  5 21:47:31 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:47:31 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:47:31 2014] [debug] 200 OK (0.142558s, 7.015/s).
+[Wed Feb  5 21:48:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 21:48:05 2014] [debug] GET "/profile".
+[Wed Feb  5 21:48:05 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 21:48:05 2014] [debug] Action not found in controller.
+[Wed Feb  5 21:48:05 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 21:48:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 21:48:05 2014] [debug] 200 OK (0.035026s, 28.550/s).
+[Wed Feb  5 21:48:08 2014] [debug] GET "/api/task".
+[Wed Feb  5 21:48:08 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 21:48:08 2014] [debug] 200 OK (0.144520s, 6.919/s).
+[Wed Feb  5 22:28:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Feb  5 22:28:13 2014] [debug] GET "/profile".
+[Wed Feb  5 22:28:13 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Feb  5 22:28:13 2014] [debug] Action not found in controller.
+[Wed Feb  5 22:28:13 2014] [debug] Rendering template "home/profile.html.ep".
+[Wed Feb  5 22:28:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Feb  5 22:28:13 2014] [debug] 200 OK (0.039764s, 25.148/s).
+[Wed Feb  5 22:28:14 2014] [debug] GET "/api/task".
+[Wed Feb  5 22:28:14 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Wed Feb  5 22:28:14 2014] [debug] 200 OK (0.152664s, 6.550/s).
+[Sat Mar  1 20:32:29 2014] [info] Listening at "http://*:3000".
+[Sat Mar  1 20:32:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 20:32:48 2014] [debug] GET "/".
+[Sat Mar  1 20:32:48 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Sat Mar  1 20:32:48 2014] [debug] Rendering template "home/index.html.ep".
+[Sat Mar  1 20:32:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 20:32:48 2014] [debug] 200 OK (0.126542s, 7.903/s).
+[Sat Mar  1 20:32:54 2014] [debug] GET "/".
+[Sat Mar  1 20:32:54 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Sat Mar  1 20:32:54 2014] [debug] Rendering cached template "home/index.html.ep".
+[Sat Mar  1 20:32:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 20:32:54 2014] [debug] 200 OK (0.003609s, 277.085/s).
+[Sat Mar  1 20:33:08 2014] [debug] GET "/profile".
+[Sat Mar  1 20:33:09 2014] [debug] Controller "Tasklicious::Controller::Profile" does not exist.
+[Sat Mar  1 20:33:09 2014] [debug] Template "profile/index.html.ep" not found.
+[Sat Mar  1 20:33:09 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar  1 20:33:09 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar  1 20:33:09 2014] [debug] Rendering inline template.
+[Sat Mar  1 20:33:09 2014] [debug] Rendering inline template.
+[Sat Mar  1 20:33:09 2014] [debug] 404 Not Found (0.100157s, 9.984/s).
+[Sat Mar  1 20:33:17 2014] [debug] GET "/login".
+[Sat Mar  1 20:33:18 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Mar  1 20:33:18 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Mar  1 20:33:18 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Mar  1 20:33:18 2014] [debug] 200 OK (0.572743s, 1.746/s).
+[Sat Mar  1 20:33:23 2014] [debug] POST "/login".
+[Sat Mar  1 20:33:23 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Mar  1 20:33:24 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sat Mar  1 20:33:24 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sat Mar  1 20:33:24 2014] [debug] 200 OK (1.128539s, 0.886/s).
+[Sat Mar  1 20:33:30 2014] [debug] POST "/login".
+[Sat Mar  1 20:33:30 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Mar  1 20:33:30 2014] [debug] 302 Found (0.027463s, 36.413/s).
+[Sat Mar  1 20:33:30 2014] [debug] GET "/profile".
+[Sat Mar  1 20:33:30 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 20:33:30 2014] [debug] Action not found in controller.
+[Sat Mar  1 20:33:30 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 20:33:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 20:33:30 2014] [debug] 200 OK (0.047066s, 21.247/s).
+[Sat Mar  1 20:33:31 2014] [debug] GET "/api/task".
+[Sat Mar  1 20:33:31 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 20:33:31 2014] [debug] 200 OK (0.118629s, 8.430/s).
+[Sat Mar  1 20:54:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 20:54:28 2014] [debug] GET "/profile".
+[Sat Mar  1 20:54:28 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 20:54:28 2014] [debug] Action not found in controller.
+[Sat Mar  1 20:54:28 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 20:54:28 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 20:54:28 2014] [debug] 200 OK (0.035474s, 28.190/s).
+[Sat Mar  1 20:54:31 2014] [debug] GET "/api/task".
+[Sat Mar  1 20:54:31 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 20:54:31 2014] [debug] 200 OK (0.138676s, 7.211/s).
+[Sat Mar  1 20:55:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 20:55:19 2014] [debug] GET "/profile".
+[Sat Mar  1 20:55:19 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 20:55:19 2014] [debug] Action not found in controller.
+[Sat Mar  1 20:55:19 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 20:55:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 20:55:19 2014] [debug] 200 OK (0.039803s, 25.124/s).
+[Sat Mar  1 20:55:19 2014] [debug] GET "/api/task".
+[Sat Mar  1 20:55:19 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 20:55:19 2014] [debug] 200 OK (0.130283s, 7.676/s).
+[Sat Mar  1 20:57:24 2014] [debug] GET "/profile".
+[Sat Mar  1 20:57:24 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 20:57:24 2014] [debug] Action not found in controller.
+[Sat Mar  1 20:57:24 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar  1 20:57:24 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 20:57:24 2014] [debug] 200 OK (0.002379s, 420.345/s).
+[Sat Mar  1 20:57:25 2014] [debug] GET "/api/task".
+[Sat Mar  1 20:57:25 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 20:57:25 2014] [debug] 200 OK (0.004137s, 241.721/s).
+[Sat Mar  1 20:57:26 2014] [debug] GET "/profile".
+[Sat Mar  1 20:57:26 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 20:57:26 2014] [debug] Action not found in controller.
+[Sat Mar  1 20:57:26 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar  1 20:57:26 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 20:57:26 2014] [debug] 200 OK (0.002709s, 369.140/s).
+[Sat Mar  1 20:57:27 2014] [debug] GET "/api/task".
+[Sat Mar  1 20:57:27 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 20:57:27 2014] [debug] 200 OK (0.004347s, 230.044/s).
+[Sat Mar  1 20:57:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 20:57:30 2014] [debug] GET "/profile".
+[Sat Mar  1 20:57:30 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 20:57:30 2014] [debug] Action not found in controller.
+[Sat Mar  1 20:57:30 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 20:57:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 20:57:30 2014] [debug] 200 OK (0.054571s, 18.325/s).
+[Sat Mar  1 20:57:33 2014] [debug] GET "/api/task".
+[Sat Mar  1 20:57:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 20:57:33 2014] [debug] 200 OK (0.145290s, 6.883/s).
+[Sat Mar  1 20:58:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 20:58:44 2014] [debug] GET "/profile".
+[Sat Mar  1 20:58:44 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 20:58:44 2014] [debug] Action not found in controller.
+[Sat Mar  1 20:58:44 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 20:58:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 20:58:44 2014] [debug] 200 OK (0.036632s, 27.299/s).
+[Sat Mar  1 20:58:45 2014] [debug] GET "/api/task".
+[Sat Mar  1 20:58:45 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 20:58:45 2014] [debug] 200 OK (0.118601s, 8.432/s).
+[Sat Mar  1 21:00:24 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:00:24 2014] [debug] GET "/profile".
+[Sat Mar  1 21:00:24 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:00:24 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:00:24 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:00:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:00:24 2014] [debug] 200 OK (0.039670s, 25.208/s).
+[Sat Mar  1 21:00:27 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:00:27 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:00:27 2014] [debug] 200 OK (0.125725s, 7.954/s).
+[Sat Mar  1 21:00:27 2014] [debug] GET "/profile".
+[Sat Mar  1 21:00:27 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:00:27 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:00:27 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar  1 21:00:27 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 21:00:27 2014] [debug] 200 OK (0.004059s, 246.366/s).
+[Sat Mar  1 21:00:28 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:00:28 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:00:28 2014] [debug] 200 OK (0.006761s, 147.907/s).
+[Sat Mar  1 21:00:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:00:38 2014] [debug] GET "/profile".
+[Sat Mar  1 21:00:38 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:00:38 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:00:38 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:00:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:00:38 2014] [debug] 200 OK (0.042047s, 23.783/s).
+[Sat Mar  1 21:00:38 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:00:38 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:00:38 2014] [debug] 200 OK (0.120096s, 8.327/s).
+[Sat Mar  1 21:01:24 2014] [debug] GET "/profile".
+[Sat Mar  1 21:01:24 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:01:24 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:01:24 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar  1 21:01:24 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 21:01:24 2014] [debug] 200 OK (0.004444s, 225.023/s).
+[Sat Mar  1 21:01:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:01:25 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:01:25 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:01:25 2014] [debug] 200 OK (0.114753s, 8.714/s).
+[Sat Mar  1 21:01:26 2014] [debug] GET "/profile".
+[Sat Mar  1 21:01:26 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:01:26 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:01:26 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:01:26 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:01:26 2014] [debug] 200 OK (0.045224s, 22.112/s).
+[Sat Mar  1 21:01:26 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:01:26 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:01:26 2014] [debug] 200 OK (0.005615s, 178.094/s).
+[Sat Mar  1 21:01:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:01:57 2014] [debug] GET "/profile".
+[Sat Mar  1 21:01:57 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:01:57 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:01:57 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:01:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:01:57 2014] [debug] 200 OK (0.036968s, 27.050/s).
+[Sat Mar  1 21:01:58 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:01:58 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:01:58 2014] [debug] 200 OK (0.123747s, 8.081/s).
+[Sat Mar  1 21:02:16 2014] [debug] GET "/profile".
+[Sat Mar  1 21:02:16 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:02:16 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:02:16 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar  1 21:02:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 21:02:16 2014] [debug] 200 OK (0.004137s, 241.721/s).
+[Sat Mar  1 21:02:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:02:17 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:02:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:02:17 2014] [debug] 200 OK (0.133252s, 7.505/s).
+[Sat Mar  1 21:02:18 2014] [debug] GET "/profile".
+[Sat Mar  1 21:02:18 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:02:18 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:02:18 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:02:18 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:02:18 2014] [debug] 200 OK (0.023499s, 42.555/s).
+[Sat Mar  1 21:02:18 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:02:18 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:02:18 2014] [debug] 200 OK (0.004210s, 237.530/s).
+[Sat Mar  1 21:02:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:02:32 2014] [debug] GET "/profile".
+[Sat Mar  1 21:02:32 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:02:32 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:02:32 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:02:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:02:32 2014] [debug] 200 OK (0.041494s, 24.100/s).
+[Sat Mar  1 21:02:33 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:02:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:02:33 2014] [debug] 200 OK (0.142590s, 7.013/s).
+[Sat Mar  1 21:02:34 2014] [debug] GET "/profile".
+[Sat Mar  1 21:02:34 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:02:34 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:02:34 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar  1 21:02:34 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 21:02:34 2014] [debug] 200 OK (0.003728s, 268.240/s).
+[Sat Mar  1 21:02:35 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:02:35 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:02:35 2014] [debug] 200 OK (0.006487s, 154.154/s).
+[Sat Mar  1 21:03:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:03:10 2014] [debug] GET "/profile".
+[Sat Mar  1 21:03:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:03:10 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:03:10 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:03:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:03:11 2014] [debug] 200 OK (0.044451s, 22.497/s).
+[Sat Mar  1 21:03:12 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:03:12 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:03:12 2014] [debug] 200 OK (0.123269s, 8.112/s).
+[Sat Mar  1 21:04:14 2014] [debug] GET "/profile".
+[Sat Mar  1 21:04:14 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:04:14 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:04:14 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar  1 21:04:14 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar  1 21:04:14 2014] [debug] 200 OK (0.002240s, 446.429/s).
+[Sat Mar  1 21:04:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar  1 21:04:16 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:04:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:04:16 2014] [debug] 200 OK (0.123751s, 8.081/s).
+[Sat Mar  1 21:04:16 2014] [debug] GET "/profile".
+[Sat Mar  1 21:04:16 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar  1 21:04:16 2014] [debug] Action not found in controller.
+[Sat Mar  1 21:04:16 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar  1 21:04:16 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar  1 21:04:16 2014] [debug] 200 OK (0.043524s, 22.976/s).
+[Sat Mar  1 21:04:17 2014] [debug] GET "/api/task".
+[Sat Mar  1 21:04:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar  1 21:04:17 2014] [debug] 200 OK (0.006339s, 157.754/s).
