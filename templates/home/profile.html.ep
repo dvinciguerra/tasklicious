@@ -7,19 +7,20 @@
       <h4> <i class="glyphicon glyphicon-stats"></i> Task statistics overview</h4>  
       <div class="row text-center">
           <div class="col-md-3">
-            <input type="text" name="" value="75" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="#3a0000" data-readOnly=true />
-            <p><small>Todo Tasks</small></p>
+            <p><input type="text" value="<%= $todo_count %>" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <strong>Todo Tasks</strong>
           </div>
           <div class="col-md-3">
-            <input type="text" name="" value="75" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="chartreuse" data-readOnly=true />
-            <p><small>Done Tasks</small></p>
+            <p><input type="text" value="<%= $done_count %>" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <strong>Done Tasks</strong>
           </div>
           <div class="col-md-3">
-            <input type="text" name="" value="75" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="chartreuse" data-readOnly=true />
-            <p><small>Unasigned Tasks</small></p>
+            <p><input type="text" value="<%= $unassigned_count %>" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <strong>Unassigned Tasks</strong>
           </div>
           <div class="col-md-3">
-            <input type="text" name="" value="75" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="chartreuse" data-readOnly=true />
+            <p><input type="text" value="<%= $noproject_count %>" class="dial" data-width="150" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <strong>Project Tasks</strong>
           </div>
       </div>
 
