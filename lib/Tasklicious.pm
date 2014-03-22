@@ -10,6 +10,8 @@ sub startup {
 
     $self->helper(
         schema => sub {
+            my $self = shift;
+            return Tasklicious::Model->init_db->resultset($_[0]) if $_[0];
             return Tasklicious::Model->init_db;
         }
     );

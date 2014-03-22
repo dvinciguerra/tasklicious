@@ -4826,3 +4826,1017 @@ Compilation failed in require at (eval 324) line 1.
 [Wed Mar 19 22:15:56 2014] [debug] GET "/api/task".
 [Wed Mar 19 22:15:56 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
 [Wed Mar 19 22:15:56 2014] [debug] 200 OK (0.005443s, 183.722/s).
+[Sat Mar 22 12:54:33 2014] [info] Listening at "http://*:3000".
+[Sat Mar 22 13:00:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:00:14 2014] [debug] GET "/".
+[Sat Mar 22 13:00:14 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Sat Mar 22 13:00:14 2014] [debug] 302 Found (0.019271s, 51.891/s).
+[Sat Mar 22 13:00:14 2014] [debug] GET "/account/login".
+[Sat Mar 22 13:00:15 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Mar 22 13:00:15 2014] [debug] Rendering template "account/login.html.ep".
+[Sat Mar 22 13:00:15 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sat Mar 22 13:00:15 2014] [debug] 200 OK (0.743696s, 1.345/s).
+[Sat Mar 22 13:00:23 2014] [debug] POST "/account/login".
+[Sat Mar 22 13:00:23 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sat Mar 22 13:00:24 2014] [debug] 302 Found (0.929632s, 1.076/s).
+[Sat Mar 22 13:00:24 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:24 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:24 2014] [debug] 200 OK (0.056561s, 17.680/s).
+[Sat Mar 22 13:00:40 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:40 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:40 2014] [debug] 200 OK (0.005160s, 193.798/s).
+[Sat Mar 22 13:00:42 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:00:42 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:42 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:42 2014] [debug] 200 OK (0.008796s, 113.688/s).
+[Sat Mar 22 13:00:43 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:43 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:43 2014] [debug] 200 OK (0.005892s, 169.722/s).
+[Sat Mar 22 13:00:44 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:44 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:44 2014] [debug] 200 OK (0.008269s, 120.934/s).
+[Sat Mar 22 13:00:44 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:44 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:44 2014] [debug] 200 OK (0.006472s, 154.512/s).
+[Sat Mar 22 13:00:44 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:44 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:44 2014] [debug] 200 OK (0.004937s, 202.552/s).
+[Sat Mar 22 13:00:45 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:45 2014] [debug] 200 OK (0.007963s, 125.581/s).
+[Sat Mar 22 13:00:45 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:45 2014] [debug] 200 OK (0.004484s, 223.015/s).
+[Sat Mar 22 13:00:45 2014] [debug] GET "/profile".
+[Sat Mar 22 13:00:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:00:45 2014] [debug] 200 OK (0.005377s, 185.977/s).
+[Sat Mar 22 13:02:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:02:06 2014] [debug] GET "/profile".
+[Sat Mar 22 13:02:06 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:02:06 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:02:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:02:06 2014] [debug] 200 OK (0.103106s, 9.699/s).
+[Sat Mar 22 13:02:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:02:08 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:02:08 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Sat Mar 22 13:02:08 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:02:08 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:02:08 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:02:08 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:02:08 2014] [debug] 500 Internal Server Error (0.079570s, 12.568/s).
+[Sat Mar 22 13:03:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:03:45 2014] [debug] GET "/profile".
+[Sat Mar 22 13:03:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:03:45 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:03:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:03:45 2014] [debug] 200 OK (0.056564s, 17.679/s).
+[Sat Mar 22 13:03:46 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:03:46 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:03:46 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:03:46 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:03:46 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:03:46 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:03:46 2014] [debug] 500 Internal Server Error (0.053313s, 18.757/s).
+[Sat Mar 22 13:04:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:04:16 2014] [debug] GET "/profile".
+[Sat Mar 22 13:04:16 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:04:16 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:04:16 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:04:16 2014] [debug] 200 OK (0.057824s, 17.294/s).
+[Sat Mar 22 13:04:16 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:04:16 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:04:16 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:04:16 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:04:16 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:04:16 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:04:16 2014] [debug] 500 Internal Server Error (0.058437s, 17.112/s).
+[Sat Mar 22 13:04:17 2014] [debug] GET "/profile".
+[Sat Mar 22 13:04:17 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:04:17 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:04:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:04:17 2014] [debug] 200 OK (0.013010s, 76.864/s).
+[Sat Mar 22 13:04:17 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:04:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:04:17 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:04:17 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:04:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:04:17 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:04:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:04:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:04:17 2014] [debug] 404 Not Found (0.018303s, 54.636/s).
+[Sat Mar 22 13:05:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:05:13 2014] [debug] GET "/profile".
+[Sat Mar 22 13:05:13 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:05:13 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:05:13 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:05:13 2014] [debug] 200 OK (0.055284s, 18.088/s).
+[Sat Mar 22 13:05:14 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:05:14 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:05:14 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:05:14 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:05:14 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:05:14 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:05:14 2014] [debug] 500 Internal Server Error (0.052885s, 18.909/s).
+[Sat Mar 22 13:06:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:06:08 2014] [debug] GET "/profile".
+[Sat Mar 22 13:06:08 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:06:08 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:06:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:06:08 2014] [debug] 200 OK (0.058090s, 17.215/s).
+[Sat Mar 22 13:06:09 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:06:09 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:06:09 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:06:09 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:06:09 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:06:09 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:06:09 2014] [debug] 500 Internal Server Error (0.051740s, 19.327/s).
+[Sat Mar 22 13:07:06 2014] [debug] GET "/profile".
+[Sat Mar 22 13:07:06 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:07:06 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:07:06 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:07:06 2014] [debug] 200 OK (0.018595s, 53.778/s).
+[Sat Mar 22 13:07:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:07:07 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:07:07 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Sat Mar 22 13:07:07 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:07:07 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:07:07 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:07:07 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:07:07 2014] [debug] 500 Internal Server Error (0.052409s, 19.081/s).
+[Sat Mar 22 13:10:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:10:02 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:02 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:02 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:10:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:10:03 2014] [debug] 200 OK (0.056276s, 17.770/s).
+[Sat Mar 22 13:10:03 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:03 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:10:03 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:10:03 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:10:03 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:03 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:03 2014] [debug] 500 Internal Server Error (0.049673s, 20.132/s).
+[Sat Mar 22 13:10:04 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:04 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:04 2014] [debug] 200 OK (0.008415s, 118.835/s).
+[Sat Mar 22 13:10:04 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:04 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:10:04 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:10:04 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:10:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:10:04 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:10:04 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:04 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:04 2014] [debug] 404 Not Found (0.023503s, 42.548/s).
+[Sat Mar 22 13:10:05 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:05 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:05 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:05 2014] [debug] 200 OK (0.007537s, 132.679/s).
+[Sat Mar 22 13:10:05 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:05 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:10:05 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:10:05 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:10:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:10:05 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:10:05 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:05 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:05 2014] [debug] 404 Not Found (0.021348s, 46.843/s).
+[Sat Mar 22 13:10:06 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:06 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:06 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:06 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:06 2014] [debug] 200 OK (0.006553s, 152.602/s).
+[Sat Mar 22 13:10:06 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:06 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:10:06 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:10:06 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:10:06 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:10:06 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:10:06 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:06 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:06 2014] [debug] 404 Not Found (0.020991s, 47.639/s).
+[Sat Mar 22 13:10:07 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:07 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:07 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:07 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:07 2014] [debug] 200 OK (0.006805s, 146.951/s).
+[Sat Mar 22 13:10:07 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:07 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:10:07 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:10:07 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:10:07 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:10:07 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:10:07 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:07 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:08 2014] [debug] 404 Not Found (0.020164s, 49.593/s).
+[Sat Mar 22 13:10:08 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:08 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:08 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:08 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:08 2014] [debug] 200 OK (0.012931s, 77.334/s).
+[Sat Mar 22 13:10:09 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:09 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:10:09 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:10:09 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:10:09 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:10:09 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:10:09 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:09 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:09 2014] [debug] 404 Not Found (0.022067s, 45.317/s).
+[Sat Mar 22 13:10:09 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:09 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:09 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:09 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:09 2014] [debug] 200 OK (0.008001s, 124.984/s).
+[Sat Mar 22 13:10:10 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:10 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:10 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:10 2014] [debug] 200 OK (0.009250s, 108.108/s).
+[Sat Mar 22 13:10:10 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:10 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:10 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:10 2014] [debug] 200 OK (0.006177s, 161.891/s).
+[Sat Mar 22 13:10:10 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:10 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:10:10 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:10:10 2014] [debug] 200 OK (0.010391s, 96.237/s).
+[Sat Mar 22 13:10:11 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:11 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:10:11 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:10:11 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:10:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:10:11 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:10:11 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:11 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:11 2014] [debug] 404 Not Found (0.018696s, 53.487/s).
+[Sat Mar 22 13:10:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:10:27 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:27 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:27 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:10:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:10:27 2014] [debug] 200 OK (0.047570s, 21.022/s).
+[Sat Mar 22 13:10:28 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:28 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:10:28 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:10:28 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:10:28 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:28 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:28 2014] [debug] 500 Internal Server Error (0.050216s, 19.914/s).
+[Sat Mar 22 13:10:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:10:38 2014] [debug] GET "/profile".
+[Sat Mar 22 13:10:38 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:10:38 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:10:38 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:10:38 2014] [debug] 200 OK (0.047600s, 21.008/s).
+[Sat Mar 22 13:10:39 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:10:39 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:10:39 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:10:39 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:10:39 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:10:39 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:10:39 2014] [debug] 500 Internal Server Error (0.051582s, 19.387/s).
+[Sat Mar 22 13:11:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:11:08 2014] [debug] GET "/profile".
+[Sat Mar 22 13:11:08 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:11:08 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:11:08 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:11:08 2014] [debug] 200 OK (0.050206s, 19.918/s).
+[Sat Mar 22 13:11:09 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:11:09 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:11:09 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:11:09 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:11:09 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:11:09 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:11:09 2014] [debug] 500 Internal Server Error (0.048840s, 20.475/s).
+[Sat Mar 22 13:11:09 2014] [debug] GET "/profile".
+[Sat Mar 22 13:11:09 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:11:09 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:11:09 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:11:09 2014] [debug] 200 OK (0.010503s, 95.211/s).
+[Sat Mar 22 13:11:11 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:11:11 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:11:11 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:11:11 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:11:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:11:11 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:11:11 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:11:11 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:11:11 2014] [debug] 404 Not Found (0.021648s, 46.194/s).
+[Sat Mar 22 13:11:26 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:11:26 2014] [debug] GET "/profile".
+[Sat Mar 22 13:11:26 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:11:27 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:11:27 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:11:27 2014] [debug] 200 OK (0.050664s, 19.738/s).
+[Sat Mar 22 13:11:27 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:11:27 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:11:27 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:11:27 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:11:27 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:11:27 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:11:27 2014] [debug] 500 Internal Server Error (0.049430s, 20.231/s).
+[Sat Mar 22 13:20:19 2014] [debug] GET "/profile".
+[Sat Mar 22 13:20:19 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:20:19 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:20:19 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:20:19 2014] [debug] 200 OK (0.016040s, 62.344/s).
+[Sat Mar 22 13:20:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:20:20 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:20:20 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Sat Mar 22 13:20:20 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:20:20 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:20:20 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:20:20 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:20:20 2014] [debug] 500 Internal Server Error (0.050877s, 19.655/s).
+[Sat Mar 22 13:20:21 2014] [debug] GET "/profile".
+[Sat Mar 22 13:20:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:20:21 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:20:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:20:21 2014] [debug] 200 OK (0.045513s, 21.972/s).
+[Sat Mar 22 13:20:21 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:20:21 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:20:21 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:20:21 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:20:21 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:20:21 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:20:21 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:20:21 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:20:21 2014] [debug] 404 Not Found (0.019783s, 50.548/s).
+[Sat Mar 22 13:21:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:21:02 2014] [debug] GET "/profile".
+[Sat Mar 22 13:21:02 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:21:02 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:21:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:21:02 2014] [debug] 200 OK (0.049277s, 20.293/s).
+[Sat Mar 22 13:21:03 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:21:03 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:21:03 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:21:03 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:21:03 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:21:03 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:21:03 2014] [debug] 500 Internal Server Error (0.059656s, 16.763/s).
+[Sat Mar 22 13:21:35 2014] [debug] GET "/profile".
+[Sat Mar 22 13:21:35 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:21:35 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:21:35 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:21:35 2014] [debug] 200 OK (0.011321s, 88.331/s).
+[Sat Mar 22 13:21:35 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:21:35 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:21:35 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:21:35 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:21:35 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:21:35 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:21:35 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:21:35 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:21:35 2014] [debug] 404 Not Found (0.022895s, 43.678/s).
+[Sat Mar 22 13:21:36 2014] [debug] GET "/profile".
+[Sat Mar 22 13:21:36 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:21:36 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:21:36 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:21:36 2014] [debug] 200 OK (0.008054s, 124.162/s).
+[Sat Mar 22 13:21:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:21:37 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:21:37 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Sat Mar 22 13:21:37 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:21:37 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:21:37 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:21:37 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:21:37 2014] [debug] 500 Internal Server Error (0.062382s, 16.030/s).
+[Sat Mar 22 13:21:37 2014] [debug] GET "/profile".
+[Sat Mar 22 13:21:37 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:21:37 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:21:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:21:37 2014] [debug] 200 OK (0.036870s, 27.122/s).
+[Sat Mar 22 13:21:37 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:21:37 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:21:37 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:21:37 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:21:37 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:21:37 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:21:37 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:21:37 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:21:37 2014] [debug] 404 Not Found (0.017547s, 56.990/s).
+[Sat Mar 22 13:21:59 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:21:59 2014] [debug] GET "/profile".
+[Sat Mar 22 13:21:59 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:21:59 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:21:59 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:21:59 2014] [debug] 200 OK (0.057190s, 17.486/s).
+[Sat Mar 22 13:22:00 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:22:00 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:22:00 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:22:00 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:22:00 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:22:00 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:22:00 2014] [debug] 500 Internal Server Error (0.052497s, 19.049/s).
+[Sat Mar 22 13:22:00 2014] [debug] GET "/profile".
+[Sat Mar 22 13:22:00 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:22:00 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:22:00 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:22:00 2014] [debug] 200 OK (0.020581s, 48.589/s).
+[Sat Mar 22 13:22:01 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:22:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:22:01 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:22:01 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:22:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:22:01 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:22:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:22:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:22:01 2014] [debug] 404 Not Found (0.020586s, 48.577/s).
+[Sat Mar 22 13:22:01 2014] [debug] GET "/profile".
+[Sat Mar 22 13:22:01 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:22:01 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:22:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:22:01 2014] [debug] 200 OK (0.022560s, 44.326/s).
+[Sat Mar 22 13:22:02 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:22:02 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:22:02 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:22:02 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:22:02 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:22:02 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:22:02 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:22:02 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:22:02 2014] [debug] 404 Not Found (0.018414s, 54.307/s).
+[Sat Mar 22 13:22:03 2014] [debug] GET "/profile".
+[Sat Mar 22 13:22:03 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:22:03 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:22:03 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:22:03 2014] [debug] 200 OK (0.024115s, 41.468/s).
+[Sat Mar 22 13:22:04 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:22:04 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:22:04 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:22:04 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:22:04 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:22:04 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:22:04 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:22:04 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:22:04 2014] [debug] 404 Not Found (0.017418s, 57.412/s).
+[Sat Mar 22 13:22:05 2014] [debug] GET "/profile".
+[Sat Mar 22 13:22:05 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:22:05 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:22:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:22:05 2014] [debug] 200 OK (0.028225s, 35.430/s).
+[Sat Mar 22 13:22:05 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:22:05 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:22:05 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:22:05 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:22:05 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:22:05 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:22:05 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:22:05 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:22:05 2014] [debug] 404 Not Found (0.017791s, 56.208/s).
+[Sat Mar 22 13:23:50 2014] [debug] GET "/profile".
+[Sat Mar 22 13:23:50 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:23:50 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:23:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:23:50 2014] [debug] 200 OK (0.017331s, 57.700/s).
+[Sat Mar 22 13:23:51 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:23:51 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:23:51 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:23:51 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:23:51 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:23:51 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:23:51 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:23:51 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:23:51 2014] [debug] 404 Not Found (0.019882s, 50.297/s).
+[Sat Mar 22 13:23:51 2014] [debug] GET "/profile".
+[Sat Mar 22 13:23:51 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:23:51 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:23:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:23:51 2014] [debug] 200 OK (0.021829s, 45.811/s).
+[Sat Mar 22 13:23:53 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:23:53 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:23:53 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:23:53 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:23:53 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:23:53 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:23:53 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:23:53 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:23:53 2014] [debug] 404 Not Found (0.019194s, 52.100/s).
+[Sat Mar 22 13:24:07 2014] [debug] GET "/profile".
+[Sat Mar 22 13:24:07 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:24:07 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:24:07 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:24:07 2014] [debug] 200 OK (0.024880s, 40.193/s).
+[Sat Mar 22 13:24:08 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:24:08 2014] [debug] GET "/profile".
+[Sat Mar 22 13:24:08 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:24:08 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:24:08 2014] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '5' )' at line 1 [for Statement "SELECT me.id, me.owner, me.project_id, me.assigned, me.title, me.description, me.date, me.closed, me.created FROM task me WHERE ( limit = ? )" with ParamValues: 0=5] at template home/profile.html.ep line 20
+1: % layout 'default';
+2: 
+3: <div class="row">
+4:     <div class="col-xs-12">
+5: 
+6:       <h4>Last 5 tasks</h4>  
+
+[Sat Mar 22 13:24:08 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:24:08 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:24:08 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:24:08 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:24:08 2014] [debug] 500 Internal Server Error (0.088234s, 11.333/s).
+[Sat Mar 22 13:24:10 2014] [debug] GET "/profile".
+[Sat Mar 22 13:24:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:24:10 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:24:11 2014] [error] DBIx::Class::Storage::DBI::_dbh_execute(): DBI Exception: DBD::mysql::st execute failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit = '5' )' at line 1 [for Statement "SELECT me.id, me.owner, me.project_id, me.assigned, me.title, me.description, me.date, me.closed, me.created FROM task me WHERE ( limit = ? )" with ParamValues: 0=5] at template home/profile.html.ep line 20
+1: % layout 'default';
+2: 
+3: <div class="row">
+4:     <div class="col-xs-12">
+5: 
+6:       <h4>Last 5 tasks</h4>  
+
+[Sat Mar 22 13:24:11 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:24:11 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:24:11 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:24:11 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:24:11 2014] [debug] 500 Internal Server Error (0.032578s, 30.696/s).
+[Sat Mar 22 13:24:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:24:20 2014] [debug] GET "/profile".
+[Sat Mar 22 13:24:20 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:24:20 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:24:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:24:20 2014] [debug] 200 OK (0.056005s, 17.856/s).
+[Sat Mar 22 13:24:20 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:24:20 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:24:20 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:24:20 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:24:20 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:24:20 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:24:20 2014] [debug] 500 Internal Server Error (0.053145s, 18.816/s).
+[Sat Mar 22 13:24:21 2014] [debug] GET "/profile".
+[Sat Mar 22 13:24:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:24:21 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:24:21 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:24:21 2014] [debug] 200 OK (0.018145s, 55.112/s).
+[Sat Mar 22 13:24:21 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:24:21 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:24:21 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:24:21 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:24:21 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:24:21 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:24:21 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:24:21 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:24:21 2014] [debug] 404 Not Found (0.018757s, 53.313/s).
+[Sat Mar 22 13:24:22 2014] [debug] GET "/profile".
+[Sat Mar 22 13:24:22 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:24:22 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:24:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:24:22 2014] [debug] 200 OK (0.017506s, 57.123/s).
+[Sat Mar 22 13:24:23 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:24:23 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:24:23 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:24:23 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:24:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:24:23 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:24:23 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:24:23 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:24:23 2014] [debug] 404 Not Found (0.023707s, 42.182/s).
+[Sat Mar 22 13:27:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:27:02 2014] [debug] GET "/profile".
+[Sat Mar 22 13:27:02 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:27:02 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:27:02 2014] [error] SQL::Abstract::puke(): [SQL::Abstract::__ANON__] Fatal: hash passed to _order_by must have exactly one key (-desc or -asc) at template home/profile.html.ep line 20
+15:                   <th>Completed</th>
+16:                   <th>Action</th>
+17:               </tr>
+18:           </thead>
+19:           <tbody>
+20: % for my $row ( $list->all ) {          
+21:               <tr>
+22:                   <td> <%= check_box id => $row? $row->id : '' %> </td>
+23:                   <td>#1</td>
+24:                   <td>
+25:                    %= link_to '#' => (class => 'btn_detail', 'data-id' => $row? $row->id : $row) => begin
+
+[Sat Mar 22 13:27:02 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:27:02 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:27:02 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:27:02 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:27:02 2014] [debug] 500 Internal Server Error (0.080996s, 12.346/s).
+[Sat Mar 22 13:27:03 2014] [debug] GET "/profile".
+[Sat Mar 22 13:27:03 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:27:03 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:27:03 2014] [error] SQL::Abstract::puke(): [SQL::Abstract::__ANON__] Fatal: hash passed to _order_by must have exactly one key (-desc or -asc) at template home/profile.html.ep line 20
+15:                   <th>Completed</th>
+16:                   <th>Action</th>
+17:               </tr>
+18:           </thead>
+19:           <tbody>
+20: % for my $row ( $list->all ) {          
+21:               <tr>
+22:                   <td> <%= check_box id => $row? $row->id : '' %> </td>
+23:                   <td>#1</td>
+24:                   <td>
+25:                    %= link_to '#' => (class => 'btn_detail', 'data-id' => $row? $row->id : $row) => begin
+
+[Sat Mar 22 13:27:03 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:27:03 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:27:03 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:27:03 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:27:03 2014] [debug] 500 Internal Server Error (0.032176s, 31.079/s).
+[Sat Mar 22 13:27:04 2014] [debug] GET "/profile".
+[Sat Mar 22 13:27:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:27:04 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:27:04 2014] [error] SQL::Abstract::puke(): [SQL::Abstract::__ANON__] Fatal: hash passed to _order_by must have exactly one key (-desc or -asc) at template home/profile.html.ep line 20
+15:                   <th>Completed</th>
+16:                   <th>Action</th>
+17:               </tr>
+18:           </thead>
+19:           <tbody>
+20: % for my $row ( $list->all ) {          
+21:               <tr>
+22:                   <td> <%= check_box id => $row? $row->id : '' %> </td>
+23:                   <td>#1</td>
+24:                   <td>
+25:                    %= link_to '#' => (class => 'btn_detail', 'data-id' => $row? $row->id : $row) => begin
+
+[Sat Mar 22 13:27:04 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:27:04 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:27:04 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:27:04 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:27:04 2014] [debug] 500 Internal Server Error (0.026256s, 38.087/s).
+[Sat Mar 22 13:28:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:28:53 2014] [debug] GET "/profile".
+[Sat Mar 22 13:28:53 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:28:53 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:28:53 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:28:53 2014] [debug] 200 OK (0.060036s, 16.657/s).
+[Sat Mar 22 13:28:54 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:28:54 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:28:54 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:28:54 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:28:54 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:28:54 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:28:54 2014] [debug] 500 Internal Server Error (0.055177s, 18.123/s).
+[Sat Mar 22 13:31:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:31:34 2014] [debug] GET "/profile".
+[Sat Mar 22 13:31:34 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:31:34 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:31:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:31:34 2014] [debug] 200 OK (0.064506s, 15.502/s).
+[Sat Mar 22 13:31:35 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:31:35 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:31:35 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:31:35 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:31:35 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:31:35 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:31:35 2014] [debug] 500 Internal Server Error (0.058872s, 16.986/s).
+[Sat Mar 22 13:31:50 2014] [debug] GET "/profile".
+[Sat Mar 22 13:31:50 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:31:50 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:31:50 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:31:50 2014] [debug] 200 OK (0.022716s, 44.022/s).
+[Sat Mar 22 13:31:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:31:52 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:31:52 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Sat Mar 22 13:31:52 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:31:52 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:31:52 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:31:52 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:31:53 2014] [debug] 500 Internal Server Error (0.055136s, 18.137/s).
+[Sat Mar 22 13:31:53 2014] [debug] GET "/profile".
+[Sat Mar 22 13:31:53 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:31:53 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:31:53 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:31:53 2014] [debug] 200 OK (0.041581s, 24.049/s).
+[Sat Mar 22 13:31:54 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:31:54 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:31:54 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:31:54 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:31:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:31:54 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:31:54 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:31:54 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:31:54 2014] [debug] 404 Not Found (0.020358s, 49.121/s).
+[Sat Mar 22 13:32:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:32:25 2014] [debug] GET "/profile".
+[Sat Mar 22 13:32:25 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:32:25 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:32:25 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:32:25 2014] [debug] 200 OK (0.055360s, 18.064/s).
+[Sat Mar 22 13:32:26 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:32:26 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:32:26 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:32:26 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:32:26 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:32:26 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:32:26 2014] [debug] 500 Internal Server Error (0.049518s, 20.195/s).
+[Sat Mar 22 13:32:28 2014] [debug] GET "/profile".
+[Sat Mar 22 13:32:28 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:32:28 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:32:28 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:32:28 2014] [debug] 200 OK (0.021076s, 47.447/s).
+[Sat Mar 22 13:32:29 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:32:29 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:32:29 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:32:29 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:32:29 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:32:29 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:32:29 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:32:29 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:32:29 2014] [debug] 404 Not Found (0.024299s, 41.154/s).
+[Sat Mar 22 13:33:05 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:05 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:05 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:33:05 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:33:05 2014] [debug] 200 OK (0.020461s, 48.873/s).
+[Sat Mar 22 13:33:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:33:06 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:06 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Sat Mar 22 13:33:06 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:33:06 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:33:06 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:06 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:06 2014] [debug] 500 Internal Server Error (0.053537s, 18.679/s).
+[Sat Mar 22 13:33:07 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:07 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:07 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:33:07 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:33:07 2014] [debug] 200 OK (0.049657s, 20.138/s).
+[Sat Mar 22 13:33:08 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:08 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:33:08 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:33:08 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:33:08 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:33:08 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:33:08 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:08 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:08 2014] [debug] 404 Not Found (0.022281s, 44.881/s).
+[Sat Mar 22 13:33:08 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:08 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:08 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:33:08 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:33:08 2014] [debug] 200 OK (0.016222s, 61.645/s).
+[Sat Mar 22 13:33:09 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:09 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:33:09 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:33:09 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:33:09 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:33:09 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:33:09 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:09 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:09 2014] [debug] 404 Not Found (0.016041s, 62.340/s).
+[Sat Mar 22 13:33:10 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:10 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:33:10 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:33:10 2014] [debug] 200 OK (0.020172s, 49.574/s).
+[Sat Mar 22 13:33:10 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:10 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:33:10 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:33:10 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:33:10 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:33:10 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:33:10 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:10 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:10 2014] [debug] 404 Not Found (0.018385s, 54.392/s).
+[Sat Mar 22 13:33:17 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:33:17 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:17 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:17 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:33:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:33:17 2014] [debug] 200 OK (0.063373s, 15.780/s).
+[Sat Mar 22 13:33:18 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:18 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:33:18 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:33:18 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:33:18 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:18 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:18 2014] [debug] 500 Internal Server Error (0.052521s, 19.040/s).
+[Sat Mar 22 13:33:18 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:18 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:18 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:33:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:33:18 2014] [debug] 200 OK (0.017043s, 58.675/s).
+[Sat Mar 22 13:33:19 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:19 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:33:19 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:33:19 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:33:19 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:33:19 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:33:19 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:19 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:19 2014] [debug] 404 Not Found (0.023168s, 43.163/s).
+[Sat Mar 22 13:33:19 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:19 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:19 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:33:19 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:33:19 2014] [debug] 200 OK (0.015790s, 63.331/s).
+[Sat Mar 22 13:33:20 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:20 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:33:20 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:33:20 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:33:20 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:33:20 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:33:20 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:20 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:20 2014] [debug] 404 Not Found (0.019627s, 50.950/s).
+[Sat Mar 22 13:33:21 2014] [debug] GET "/profile".
+[Sat Mar 22 13:33:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:33:21 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:33:21 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:33:21 2014] [debug] 200 OK (0.018270s, 54.735/s).
+[Sat Mar 22 13:33:21 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:33:21 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "index".
+[Sat Mar 22 13:33:21 2014] [debug] Action not found in controller.
+[Sat Mar 22 13:33:21 2014] [debug] Template "task/index.html.ep" not found.
+[Sat Mar 22 13:33:21 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sat Mar 22 13:33:21 2014] [debug] Template "not_found.html.ep" not found.
+[Sat Mar 22 13:33:21 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:33:21 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:33:21 2014] [debug] 404 Not Found (0.021732s, 46.015/s).
+[Sat Mar 22 13:35:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:35:11 2014] [debug] GET "/profile".
+[Sat Mar 22 13:35:11 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:35:11 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:35:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:35:11 2014] [debug] 200 OK (0.055755s, 17.936/s).
+[Sat Mar 22 13:35:12 2014] [debug] GET "/api/task".
+[Sat Mar 22 13:35:12 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sat Mar 22 13:35:12 2014] [debug] Template "exception.development.html.ep" not found.
+[Sat Mar 22 13:35:12 2014] [debug] Template "exception.html.ep" not found.
+[Sat Mar 22 13:35:12 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sat Mar 22 13:35:12 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sat Mar 22 13:35:12 2014] [debug] 500 Internal Server Error (0.049410s, 20.239/s).
+[Sat Mar 22 13:44:30 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:44:30 2014] [debug] GET "/profile".
+[Sat Mar 22 13:44:30 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:44:30 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:44:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:44:30 2014] [debug] 200 OK (0.061213s, 16.336/s).
+[Sat Mar 22 13:44:33 2014] [debug] GET "/profile".
+[Sat Mar 22 13:44:33 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:44:33 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:44:33 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:44:33 2014] [debug] 200 OK (0.013850s, 72.202/s).
+[Sat Mar 22 13:44:35 2014] [debug] GET "/profile".
+[Sat Mar 22 13:44:35 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:44:35 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:44:35 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:44:35 2014] [debug] 200 OK (0.022954s, 43.565/s).
+[Sat Mar 22 13:45:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:45:35 2014] [debug] GET "/profile".
+[Sat Mar 22 13:45:35 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:45:35 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:45:35 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:45:35 2014] [debug] 200 OK (0.063015s, 15.869/s).
+[Sat Mar 22 13:45:37 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:45:37 2014] [debug] GET "/profile".
+[Sat Mar 22 13:45:37 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:45:37 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:45:37 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:45:37 2014] [debug] 200 OK (0.076391s, 13.091/s).
+[Sat Mar 22 13:46:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:46:17 2014] [debug] GET "/profile".
+[Sat Mar 22 13:46:17 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:46:17 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:46:17 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:46:17 2014] [debug] 200 OK (0.059018s, 16.944/s).
+[Sat Mar 22 13:46:18 2014] [debug] GET "/profile".
+[Sat Mar 22 13:46:18 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:46:18 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:46:18 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:46:18 2014] [debug] 200 OK (0.019332s, 51.728/s).
+[Sat Mar 22 13:47:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:47:32 2014] [debug] GET "/profile".
+[Sat Mar 22 13:47:32 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:47:32 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:47:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:47:32 2014] [debug] 200 OK (0.048941s, 20.433/s).
+[Sat Mar 22 13:47:41 2014] [debug] GET "/profile".
+[Sat Mar 22 13:47:41 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:47:41 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:47:41 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:47:41 2014] [debug] 200 OK (0.023841s, 41.945/s).
+[Sat Mar 22 13:47:42 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:47:45 2014] [debug] GET "/profile".
+[Sat Mar 22 13:47:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:47:45 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:47:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:47:45 2014] [debug] 200 OK (0.038188s, 26.186/s).
+[Sat Mar 22 13:47:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:47:54 2014] [debug] GET "/profile".
+[Sat Mar 22 13:47:54 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:47:54 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:47:54 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:47:54 2014] [debug] 200 OK (0.053455s, 18.707/s).
+[Sat Mar 22 13:48:21 2014] [debug] GET "/profile".
+[Sat Mar 22 13:48:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:48:21 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 13:48:21 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 13:48:21 2014] [debug] 200 OK (0.018839s, 53.081/s).
+[Sat Mar 22 13:48:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 13:57:00 2014] [debug] GET "/profile".
+[Sat Mar 22 13:57:00 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 13:57:00 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 13:57:00 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 13:57:00 2014] [debug] 200 OK (0.043357s, 23.064/s).
+[Sat Mar 22 14:03:06 2014] [debug] GET "/profile".
+[Sat Mar 22 14:03:06 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 14:03:06 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 14:03:06 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 14:03:06 2014] [debug] 200 OK (0.020402s, 49.015/s).
+[Sat Mar 22 14:03:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 14:08:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 14:08:10 2014] [debug] GET "/profile".
+[Sat Mar 22 14:08:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 14:08:10 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 14:08:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 14:08:10 2014] [debug] 200 OK (0.052536s, 19.035/s).
+[Sat Mar 22 14:08:12 2014] [debug] GET "/profile".
+[Sat Mar 22 14:08:12 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 14:08:12 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 14:08:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 14:08:12 2014] [debug] 200 OK (0.026877s, 37.207/s).
+[Sat Mar 22 14:08:13 2014] [debug] GET "/profile".
+[Sat Mar 22 14:08:13 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 14:08:13 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 14:08:13 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 14:08:13 2014] [debug] 200 OK (0.022381s, 44.681/s).
+[Sat Mar 22 14:08:15 2014] [debug] GET "/profile".
+[Sat Mar 22 14:08:15 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 14:08:15 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 14:08:15 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 14:08:15 2014] [debug] 200 OK (0.023185s, 43.131/s).
+[Sat Mar 22 14:09:16 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 14:09:16 2014] [debug] GET "/profile".
+[Sat Mar 22 14:09:16 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 14:09:16 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 14:09:16 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 14:09:16 2014] [debug] 200 OK (0.055910s, 17.886/s).
