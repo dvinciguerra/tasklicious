@@ -6099,3 +6099,70 @@ Compilation failed in require at (eval 361) line 1.
 [Sat Mar 22 15:09:47 2014] [debug] Rendering template "home/profile.html.ep".
 [Sat Mar 22 15:09:47 2014] [debug] Rendering template "layouts/default.html.ep".
 [Sat Mar 22 15:09:47 2014] [debug] 200 OK (0.058651s, 17.050/s).
+[Sat Mar 22 15:12:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 15:12:02 2014] [debug] GET "/profile".
+[Sat Mar 22 15:12:02 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 15:12:02 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 15:12:02 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 15:12:02 2014] [debug] 200 OK (0.058742s, 17.024/s).
+[Sat Mar 22 15:29:53 2014] [debug] GET "/profile".
+[Sat Mar 22 15:29:53 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 15:29:53 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 15:29:53 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 15:29:53 2014] [debug] 200 OK (0.025742s, 38.847/s).
+[Sat Mar 22 15:48:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 15:48:36 2014] [debug] GET "/profile".
+[Sat Mar 22 15:48:36 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 15:48:36 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 15:48:36 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 15:48:36 2014] [debug] 200 OK (0.064176s, 15.582/s).
+[Sat Mar 22 15:48:39 2014] [debug] GET "/profile".
+[Sat Mar 22 15:48:39 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 15:48:39 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 15:48:39 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 15:48:39 2014] [debug] 200 OK (0.037588s, 26.604/s).
+[Sat Mar 22 15:48:42 2014] [debug] GET "/profile".
+[Sat Mar 22 15:48:42 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 15:48:42 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 15:48:42 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 15:48:42 2014] [debug] 200 OK (0.030041s, 33.288/s).
+[Sat Mar 22 15:48:44 2014] [debug] GET "/profile".
+[Sat Mar 22 15:48:44 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 15:48:44 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 15:48:44 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 15:48:44 2014] [debug] 200 OK (0.025872s, 38.652/s).
+[Sat Mar 22 15:49:04 2014] [debug] GET "/profile".
+[Sat Mar 22 15:49:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 15:49:04 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sat Mar 22 15:49:04 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sat Mar 22 15:49:04 2014] [debug] 200 OK (0.034108s, 29.319/s).
+[Sat Mar 22 16:01:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 16:01:33 2014] [debug] GET "/profile".
+[Sat Mar 22 16:01:33 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 16:01:33 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 16:01:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 16:01:33 2014] [debug] 200 OK (0.080734s, 12.386/s).
+[Sat Mar 22 16:02:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 16:02:04 2014] [debug] GET "/profile".
+[Sat Mar 22 16:02:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 16:02:04 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 16:02:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 16:02:05 2014] [debug] 200 OK (0.056878s, 17.581/s).
+[Sat Mar 22 16:03:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 16:03:04 2014] [debug] GET "/profile".
+[Sat Mar 22 16:03:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 16:03:04 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 16:03:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 16:03:05 2014] [debug] 200 OK (0.058770s, 17.015/s).
+[Sat Mar 22 16:03:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 16:03:14 2014] [debug] GET "/profile".
+[Sat Mar 22 16:03:14 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 16:03:14 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 16:03:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 16:03:14 2014] [debug] 200 OK (0.063513s, 15.745/s).
+[Sat Mar 22 16:03:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sat Mar 22 16:03:47 2014] [debug] GET "/profile".
+[Sat Mar 22 16:03:47 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sat Mar 22 16:03:47 2014] [debug] Rendering template "home/profile.html.ep".
+[Sat Mar 22 16:03:47 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sat Mar 22 16:03:47 2014] [debug] 200 OK (0.062810s, 15.921/s).

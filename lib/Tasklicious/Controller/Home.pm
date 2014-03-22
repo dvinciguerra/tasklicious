@@ -24,7 +24,7 @@ sub profile {
     my $todo_count = $schema->resultset('Task')->count({ closed => undef });
     my $done_count = ($total_count - $todo_count);
     my $unassigned_count = $schema->resultset('Task')->count({ assigned => 0 });
-    my $noproject_count = $schema->resultset('Task')->count({ project_id => 0 });
+    my $noproject_count = $schema->resultset('Task')->count({ project_id => { '!=' => 0 } });
 
     return $self->render( list => $list, total_count => $total_count,
         done_count => $done_count, todo_count => $todo_count,
