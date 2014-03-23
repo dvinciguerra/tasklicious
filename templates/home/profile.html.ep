@@ -7,19 +7,19 @@
       <h4> <i class="glyphicon glyphicon-stats"></i> Task statistics overview</h4>  
       <div class="row text-center">
           <div class="col-md-3">
-            <p><input type="text" value="<%= $todo_count %>" class="dial" data-width="125" data-height="125" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <p><input type="text" value="<%= ($total_count * 100 )/$total_count %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
             <strong>Todo Tasks</strong>
           </div>
           <div class="col-md-3">
-            <p><input type="text" value="<%= $done_count %>" class="dial" data-width="125" data-height="125" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <p><input type="text" value="<%= ($done_count * 100)/$total_count %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
             <strong>Done Tasks</strong>
           </div>
           <div class="col-md-3">
-            <p><input type="text" value="<%= $unassigned_count %>" class="dial" data-width="125" data-height="125" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <p><input type="text" value="<%= int(($unassigned_count * 100)/$total_count) %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
             <strong>Unassigned Tasks</strong>
           </div>
           <div class="col-md-3">
-            <p><input type="text" value="<%= $noproject_count %>" class="dial" data-width="125" data-height="125" data-skin="tron" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
+            <p><input type="text" value="<%= int(($noproject_count * 100)/$total_count) %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
             <strong>Project Tasks</strong>
           </div>
       </div>
@@ -42,7 +42,7 @@
               <tr>
                   <td> <%= check_box id => $row? $row->id : '' %> </td>
                   <td>
-                   %= link_to '#' => (class => 'btn_detail', 'data-id' => $row? $row->id : $row) => begin
+                   %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
                     %= $row->title
                    % end
                   </td>
@@ -52,10 +52,10 @@
                   <td> -- </td>
                   <td>No</td>
                   <td>
-                   %= link_to '#' => (class => 'btn btn-danger btn-xs') => begin
+                   %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
                       <i class="glyphicon glyphicon-pencil"></i>
                    % end
-                   %= link_to '#' => (class => 'btn btn-danger btn-xs') => begin
+                   %= link_to '/task/remove/' . ($row? $row->id : 0) => (class => 'btn_remove btn btn-danger btn-xs', 'onclick' => 'return confirm("Are you sure that you want remove this?")') => begin
                       <i class="glyphicon glyphicon-trash"></i>
                    % end
                   </td>
@@ -74,6 +74,47 @@
     </div>
 </div>
 
+<!-- Details Modal -->
+<div id="modal_details" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Task: <span id="txt_title">Lorem ipsum dolor sit amet</span></h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+            <a href="" id="txt_project" class="label label-default">Project: Foo Project</a>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <strong>Due Date</strong>
+                    <span class="form-control">22/03/2014</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <strong>Closed </strong>
+                    <span class="form-control">21/03/2014</span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea disabled rows="5" class="well well-sm form-control" style="max:-height:200px;overflow:auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. </textarea>
+        </div>
+        <small><i class="glyphicon glyphicon-user"></i> <strong>Assigned to</strong> 
+        <span id="txt_assigned" class="label label-default">Daniel Vinciguerra</span></small>
+      </div>
+      <div class="modal-footer">
+        <small><a href="/task" class="label label-danger">View complete informations</a>&nbsp;
+        <a href="/task" class="label label-danger">(0) comments</a></small>&nbsp;
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /.modal -->
+
 
 % content_for 'javascript' => begin
     $(function(){
@@ -81,8 +122,27 @@
         /**
         * Start Components
         */
-        $(".dial").knob();
+        var modalDetails = $('#modal_details').modal({ show: false });
+        $(".dial").knob({ });
 
+        $('.btn_detail').click(function(e){
+            e.preventDefault();
+
+            var self = this;
+
+            var id = $(self).attr('data-id');
+            //$.ajax({
+            //    url: '/task/' + id,
+            //    dataType: 'json',
+            //    type: 'json',
+            //    success: function(res){
+            //    },
+            //    error: function(res){
+            //    }
+            //});
+
+            $(modalDetails).modal('show');
+        });
         
     });
 % end    
