@@ -74,6 +74,63 @@
     </div>
 </div>
 
+
+<!-- Edit Modal -->
+<div id="modal_edit" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Tasklicious - Edit Task</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="form-group">
+                    <strong>Title</strong>
+                    <input type="text" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <strong>Project</strong>
+                    <select id="" name="" class="form-control">
+                        <option value="">None</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <strong><i class="glyphicon glyphicon-calendar"></i> Due Date</strong>
+                    <span class="form-control">22/03/2014</span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <strong><i class="glyphicon glyphicon-calendar"></i> Closed </strong>
+                    <span class="form-control">21/03/2014</span>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea rows="5" class="form-control">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. </textarea>
+        </div>
+        <strong>Assigned to</strong> 
+        <input class="form-control" type="text" />
+      </div>
+      <div class="modal-footer">
+        <small><a href="/task" class="label label-danger">(0) comments</a></small>&nbsp;
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save Task</button>
+      </div>
+    </div>
+  </div>
+</div><!-- /.modal -->
+
+
+
 <!-- Details Modal -->
 <div id="modal_details" class="modal fade">
   <div class="modal-dialog">
@@ -123,7 +180,15 @@
         * Start Components
         */
         var modalDetails = $('#modal_details').modal({ show: false });
+        var modalEdit = $('#modal_edit').modal({ show: false });
         $(".dial").knob({ });
+
+        $('.btn_edit').click(function(e){
+            e.preventDefault();
+
+            var self = this;
+            $(modalEdit).modal('show');
+        });
 
         $('.btn_detail').click(function(e){
             e.preventDefault();
