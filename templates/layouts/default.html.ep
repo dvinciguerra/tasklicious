@@ -41,13 +41,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Help</a></li>
+            <li class="<%= stash('action') eq 'profile'? 'active': '' %>">
+            <%= link_to '/profile' => begin %> <i class="glyphicon glyphicon-dashboard"></i> Dashboard <% end %></li>
+            <li><%= link_to '/logout' => begin %> <i class="glyphicon glyphicon-off"></i> Logout <% end %></li>
           </ul>
-          <!-- form class="navbar-form navbar-right">
-            <input type="text" class="form-control" placeholder="Search...">
-          </form -->
         </div>
       </div>
     </div>
@@ -56,13 +53,13 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li><a href="#">Overview</a></li>
-            <li><a href="#">Tasks</a></li>
-            <li><a href="#">Projects</a></li>
+            <li class="<%= stash('controller') eq 'Home' && stash('action') eq 'profile'? 'active': '' %>"><a href="#">Overview</a></li>
+            <li class="<%= stash('controller') eq 'Task'? 'active': '' %>"><a href="#">Tasks</a></li>
+            <li class="<%= stash('controller') eq 'Project'? 'active': '' %>"><a href="#">Projects</a></li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <!-- h1 class="page-header">Dashboard</h1 -->
+          <h2 class="page-header"> <i class="glyphicon glyphicon-dashboard"></i> Dashboard <small>Overview and informations about tasks and projects</small>  </h2>
 
             <%= content %> 
 

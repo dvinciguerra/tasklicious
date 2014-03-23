@@ -8,19 +8,19 @@
       <div class="row text-center">
           <div class="col-md-3">
             <p><input type="text" value="<%= ($total_count * 100 )/$total_count %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong>Todo Tasks</strong>
+            <strong><span class="text-info">TODO</span> Tasks <small class="text-muted">(%)</small> </strong>
           </div>
           <div class="col-md-3">
             <p><input type="text" value="<%= ($done_count * 100)/$total_count %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong>Done Tasks</strong>
+            <strong> <span class="text-warning">DONE</span>  Tasks <small class="text-muted">(%)</small> </strong>
           </div>
           <div class="col-md-3">
             <p><input type="text" value="<%= int(($unassigned_count * 100)/$total_count) %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong>Unassigned Tasks</strong>
+            <strong>Unassigned <small class="text-muted">(%)</small> </strong>
           </div>
           <div class="col-md-3">
             <p><input type="text" value="<%= int(($noproject_count * 100)/$total_count) %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong>Project Tasks</strong>
+            <strong>Tasks with Projects <small class="text-muted">(%)</small> </strong>
           </div>
       </div>
 
