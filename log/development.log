@@ -7304,3 +7304,9 @@ Compilation failed in require at (eval 361) line 1.
 [Sun Mar 23 01:12:58 2014] [debug] Rendering template "home/profile.html.ep".
 [Sun Mar 23 01:12:58 2014] [debug] Rendering template "layouts/default.html.ep".
 [Sun Mar 23 01:12:58 2014] [debug] 200 OK (0.068377s, 14.625/s).
+[Sun Mar 23 01:15:54 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 01:15:54 2014] [debug] GET "/profile".
+[Sun Mar 23 01:15:54 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sun Mar 23 01:15:54 2014] [debug] Rendering template "home/profile.html.ep".
+[Sun Mar 23 01:15:54 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar 23 01:15:54 2014] [debug] 200 OK (0.070204s, 14.244/s).

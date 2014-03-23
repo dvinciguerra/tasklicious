@@ -4,6 +4,13 @@
 
 =head2 Tasklicious - Mojolicious Task WebApp
 
+=begin HTML
+
+<p><img src="https://raw.githubusercontent.com/dvinciguerra/tasklicious/master/screenshot.png" 
+alt="Tasklicious Screenshot" /></p>
+
+=end HTML
+
 This is a simple task application build using C<Mojolicious>
 
 The project will provide a simple web application for users can manage projects
