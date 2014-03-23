@@ -7310,3 +7310,35 @@ Compilation failed in require at (eval 361) line 1.
 [Sun Mar 23 01:15:54 2014] [debug] Rendering template "home/profile.html.ep".
 [Sun Mar 23 01:15:54 2014] [debug] Rendering template "layouts/default.html.ep".
 [Sun Mar 23 01:15:54 2014] [debug] 200 OK (0.070204s, 14.244/s).
+[Sun Mar 23 01:57:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 01:57:58 2014] [debug] GET "/profile".
+[Sun Mar 23 01:57:58 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sun Mar 23 01:57:58 2014] [debug] Rendering template "home/profile.html.ep".
+[Sun Mar 23 01:57:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar 23 01:57:58 2014] [debug] 200 OK (0.075516s, 13.242/s).
+[Sun Mar 23 01:57:59 2014] [debug] GET "/profile".
+[Sun Mar 23 01:57:59 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sun Mar 23 01:57:59 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sun Mar 23 01:57:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar 23 01:57:59 2014] [debug] 200 OK (0.032856s, 30.436/s).
+[Sun Mar 23 01:58:31 2014] [debug] GET "/profile".
+[Sun Mar 23 01:58:31 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sun Mar 23 01:58:31 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Sun Mar 23 01:58:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Sun Mar 23 01:58:31 2014] [debug] 200 OK (0.032488s, 30.781/s).
+[Sun Mar 23 01:58:32 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 01:58:32 2014] [debug] GET "/profile".
+[Sun Mar 23 01:58:32 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sun Mar 23 01:58:32 2014] [debug] Rendering template "home/profile.html.ep".
+[Sun Mar 23 01:58:32 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar 23 01:58:32 2014] [debug] 200 OK (0.070598s, 14.165/s).
+[Sun Mar 23 03:15:05 2014] [debug] GET "/task/list".
+[Sun Mar 23 03:15:05 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 365) line 1.
+
+[Sun Mar 23 03:15:05 2014] [debug] Template "exception.development.html.ep" not found.
+[Sun Mar 23 03:15:05 2014] [debug] Template "exception.html.ep" not found.
+[Sun Mar 23 03:15:05 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sun Mar 23 03:15:05 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sun Mar 23 03:15:05 2014] [debug] 500 Internal Server Error (0.070703s, 14.144/s).

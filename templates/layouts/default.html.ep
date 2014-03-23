@@ -54,15 +54,20 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="<%= stash('controller') eq 'Home' && stash('action') eq 'profile'? 'active': '' %>"><a href="#">Overview</a></li>
-            <li class="<%= stash('controller') eq 'Task'? 'active': '' %>"><a href="#">Tasks</a></li>
-            <li class="<%= stash('controller') eq 'Project'? 'active': '' %>"><a href="#">Projects</a></li>
+            <li class="<%= stash('controller') eq 'Task'? 'active': '' %>">
+                <%= link_to '/task/list' => begin  %> Task <% end %>
+            </li>
+            <li class="<%= stash('controller') eq 'Project'? 'active': '' %>">
+                <%= link_to '/project/list' => begin  %> Project <% end %>
+            </li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h2 class="page-header"> <i class="glyphicon glyphicon-dashboard"></i> Dashboard <small>Overview and informations about tasks and projects</small>  </h2>
 
             <%= content %> 
-
+            
+            <p class="text-center"><strong><small class="text-muted">2013-2014 &copy; Bivee</small></strong></p>
         </div>
       </div>
     </div>

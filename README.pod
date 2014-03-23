@@ -6,8 +6,7 @@
 
 =begin HTML
 
-<p><img src="https://raw.githubusercontent.com/dvinciguerra/tasklicious/master/screenshot.png" 
-alt="Tasklicious Screenshot" /></p>
+<p><img src="https://raw.githubusercontent.com/dvinciguerra/tasklicious/master/screenshot.png" alt="Tasklicious Screenshot" /></p>
 
 =end HTML
 
