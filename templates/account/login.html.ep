@@ -33,3 +33,10 @@
         %= $message->{text}
     </div>
 % }
+
+%= javascript begin
+    window.onload = function(){
+        document.getElementById('email').focus();
+    };
+% end
+
