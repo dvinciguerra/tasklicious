@@ -22,7 +22,7 @@ sub load {
         ->to( controller => 'Home', action => 'profile' );
     
     # routes to task actions
-    $route->any('/task/list')->over( authenticated => 1 )
+    $route->get('/task/list')->over( authenticated => 1 )
         ->to( controller => 'Task', action => 'list', );
 
     #add custom route here

@@ -1,37 +1,19 @@
 % layout 'default';
 
 
-<h2 class="page-header"> <i class="glyphicon glyphicon-dashboard"></i> Dashboard <small>Overview and informations about tasks and projects</small>  </h2>
+<h2 class="page-header"> <i class="glyphicon glyphicon-tasks"></i> Task List <small>List of all registered tasks</small>  </h2>
+
+<p class="text-right">
+    <a href="#" class="btn btn-danger btn-xs"> <i class="glyphicon glyphicon-chevron-left"></i> Back</a>
+    <a href="#" class="btn btn-danger btn-xs"> <i class="glyphicon glyphicon-plus"></i> Create New</a>
+</p>
 
 <div class="row">
     <div class="col-xs-12">
-    
-      <h4> <i class="glyphicon glyphicon-stats"></i> Task statistics overview</h4>  
-      <div class="row text-center">
-          <div class="col-md-3">
-            <p><input type="text" value="<%= ($total_count * 100 )/$total_count %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong><span class="text-info">TODO</span> Tasks <small class="text-muted">(%)</small> </strong>
-          </div>
-          <div class="col-md-3">
-            <p><input type="text" value="<%= ($done_count * 100)/$total_count %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong> <span class="text-warning">DONE</span>  Tasks <small class="text-muted">(%)</small> </strong>
-          </div>
-          <div class="col-md-3">
-            <p><input type="text" value="<%= int(($unassigned_count * 100)/$total_count) %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong>Unassigned <small class="text-muted">(%)</small> </strong>
-          </div>
-          <div class="col-md-3">
-            <p><input type="text" value="<%= int(($noproject_count * 100)/$total_count) %>" class="dial" data-width="125" data-height="125" data-thickness=".4" data-fgColor="#c12e2a" data-readOnly=true /></p>
-            <strong>Tasks with Projects <small class="text-muted">(%)</small> </strong>
-          </div>
-      </div>
-
-        
-      <h4><i class="glyphicon glyphicon-tasks"></i> Last 5 tasks</h4>  
       <table class="table table-striped table-bordered">
           <thead>
               <tr>
-                  <th> <input type="checkbox" /></th>
+                  <th class="text-center"> <input type="checkbox" id="chk_select_all" value="0" /></th>
                   <th>Title</th>
                   <th>Assigned</th>
                   <th>Due Date</th>
@@ -42,14 +24,20 @@
           <tbody>
 % for my $row ( $list->all ) {          
               <tr>
-                  <td> <%= check_box id => $row? $row->id : '' %> </td>
+                  <td class="text-center"> <%= check_box id => $row? $row->id : '' %> </td>
                   <td>
                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
                     %= $row->title
                    % end
                   </td>
                   <td>
-                    %= $row->assigned
+                    % if($row->assigned > 0){
+                       %= link_to '/user/profile/'. $row->assigned_to->id => (class => 'btn_user', 'data-id' => $row->assigned? $row->assigned_to->id : '0') => begin
+                        %= $row->assigned_to->name
+                       % end
+                    % } else {
+                        none
+                    % }
                   </td>
                   <td> -- </td>
                   <td>No</td>
@@ -72,6 +60,10 @@
 % }          
           </tbody>
       </table>
+
+      <div>
+        <a href="#" class="btn btn-danger btn-xs"> <i class="glyphicon glyphicon-trash"></i> Delete All</a>
+      </div>
     
     </div>
 </div>
@@ -184,6 +176,18 @@
         var modalDetails = $('#modal_details').modal({ show: false });
         var modalEdit = $('#modal_edit').modal({ show: false });
         $(".dial").knob({ });
+
+        $('#chk_select_all').change(function(e){
+            var self = $(this);
+            var checkbox_list = $('table').find(':checkbox');
+
+            if($(self).is(':checked')){
+                checkbox_list.attr('checked', 'checked');
+            } else {
+                checkbox_list.removeAttr('checked');
+            }
+        });
+
 
         $('.btn_edit').click(function(e){
             e.preventDefault();

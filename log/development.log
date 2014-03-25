@@ -7342,3 +7342,2038 @@ Compilation failed in require at (eval 365) line 1.
 [Sun Mar 23 03:15:05 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
 [Sun Mar 23 03:15:05 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
 [Sun Mar 23 03:15:05 2014] [debug] 500 Internal Server Error (0.070703s, 14.144/s).
+[Sun Mar 23 11:18:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:18:53 2014] [debug] GET "/".
+[Sun Mar 23 11:18:53 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Sun Mar 23 11:18:53 2014] [debug] 302 Found (0.045164s, 22.142/s).
+[Sun Mar 23 11:18:53 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:18:53 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:18:53 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:18:53 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:18:53 2014] [debug] 200 OK (0.564307s, 1.772/s).
+[Sun Mar 23 11:21:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:21:45 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:21:45 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:21:45 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:21:45 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:21:45 2014] [debug] 200 OK (0.158646s, 6.303/s).
+[Sun Mar 23 11:21:47 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:21:47 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:21:47 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:21:47 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:21:47 2014] [debug] 200 OK (0.004404s, 227.066/s).
+[Sun Mar 23 11:21:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:21:56 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:21:56 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:21:56 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:21:56 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:21:56 2014] [debug] 200 OK (0.163345s, 6.122/s).
+[Sun Mar 23 11:21:58 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:21:58 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:21:58 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:21:58 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:21:58 2014] [debug] 200 OK (0.004442s, 225.124/s).
+[Sun Mar 23 11:22:03 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:03 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:03 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:03 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:03 2014] [debug] 200 OK (0.006402s, 156.201/s).
+[Sun Mar 23 11:22:05 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:22:05 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:05 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:05 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:22:05 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:22:05 2014] [debug] 200 OK (0.149154s, 6.704/s).
+[Sun Mar 23 11:22:06 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:06 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:06 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:06 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:06 2014] [debug] 200 OK (0.017979s, 55.620/s).
+[Sun Mar 23 11:22:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:22:34 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:34 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:34 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:22:34 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:22:34 2014] [debug] 200 OK (0.152363s, 6.563/s).
+[Sun Mar 23 11:22:36 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:36 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:36 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:36 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:36 2014] [debug] 200 OK (0.003565s, 280.505/s).
+[Sun Mar 23 11:22:37 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:37 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:37 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:37 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:37 2014] [debug] 200 OK (0.006388s, 156.544/s).
+[Sun Mar 23 11:22:38 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:38 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:38 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:38 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:38 2014] [debug] 200 OK (0.006466s, 154.655/s).
+[Sun Mar 23 11:22:38 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:38 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:38 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:38 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:38 2014] [debug] 200 OK (0.005095s, 196.271/s).
+[Sun Mar 23 11:22:38 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:38 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:38 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:38 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:38 2014] [debug] 200 OK (0.006575s, 152.091/s).
+[Sun Mar 23 11:22:41 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] 200 OK (0.005570s, 179.533/s).
+[Sun Mar 23 11:22:41 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] 200 OK (0.006613s, 151.217/s).
+[Sun Mar 23 11:22:41 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] 200 OK (0.004746s, 210.704/s).
+[Sun Mar 23 11:22:41 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:41 2014] [debug] 200 OK (0.005271s, 189.717/s).
+[Sun Mar 23 11:22:42 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:42 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:42 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:42 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:42 2014] [debug] 200 OK (0.005132s, 194.856/s).
+[Sun Mar 23 11:22:42 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:42 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:42 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:42 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:42 2014] [debug] 200 OK (0.004349s, 229.938/s).
+[Sun Mar 23 11:22:42 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:42 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:42 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:42 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:42 2014] [debug] 200 OK (0.006678s, 149.745/s).
+[Sun Mar 23 11:22:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:22:50 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:50 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:50 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:22:50 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:22:50 2014] [debug] 200 OK (0.144460s, 6.922/s).
+[Sun Mar 23 11:22:51 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:51 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:51 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:51 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:51 2014] [debug] 200 OK (0.005663s, 176.585/s).
+[Sun Mar 23 11:22:52 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:52 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:52 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:52 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:52 2014] [debug] 200 OK (0.005409s, 184.877/s).
+[Sun Mar 23 11:22:53 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:53 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:53 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:53 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:53 2014] [debug] 200 OK (0.005014s, 199.442/s).
+[Sun Mar 23 11:22:53 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:53 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:53 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:53 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:53 2014] [debug] 200 OK (0.006699s, 149.276/s).
+[Sun Mar 23 11:22:53 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:22:53 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:22:53 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:22:53 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:22:53 2014] [debug] 200 OK (0.005261s, 190.078/s).
+[Sun Mar 23 11:23:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:23:39 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:23:39 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:23:39 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:23:39 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:23:39 2014] [debug] 200 OK (0.151033s, 6.621/s).
+[Sun Mar 23 11:23:40 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:23:40 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:23:40 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:23:40 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:23:40 2014] [debug] 200 OK (0.006842s, 146.156/s).
+[Sun Mar 23 11:23:40 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:23:40 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:23:40 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:23:40 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:23:40 2014] [debug] 200 OK (0.007521s, 132.961/s).
+[Sun Mar 23 11:23:41 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:23:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:23:41 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:23:41 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:23:41 2014] [debug] 200 OK (0.006705s, 149.142/s).
+[Sun Mar 23 11:23:41 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:23:41 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:23:41 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:23:41 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:23:41 2014] [debug] 200 OK (0.004676s, 213.858/s).
+[Sun Mar 23 11:23:57 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:23:57 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:23:57 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:23:57 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:23:57 2014] [debug] 200 OK (0.006411s, 155.982/s).
+[Sun Mar 23 11:24:00 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:24:00 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:24:00 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:24:00 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:24:00 2014] [debug] 200 OK (0.005728s, 174.581/s).
+[Sun Mar 23 11:24:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:24:14 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:24:14 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:24:14 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:24:14 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:24:14 2014] [debug] 200 OK (0.145091s, 6.892/s).
+[Sun Mar 23 11:24:16 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:24:16 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:24:16 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:24:16 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:24:16 2014] [debug] 200 OK (0.006714s, 148.943/s).
+[Sun Mar 23 11:24:17 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:24:17 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:24:17 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 11:24:17 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:24:17 2014] [debug] 200 OK (0.006639s, 150.625/s).
+[Sun Mar 23 11:25:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:25:15 2014] [debug] GET "/account/login".
+[Sun Mar 23 11:25:15 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:25:15 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:25:16 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:25:16 2014] [debug] 200 OK (0.152953s, 6.538/s).
+[Sun Mar 23 11:25:22 2014] [debug] POST "/account/login".
+[Sun Mar 23 11:25:22 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:25:23 2014] [debug] 302 Found (0.683468s, 1.463/s).
+[Sun Mar 23 11:25:23 2014] [debug] GET "/profile".
+[Sun Mar 23 11:25:23 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sun Mar 23 11:25:23 2014] [debug] Rendering template "home/profile.html.ep".
+[Sun Mar 23 11:25:23 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar 23 11:25:23 2014] [debug] 200 OK (0.082851s, 12.070/s).
+[Sun Mar 23 11:25:32 2014] [debug] GET "/logout".
+[Sun Mar 23 11:25:32 2014] [debug] Controller "Tasklicious::Controller::Logout" does not exist.
+[Sun Mar 23 11:25:32 2014] [debug] Template "logout/index.html.ep" not found.
+[Sun Mar 23 11:25:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar 23 11:25:32 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Mar 23 11:25:32 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sun Mar 23 11:25:32 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sun Mar 23 11:25:32 2014] [debug] 404 Not Found (0.049754s, 20.099/s).
+[Sun Mar 23 11:26:25 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:26:25 2014] [debug] GET "/logout".
+[Sun Mar 23 11:26:25 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "logout".
+[Sun Mar 23 11:26:25 2014] [debug] Action not found in controller.
+[Sun Mar 23 11:26:25 2014] [debug] Template "account/logout.html.ep" not found.
+[Sun Mar 23 11:26:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Sun Mar 23 11:26:25 2014] [debug] Template "not_found.html.ep" not found.
+[Sun Mar 23 11:26:25 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Sun Mar 23 11:26:25 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Sun Mar 23 11:26:25 2014] [debug] 404 Not Found (0.148147s, 6.750/s).
+[Sun Mar 23 11:29:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 11:29:45 2014] [debug] GET "/profile".
+[Sun Mar 23 11:29:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Sun Mar 23 11:29:45 2014] [debug] Rendering template "home/profile.html.ep".
+[Sun Mar 23 11:29:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Sun Mar 23 11:29:45 2014] [debug] 200 OK (0.085689s, 11.670/s).
+[Sun Mar 23 11:29:47 2014] [debug] GET "/logout".
+[Sun Mar 23 11:29:47 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "logout".
+[Sun Mar 23 11:29:47 2014] [debug] 302 Found (0.110976s, 9.011/s).
+[Sun Mar 23 11:29:47 2014] [debug] GET "/login".
+[Sun Mar 23 11:29:47 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 11:29:47 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 11:29:47 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:29:47 2014] [debug] 200 OK (0.010989s, 91.000/s).
+[Sun Mar 23 11:30:00 2014] [debug] GET "/account/forgot".
+[Sun Mar 23 11:30:00 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "forgot".
+[Sun Mar 23 11:30:00 2014] [debug] Rendering template "account/forgot.html.ep".
+[Sun Mar 23 11:30:00 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 11:30:00 2014] [debug] 200 OK (0.060744s, 16.463/s).
+[Sun Mar 23 11:30:05 2014] [debug] POST "/account/forgot".
+[Sun Mar 23 11:30:05 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "forgot".
+[Sun Mar 23 11:30:05 2014] [debug] 
+[Sun Mar 23 11:30:05 2014] [debug] Rendering cached template "account/forgot.html.ep".
+[Sun Mar 23 11:30:05 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 11:30:05 2014] [debug] 200 OK (0.414885s, 2.410/s).
+[Sun Mar 23 12:18:27 2014] [debug] Your secret passphrase needs to be changed!!!
+[Sun Mar 23 12:18:27 2014] [debug] GET "/login".
+[Sun Mar 23 12:18:27 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 12:18:27 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 12:18:27 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 12:18:27 2014] [debug] 200 OK (0.163228s, 6.126/s).
+[Sun Mar 23 12:18:30 2014] [debug] GET "/register".
+[Sun Mar 23 12:18:30 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sun Mar 23 12:18:30 2014] [debug] Rendering template "account/register.html.ep".
+[Sun Mar 23 12:18:30 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 12:18:30 2014] [debug] 200 OK (0.027813s, 35.954/s).
+[Sun Mar 23 12:18:34 2014] [debug] GET "/login".
+[Sun Mar 23 12:18:34 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 12:18:34 2014] [debug] Rendering cached template "account/login.html.ep".
+[Sun Mar 23 12:18:34 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 12:18:34 2014] [debug] 200 OK (0.006315s, 158.353/s).
+[Sun Mar 23 12:18:36 2014] [debug] GET "/register".
+[Sun Mar 23 12:18:36 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sun Mar 23 12:18:36 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sun Mar 23 12:18:36 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 12:18:36 2014] [debug] 200 OK (0.005364s, 186.428/s).
+[Sun Mar 23 12:18:39 2014] [debug] GET "/register".
+[Sun Mar 23 12:18:39 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "register".
+[Sun Mar 23 12:18:39 2014] [debug] Rendering cached template "account/register.html.ep".
+[Sun Mar 23 12:18:39 2014] [debug] Rendering cached template "layouts/account.html.ep".
+[Sun Mar 23 12:18:39 2014] [debug] 200 OK (0.003225s, 310.078/s).
+[Sun Mar 23 22:41:34 2014] [debug] GET "/".
+[Sun Mar 23 22:41:34 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Sun Mar 23 22:41:34 2014] [debug] 302 Found (0.050786s, 19.690/s).
+[Sun Mar 23 22:41:34 2014] [debug] GET "/account/login".
+[Sun Mar 23 22:41:34 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Sun Mar 23 22:41:34 2014] [debug] Rendering template "account/login.html.ep".
+[Sun Mar 23 22:41:34 2014] [debug] Rendering template "layouts/account.html.ep".
+[Sun Mar 23 22:41:34 2014] [debug] 200 OK (0.228248s, 4.381/s).
+[Mon Mar 24 16:28:57 2014] [info] Listening at "http://*:3000".
+[Mon Mar 24 16:29:02 2014] [debug] Your secret passphrase needs to be changed!!!
+[Mon Mar 24 16:29:02 2014] [debug] GET "/".
+[Mon Mar 24 16:29:02 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Mon Mar 24 16:29:02 2014] [debug] 302 Found (0.028456s, 35.142/s).
+[Mon Mar 24 16:29:02 2014] [debug] GET "/account/login".
+[Mon Mar 24 16:29:03 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Mon Mar 24 16:29:03 2014] [debug] Rendering template "account/login.html.ep".
+[Mon Mar 24 16:29:03 2014] [debug] Rendering template "layouts/account.html.ep".
+[Mon Mar 24 16:29:03 2014] [debug] 200 OK (0.704164s, 1.420/s).
+[Mon Mar 24 16:29:24 2014] [debug] POST "/account/login".
+[Mon Mar 24 16:29:24 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Mon Mar 24 16:29:24 2014] [debug] 302 Found (0.850132s, 1.176/s).
+[Mon Mar 24 16:29:24 2014] [debug] GET "/profile".
+[Mon Mar 24 16:29:24 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Mon Mar 24 16:29:24 2014] [debug] Rendering template "home/profile.html.ep".
+[Mon Mar 24 16:29:24 2014] [debug] Rendering template "layouts/default.html.ep".
+[Mon Mar 24 16:29:25 2014] [debug] 200 OK (0.129874s, 7.700/s).
+[Mon Mar 24 16:31:32 2014] [debug] GET "/profile".
+[Mon Mar 24 16:31:32 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Mon Mar 24 16:31:32 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Mon Mar 24 16:31:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Mon Mar 24 16:31:32 2014] [debug] 200 OK (0.030299s, 33.004/s).
+[Mon Mar 24 16:32:52 2014] [debug] GET "/task/remove/6".
+[Mon Mar 24 16:32:52 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 386) line 1.
+
+[Mon Mar 24 16:32:52 2014] [debug] Template "exception.development.html.ep" not found.
+[Mon Mar 24 16:32:52 2014] [debug] Template "exception.html.ep" not found.
+[Mon Mar 24 16:32:52 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Mon Mar 24 16:32:52 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Mon Mar 24 16:32:52 2014] [debug] 500 Internal Server Error (0.063332s, 15.790/s).
+[Tue Mar 25 09:56:39 2014] [info] Listening at "http://*:3000".
+[Tue Mar 25 09:56:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 09:56:45 2014] [debug] GET "/".
+[Tue Mar 25 09:56:45 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Tue Mar 25 09:56:45 2014] [debug] 302 Found (0.018284s, 54.693/s).
+[Tue Mar 25 09:56:45 2014] [debug] GET "/account/login".
+[Tue Mar 25 09:56:46 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Tue Mar 25 09:56:46 2014] [debug] Rendering template "account/login.html.ep".
+[Tue Mar 25 09:56:46 2014] [debug] Rendering template "layouts/account.html.ep".
+[Tue Mar 25 09:56:46 2014] [debug] 200 OK (0.761633s, 1.313/s).
+[Tue Mar 25 09:56:53 2014] [debug] POST "/account/login".
+[Tue Mar 25 09:56:53 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Tue Mar 25 09:56:54 2014] [debug] 302 Found (0.653447s, 1.530/s).
+[Tue Mar 25 09:56:54 2014] [debug] GET "/profile".
+[Tue Mar 25 09:56:54 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 09:56:54 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 09:56:54 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 09:56:54 2014] [debug] 200 OK (0.121377s, 8.239/s).
+[Tue Mar 25 09:57:02 2014] [debug] GET "/task/list".
+[Tue Mar 25 09:57:02 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 386) line 1.
+
+[Tue Mar 25 09:57:02 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 09:57:02 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 09:57:02 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 09:57:02 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 09:57:02 2014] [debug] 500 Internal Server Error (0.067336s, 14.851/s).
+[Tue Mar 25 09:58:53 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 09:58:53 2014] [debug] GET "/task/list".
+[Tue Mar 25 09:58:53 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Tue Mar 25 09:58:53 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 09:58:53 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 09:58:53 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 09:58:53 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 09:58:53 2014] [debug] 500 Internal Server Error (0.085447s, 11.703/s).
+[Tue Mar 25 09:58:54 2014] [debug] GET "/task/list".
+[Tue Mar 25 09:58:54 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 09:58:54 2014] [debug] Action not found in controller.
+[Tue Mar 25 09:58:54 2014] [debug] Template "task/list.html.ep" not found.
+[Tue Mar 25 09:58:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 09:58:54 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 09:58:54 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 09:58:54 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 09:58:54 2014] [debug] 404 Not Found (0.019245s, 51.962/s).
+[Tue Mar 25 09:58:55 2014] [debug] GET "/task/list".
+[Tue Mar 25 09:58:55 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 09:58:55 2014] [debug] Action not found in controller.
+[Tue Mar 25 09:58:55 2014] [debug] Template "task/list.html.ep" not found.
+[Tue Mar 25 09:58:55 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 09:58:55 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 09:58:55 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 09:58:55 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 09:58:55 2014] [debug] 404 Not Found (0.017250s, 57.971/s).
+[Tue Mar 25 09:58:56 2014] [debug] GET "/task/list".
+[Tue Mar 25 09:58:56 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 09:58:56 2014] [debug] Action not found in controller.
+[Tue Mar 25 09:58:56 2014] [debug] Template "task/list.html.ep" not found.
+[Tue Mar 25 09:58:56 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 09:58:56 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 09:58:56 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 09:58:56 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 09:58:56 2014] [debug] 404 Not Found (0.021459s, 46.600/s).
+[Tue Mar 25 09:58:57 2014] [debug] GET "/task/list".
+[Tue Mar 25 09:58:57 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 09:58:57 2014] [debug] Action not found in controller.
+[Tue Mar 25 09:58:57 2014] [debug] Template "task/list.html.ep" not found.
+[Tue Mar 25 09:58:57 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 09:58:57 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 09:58:57 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 09:58:57 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 09:58:57 2014] [debug] 404 Not Found (0.024953s, 40.075/s).
+[Tue Mar 25 10:00:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 10:00:51 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:00:51 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Tue Mar 25 10:00:51 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 10:00:51 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 10:00:51 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:00:51 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:00:51 2014] [debug] 500 Internal Server Error (0.085126s, 11.747/s).
+[Tue Mar 25 10:01:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:01:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:01:01 2014] [debug] Action not found in controller.
+[Tue Mar 25 10:01:01 2014] [debug] Template "task/list.html.ep" not found.
+[Tue Mar 25 10:01:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:01:01 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:01:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:01:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:01:01 2014] [debug] 404 Not Found (0.019743s, 50.651/s).
+[Tue Mar 25 10:01:51 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 10:01:51 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:01:51 2014] [error] Can't locate Tasklicious/API.pm in @INC (@INC contains: /home/dvinciguerra/Desktop/project/tasklicious/lib /usr/local/bin/../lib /home/dvinciguerra/perl5/lib /etc/perl /usr/local/lib/perl/5.14.2 /usr/local/share/perl/5.14.2 /usr/lib/perl5 /usr/share/perl5 /usr/lib/perl/5.14 /usr/share/perl/5.14 /usr/local/lib/site_perl .) at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+BEGIN failed--compilation aborted at /home/dvinciguerra/Desktop/project/tasklicious/lib/Tasklicious/Controller/Task.pm line 4.
+Compilation failed in require at (eval 361) line 1.
+
+[Tue Mar 25 10:01:51 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 10:01:51 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 10:01:51 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:01:51 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:01:51 2014] [debug] 500 Internal Server Error (0.085127s, 11.747/s).
+[Tue Mar 25 10:01:53 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:01:53 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:01:53 2014] [debug] Action not found in controller.
+[Tue Mar 25 10:01:53 2014] [debug] Template "task/list.html.ep" not found.
+[Tue Mar 25 10:01:53 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:01:53 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:01:53 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:01:53 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:01:53 2014] [debug] 404 Not Found (0.022051s, 45.349/s).
+[Tue Mar 25 10:01:54 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:01:54 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:01:54 2014] [debug] Action not found in controller.
+[Tue Mar 25 10:01:54 2014] [debug] Template "task/list.html.ep" not found.
+[Tue Mar 25 10:01:54 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:01:54 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:01:54 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:01:54 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:01:54 2014] [debug] 404 Not Found (0.018475s, 54.127/s).
+[Tue Mar 25 10:02:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 10:02:14 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:14 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:14 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:14 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:14 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:14 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:14 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:14 2014] [debug] 404 Not Found (0.094821s, 10.546/s).
+[Tue Mar 25 10:02:15 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:15 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:15 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:15 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:15 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:15 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:15 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:15 2014] [debug] 404 Not Found (0.025651s, 38.985/s).
+[Tue Mar 25 10:02:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:16 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:16 2014] [debug] 404 Not Found (0.026367s, 37.926/s).
+[Tue Mar 25 10:02:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:16 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:16 2014] [debug] 404 Not Found (0.033186s, 30.133/s).
+[Tue Mar 25 10:02:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:16 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:16 2014] [debug] 404 Not Found (0.022678s, 44.096/s).
+[Tue Mar 25 10:02:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:16 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:16 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:16 2014] [debug] 404 Not Found (0.033226s, 30.097/s).
+[Tue Mar 25 10:02:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:17 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:17 2014] [debug] 404 Not Found (0.022849s, 43.766/s).
+[Tue Mar 25 10:02:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:17 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:17 2014] [debug] 404 Not Found (0.032507s, 30.763/s).
+[Tue Mar 25 10:02:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:17 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:17 2014] [debug] 404 Not Found (0.023093s, 43.303/s).
+[Tue Mar 25 10:02:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:02:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:02:17 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:02:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:02:17 2014] [debug] 404 Not Found (0.023018s, 43.444/s).
+[Tue Mar 25 10:03:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 10:03:58 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:03:58 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:03:58 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:03:58 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:03:58 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:03:58 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:03:58 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:03:58 2014] [debug] 404 Not Found (0.091946s, 10.876/s).
+[Tue Mar 25 10:03:59 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:03:59 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:03:59 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:03:59 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:03:59 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:03:59 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:03:59 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:03:59 2014] [debug] 404 Not Found (0.029110s, 34.352/s).
+[Tue Mar 25 10:03:59 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:03:59 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:03:59 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:03:59 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:03:59 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:03:59 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:03:59 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:03:59 2014] [debug] 404 Not Found (0.030161s, 33.155/s).
+[Tue Mar 25 10:04:00 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:00 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:00 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:00 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:00 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:00 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:00 2014] [debug] 404 Not Found (0.025637s, 39.006/s).
+[Tue Mar 25 10:04:00 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:00 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:00 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:00 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:00 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:00 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:00 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:00 2014] [debug] 404 Not Found (0.034860s, 28.686/s).
+[Tue Mar 25 10:04:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:01 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:01 2014] [debug] 404 Not Found (0.026360s, 37.936/s).
+[Tue Mar 25 10:04:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:01 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:01 2014] [debug] 404 Not Found (0.031990s, 31.260/s).
+[Tue Mar 25 10:04:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:01 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:01 2014] [debug] 404 Not Found (0.025426s, 39.330/s).
+[Tue Mar 25 10:04:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:01 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:01 2014] [debug] 404 Not Found (0.032077s, 31.175/s).
+[Tue Mar 25 10:04:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:01 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:01 2014] [debug] 404 Not Found (0.032237s, 31.020/s).
+[Tue Mar 25 10:04:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:01 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:01 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:02 2014] [debug] 404 Not Found (0.021276s, 47.001/s).
+[Tue Mar 25 10:04:38 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 10:04:39 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:39 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:39 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:39 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:39 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:39 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:39 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:39 2014] [debug] 404 Not Found (0.105681s, 9.462/s).
+[Tue Mar 25 10:04:39 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:39 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:39 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:39 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:39 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:39 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:39 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:39 2014] [debug] 404 Not Found (0.024578s, 40.687/s).
+[Tue Mar 25 10:04:40 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:40 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:40 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:40 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:40 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:40 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:40 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:40 2014] [debug] 404 Not Found (0.025027s, 39.957/s).
+[Tue Mar 25 10:04:41 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:41 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:41 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:41 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:41 2014] [debug] 404 Not Found (0.029369s, 34.050/s).
+[Tue Mar 25 10:04:41 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:41 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:41 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:41 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:41 2014] [debug] 404 Not Found (0.023023s, 43.435/s).
+[Tue Mar 25 10:04:41 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:41 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:41 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:41 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:41 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:41 2014] [debug] 404 Not Found (0.021110s, 47.371/s).
+[Tue Mar 25 10:04:42 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:42 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:42 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:42 2014] [debug] 404 Not Found (0.023530s, 42.499/s).
+[Tue Mar 25 10:04:42 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:42 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:42 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:42 2014] [debug] 404 Not Found (0.020797s, 48.084/s).
+[Tue Mar 25 10:04:42 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:42 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:42 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:42 2014] [debug] 404 Not Found (0.028525s, 35.057/s).
+[Tue Mar 25 10:04:42 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:42 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:42 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:42 2014] [debug] 404 Not Found (0.024715s, 40.461/s).
+[Tue Mar 25 10:04:42 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:42 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:42 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:42 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:42 2014] [debug] 404 Not Found (0.025135s, 39.785/s).
+[Tue Mar 25 10:04:48 2014] [info] Listening at "http://*:3000".
+[Tue Mar 25 10:04:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 10:04:50 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:04:50 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:04:50 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:04:50 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:04:50 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:04:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:04:51 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:04:51 2014] [debug] 404 Not Found (0.107763s, 9.280/s).
+[Tue Mar 25 10:18:11 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:18:11 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:18:11 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:18:11 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:18:11 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:18:11 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:18:11 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:18:11 2014] [debug] 404 Not Found (0.022791s, 43.877/s).
+[Tue Mar 25 10:38:12 2014] [debug] GET "/task/list".
+[Tue Mar 25 10:38:12 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 10:38:12 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 10:38:12 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 10:38:12 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 10:38:12 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 10:38:12 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 10:38:12 2014] [debug] 404 Not Found (0.025051s, 39.919/s).
+[Tue Mar 25 11:04:13 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:04:13 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:13 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:13 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:13 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:13 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:13 2014] [debug] 404 Not Found (0.049515s, 20.196/s).
+[Tue Mar 25 11:04:15 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:15 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:15 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:15 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:15 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:15 2014] [debug] 404 Not Found (0.021168s, 47.241/s).
+[Tue Mar 25 11:04:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:16 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:16 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:16 2014] [debug] 404 Not Found (0.017457s, 57.284/s).
+[Tue Mar 25 11:04:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:16 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:16 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:16 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:16 2014] [debug] 404 Not Found (0.020455s, 48.888/s).
+[Tue Mar 25 11:04:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:17 2014] [debug] 404 Not Found (0.022279s, 44.885/s).
+[Tue Mar 25 11:04:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:17 2014] [debug] 404 Not Found (0.018925s, 52.840/s).
+[Tue Mar 25 11:04:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:17 2014] [debug] 404 Not Found (0.020004s, 49.990/s).
+[Tue Mar 25 11:04:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:17 2014] [debug] 404 Not Found (0.023349s, 42.828/s).
+[Tue Mar 25 11:04:18 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:18 2014] [debug] 404 Not Found (0.019685s, 50.800/s).
+[Tue Mar 25 11:04:18 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:18 2014] [debug] 404 Not Found (0.015397s, 64.948/s).
+[Tue Mar 25 11:04:18 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:18 2014] [debug] 404 Not Found (0.017570s, 56.915/s).
+[Tue Mar 25 11:04:18 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:18 2014] [debug] 404 Not Found (0.019437s, 51.448/s).
+[Tue Mar 25 11:04:18 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:18 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:18 2014] [debug] 404 Not Found (0.016185s, 61.786/s).
+[Tue Mar 25 11:04:43 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:04:43 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:43 2014] [debug] Template "tasklist.html.ep" not found.
+[Tue Mar 25 11:04:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:43 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:43 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:43 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:43 2014] [debug] 404 Not Found (0.053399s, 18.727/s).
+[Tue Mar 25 11:04:44 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:44 2014] [debug] Template "tasklist.html.ep" not found.
+[Tue Mar 25 11:04:44 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:44 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:44 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:44 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:44 2014] [debug] 404 Not Found (0.021525s, 46.458/s).
+[Tue Mar 25 11:04:45 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:45 2014] [debug] Template "tasklist.html.ep" not found.
+[Tue Mar 25 11:04:45 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:45 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:45 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:45 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:45 2014] [debug] 404 Not Found (0.023535s, 42.490/s).
+[Tue Mar 25 11:04:46 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:46 2014] [debug] Template "tasklist.html.ep" not found.
+[Tue Mar 25 11:04:46 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:46 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:46 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:46 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:46 2014] [debug] 404 Not Found (0.020074s, 49.816/s).
+[Tue Mar 25 11:04:47 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:04:47 2014] [debug] Template "tasklist.html.ep" not found.
+[Tue Mar 25 11:04:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:04:47 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:04:47 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:04:47 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:04:47 2014] [debug] 404 Not Found (0.018841s, 53.076/s).
+[Tue Mar 25 11:05:30 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:30 2014] [debug] Template "tasklist.html.ep" not found.
+[Tue Mar 25 11:05:30 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:30 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:30 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:30 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:30 2014] [debug] 404 Not Found (0.015852s, 63.084/s).
+[Tue Mar 25 11:05:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:05:31 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:31 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:31 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:31 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:31 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:31 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:31 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:31 2014] [debug] 404 Not Found (0.056113s, 17.821/s).
+[Tue Mar 25 11:05:32 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:32 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:32 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:32 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:32 2014] [debug] 404 Not Found (0.023210s, 43.085/s).
+[Tue Mar 25 11:05:32 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:32 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:32 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:32 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:32 2014] [debug] 404 Not Found (0.027710s, 36.088/s).
+[Tue Mar 25 11:05:32 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:32 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:32 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:32 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:32 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:32 2014] [debug] 404 Not Found (0.023768s, 42.073/s).
+[Tue Mar 25 11:05:33 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:33 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:33 2014] [debug] 404 Not Found (0.039064s, 25.599/s).
+[Tue Mar 25 11:05:33 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:33 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:33 2014] [debug] 404 Not Found (0.025147s, 39.766/s).
+[Tue Mar 25 11:05:33 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:33 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:33 2014] [debug] 404 Not Found (0.033408s, 29.933/s).
+[Tue Mar 25 11:05:33 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:33 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:33 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:33 2014] [debug] 404 Not Found (0.028221s, 35.435/s).
+[Tue Mar 25 11:05:34 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:34 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:34 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:34 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:34 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:34 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:34 2014] [debug] 404 Not Found (0.034572s, 28.925/s).
+[Tue Mar 25 11:05:34 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:34 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:34 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:34 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:34 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:34 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:34 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:34 2014] [debug] 404 Not Found (0.024213s, 41.300/s).
+[Tue Mar 25 11:05:43 2014] [info] Listening at "http://*:3000".
+[Tue Mar 25 11:05:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:05:45 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:45 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:45 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:45 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:45 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:45 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:45 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:45 2014] [debug] 404 Not Found (0.060039s, 16.656/s).
+[Tue Mar 25 11:05:46 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:05:46 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:05:46 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:05:46 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:05:46 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:05:46 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:05:46 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:05:46 2014] [debug] 404 Not Found (0.030814s, 32.453/s).
+[Tue Mar 25 11:12:34 2014] [info] Listening at "http://*:3000".
+[Tue Mar 25 11:12:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:12:36 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:12:36 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:12:36 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:12:36 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:12:36 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:12:36 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:12:36 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:12:36 2014] [debug] 404 Not Found (0.056785s, 17.610/s).
+[Tue Mar 25 11:12:38 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:12:38 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:12:38 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:12:38 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:12:38 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:12:38 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:12:38 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:12:38 2014] [debug] 404 Not Found (0.030112s, 33.209/s).
+[Tue Mar 25 11:12:41 2014] [debug] GET "/".
+[Tue Mar 25 11:12:41 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Tue Mar 25 11:12:41 2014] [debug] 302 Found (0.001771s, 564.653/s).
+[Tue Mar 25 11:12:41 2014] [debug] GET "/profile".
+[Tue Mar 25 11:12:41 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 11:12:41 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 11:12:42 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 11:12:42 2014] [debug] 200 OK (0.066270s, 15.090/s).
+[Tue Mar 25 11:12:43 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:12:43 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:12:43 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:12:43 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:12:43 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:12:43 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:12:43 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:12:43 2014] [debug] 404 Not Found (0.031059s, 32.197/s).
+[Tue Mar 25 11:16:32 2014] [info] Listening at "http://*:3000".
+[Tue Mar 25 11:16:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:16:57 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:16:57 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:16:57 2014] [debug] Template "list.html.ep" not found.
+[Tue Mar 25 11:16:57 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 11:16:57 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 11:16:57 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 11:16:57 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 11:16:57 2014] [debug] 404 Not Found (0.059768s, 16.731/s).
+[Tue Mar 25 11:18:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:18:44 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:18:44 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:18:44 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 11:18:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 11:18:44 2014] [debug] 200 OK (0.067818s, 14.745/s).
+[Tue Mar 25 11:20:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:20:04 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:20:04 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:20:04 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 11:20:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 11:20:04 2014] [debug] 200 OK (0.065534s, 15.259/s).
+[Tue Mar 25 11:21:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 11:21:20 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:21:20 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:21:20 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 11:21:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 11:21:20 2014] [debug] 200 OK (0.078138s, 12.798/s).
+[Tue Mar 25 11:21:22 2014] [debug] GET "/profile".
+[Tue Mar 25 11:21:22 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 11:21:22 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 11:21:22 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 11:21:22 2014] [debug] 200 OK (0.056779s, 17.612/s).
+[Tue Mar 25 11:21:23 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:21:23 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:21:23 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 11:21:23 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 11:21:23 2014] [debug] 200 OK (0.031284s, 31.965/s).
+[Tue Mar 25 11:21:25 2014] [debug] GET "/profile".
+[Tue Mar 25 11:21:25 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 11:21:25 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Tue Mar 25 11:21:25 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 11:21:25 2014] [debug] 200 OK (0.045937s, 21.769/s).
+[Tue Mar 25 11:21:26 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:21:26 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:21:26 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 11:21:26 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 11:21:26 2014] [debug] 200 OK (0.028459s, 35.138/s).
+[Tue Mar 25 11:21:30 2014] [debug] GET "/profile".
+[Tue Mar 25 11:21:30 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 11:21:30 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Tue Mar 25 11:21:30 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 11:21:30 2014] [debug] 200 OK (0.036958s, 27.058/s).
+[Tue Mar 25 11:21:31 2014] [debug] GET "/task/list".
+[Tue Mar 25 11:21:31 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 11:21:31 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 11:21:31 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 11:21:31 2014] [debug] 200 OK (0.022532s, 44.381/s).
+[Tue Mar 25 12:00:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:00:50 2014] [debug] GET "/".
+[Tue Mar 25 12:00:50 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Tue Mar 25 12:00:50 2014] [debug] 302 Found (0.002720s, 367.647/s).
+[Tue Mar 25 12:00:50 2014] [debug] GET "/profile".
+[Tue Mar 25 12:00:50 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 12:00:50 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 12:00:50 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:00:50 2014] [debug] 200 OK (0.077579s, 12.890/s).
+[Tue Mar 25 12:00:53 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:00:53 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:00:53 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:00:53 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:00:53 2014] [debug] 200 OK (0.043397s, 23.043/s).
+[Tue Mar 25 12:01:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:01:14 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:01:14 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:01:14 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:01:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:01:14 2014] [debug] 200 OK (0.074181s, 13.481/s).
+[Tue Mar 25 12:01:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:01:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:01:16 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:01:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:01:16 2014] [debug] 200 OK (0.020716s, 48.272/s).
+[Tue Mar 25 12:01:28 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:01:28 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:01:28 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:01:28 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:01:28 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:01:28 2014] [debug] 200 OK (0.077875s, 12.841/s).
+[Tue Mar 25 12:01:28 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:01:28 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:01:28 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:01:28 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:01:28 2014] [debug] 200 OK (0.024088s, 41.514/s).
+[Tue Mar 25 12:01:28 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:01:28 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:01:28 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:01:28 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:01:28 2014] [debug] 200 OK (0.023330s, 42.863/s).
+[Tue Mar 25 12:01:29 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:01:29 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:01:29 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:01:29 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:01:29 2014] [debug] 200 OK (0.028748s, 34.785/s).
+[Tue Mar 25 12:02:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:02:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:02:17 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:02:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:02:17 2014] [debug] 200 OK (0.026159s, 38.228/s).
+[Tue Mar 25 12:02:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:02:21 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:02:21 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:02:21 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:02:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:02:21 2014] [debug] 200 OK (0.065884s, 15.178/s).
+[Tue Mar 25 12:02:22 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:02:22 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:02:22 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:02:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:02:22 2014] [debug] 200 OK (0.030551s, 32.732/s).
+[Tue Mar 25 12:03:01 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:03:01 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:03:01 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:03:01 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:03:01 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:03:01 2014] [debug] 200 OK (0.063964s, 15.634/s).
+[Tue Mar 25 12:03:02 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:03:02 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:03:02 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:03:02 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:03:02 2014] [debug] 200 OK (0.020502s, 48.776/s).
+[Tue Mar 25 12:05:18 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:05:18 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:05:18 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:05:18 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:05:19 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned_to? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:05:19 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:05:19 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:05:19 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:05:19 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:05:19 2014] [debug] 500 Internal Server Error (0.101194s, 9.882/s).
+[Tue Mar 25 12:05:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:05:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:05:47 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:05:47 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:05:47 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:05:47 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:05:47 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:05:47 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:05:47 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:05:47 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:05:47 2014] [debug] 500 Internal Server Error (0.101306s, 9.871/s).
+[Tue Mar 25 12:05:48 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:05:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:05:48 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:05:48 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:05:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:05:48 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:05:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:05:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:05:48 2014] [debug] 500 Internal Server Error (0.042041s, 23.786/s).
+[Tue Mar 25 12:05:48 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:05:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:05:48 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:05:48 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:05:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:05:48 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:05:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:05:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:05:48 2014] [debug] 500 Internal Server Error (0.039867s, 25.083/s).
+[Tue Mar 25 12:05:49 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:05:49 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:05:49 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:05:49 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:05:49 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:05:49 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:05:49 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:05:49 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:05:49 2014] [debug] 500 Internal Server Error (0.042932s, 23.293/s).
+[Tue Mar 25 12:05:50 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:05:50 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:05:50 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:05:50 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:05:50 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:05:50 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:05:50 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:05:50 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:05:50 2014] [debug] 500 Internal Server Error (0.037099s, 26.955/s).
+[Tue Mar 25 12:06:45 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:06:45 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:45 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:45 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:06:45 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:45 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:45 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:45 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:45 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:45 2014] [debug] 500 Internal Server Error (0.105356s, 9.492/s).
+[Tue Mar 25 12:06:46 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:46 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:46 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:46 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:46 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:46 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:46 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:46 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:46 2014] [debug] 500 Internal Server Error (0.040036s, 24.978/s).
+[Tue Mar 25 12:06:46 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:46 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:46 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:46 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:46 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:46 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:46 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:46 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:46 2014] [debug] 500 Internal Server Error (0.035626s, 28.069/s).
+[Tue Mar 25 12:06:47 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:47 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:47 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:47 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:47 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:47 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:47 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:47 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:47 2014] [debug] 500 Internal Server Error (0.037042s, 26.996/s).
+[Tue Mar 25 12:06:47 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:47 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:47 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:47 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:47 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:47 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:47 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:47 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:47 2014] [debug] 500 Internal Server Error (0.047621s, 20.999/s).
+[Tue Mar 25 12:06:48 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:48 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:48 2014] [debug] 500 Internal Server Error (0.042844s, 23.340/s).
+[Tue Mar 25 12:06:48 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:48 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:48 2014] [debug] 500 Internal Server Error (0.039912s, 25.055/s).
+[Tue Mar 25 12:06:48 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:48 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:48 2014] [debug] 500 Internal Server Error (0.043983s, 22.736/s).
+[Tue Mar 25 12:06:48 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:06:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:06:48 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:06:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:06:48 2014] [debug] 500 Internal Server Error (0.041244s, 24.246/s).
+[Tue Mar 25 12:07:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:07:36 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:07:36 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:07:36 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:07:36 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned > 0? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:07:36 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:07:36 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:07:36 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:07:36 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:07:36 2014] [debug] 500 Internal Server Error (0.103148s, 9.695/s).
+[Tue Mar 25 12:07:37 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:07:37 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:07:37 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:07:37 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned > 0? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:07:37 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:07:37 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:07:37 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:07:37 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:07:37 2014] [debug] 500 Internal Server Error (0.039417s, 25.370/s).
+[Tue Mar 25 12:07:38 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:07:38 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:07:38 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:07:38 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned > 0? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:07:38 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:07:38 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:07:38 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:07:38 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:07:38 2014] [debug] 500 Internal Server Error (0.036764s, 27.201/s).
+[Tue Mar 25 12:07:38 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:07:38 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:07:38 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:07:38 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned > 0? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:07:38 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:07:38 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:07:38 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:07:38 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:07:38 2014] [debug] 500 Internal Server Error (0.040907s, 24.446/s).
+[Tue Mar 25 12:07:40 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:07:40 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:07:40 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:07:40 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned > 0? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:07:40 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:07:40 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:07:40 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:07:40 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:07:40 2014] [debug] 500 Internal Server Error (0.041633s, 24.019/s).
+[Tue Mar 25 12:07:57 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:07:57 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:07:57 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:07:57 2014] [error] DBIx::Class::Schema::source(): Can't find source for Tasklicious::Model::User at template task/list.html.ep line 29
+24:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+25:                     %= $row->title
+26:                    % end
+27:                   </td>
+28:                   <td>
+29:                     %= $row->assigned > 0? $row->assigned_to->name : 'none'
+30:                   </td>
+31:                   <td> -- </td>
+32:                   <td>No</td>
+33:                   <td>
+34:                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
+
+[Tue Mar 25 12:07:57 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:07:57 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:07:57 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:07:57 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:07:57 2014] [debug] 500 Internal Server Error (0.039396s, 25.383/s).
+[Tue Mar 25 12:07:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:07:58 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:07:58 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:07:58 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:07:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:07:58 2014] [debug] 200 OK (0.061590s, 16.236/s).
+[Tue Mar 25 12:10:47 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:10:47 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:10:47 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:10:47 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:10:47 2014] [debug] 200 OK (0.023642s, 42.298/s).
+[Tue Mar 25 12:10:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:10:50 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:10:50 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:10:50 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:10:50 2014] [error] Compilation error at /usr/share/perl/5.14/utf8_heavy.pl line 447.
+442:                     return $found;
+443:                 }
+444: 
+445:                 local $@;
+446:                 local $!;
+447:                 $list = do $file; die $@ if $@;
+448:             }
+449: 
+450:             $ListSorted = 1; ## we know that these lists are sorted
+451:         }
+452: 
+
+[Tue Mar 25 12:10:50 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:10:50 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:10:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:10:50 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:10:50 2014] [debug] 500 Internal Server Error (0.120283s, 8.314/s).
+[Tue Mar 25 12:10:51 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:10:51 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:10:51 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:10:51 2014] [error] Modification of non-creatable array value attempted, subscript -1 at /usr/local/share/perl/5.14.2/Mojo/Exception.pm line 97.
+
+[Tue Mar 25 12:10:51 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:10:51 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:10:51 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:10:51 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:10:51 2014] [debug] 500 Internal Server Error (0.041288s, 24.220/s).
+[Tue Mar 25 12:10:52 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:10:52 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:10:52 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:10:52 2014] [error] Modification of non-creatable array value attempted, subscript -1 at /usr/local/share/perl/5.14.2/Mojo/Exception.pm line 97.
+
+[Tue Mar 25 12:10:52 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:10:52 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:10:52 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:10:52 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:10:52 2014] [debug] 500 Internal Server Error (0.037929s, 26.365/s).
+[Tue Mar 25 12:11:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:11:12 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:12 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:12 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:12 2014] [error] Compilation error at /usr/share/perl/5.14/utf8_heavy.pl line 447.
+442:                     return $found;
+443:                 }
+444: 
+445:                 local $@;
+446:                 local $!;
+447:                 $list = do $file; die $@ if $@;
+448:             }
+449: 
+450:             $ListSorted = 1; ## we know that these lists are sorted
+451:         }
+452: 
+
+[Tue Mar 25 12:11:12 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:11:12 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:11:12 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:11:12 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:11:12 2014] [debug] 500 Internal Server Error (0.092485s, 10.813/s).
+[Tue Mar 25 12:11:12 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:12 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:12 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:13 2014] [error] Modification of non-creatable array value attempted, subscript -1 at /usr/local/share/perl/5.14.2/Mojo/Exception.pm line 97.
+
+[Tue Mar 25 12:11:13 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:11:13 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:11:13 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:11:13 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:11:13 2014] [debug] 500 Internal Server Error (0.043585s, 22.944/s).
+[Tue Mar 25 12:11:16 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:16 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:16 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:16 2014] [error] Modification of non-creatable array value attempted, subscript -1 at /usr/local/share/perl/5.14.2/Mojo/Exception.pm line 97.
+
+[Tue Mar 25 12:11:16 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:11:16 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:11:16 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:11:16 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:11:16 2014] [debug] 500 Internal Server Error (0.048474s, 20.630/s).
+[Tue Mar 25 12:11:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:17 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:17 2014] [error] Modification of non-creatable array value attempted, subscript -1 at /usr/local/share/perl/5.14.2/Mojo/Exception.pm line 97.
+
+[Tue Mar 25 12:11:17 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:11:17 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:11:17 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:11:17 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:11:17 2014] [debug] 500 Internal Server Error (0.042750s, 23.392/s).
+[Tue Mar 25 12:11:34 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:11:34 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:34 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:34 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:34 2014] [error] Compilation error at /usr/share/perl/5.14/utf8_heavy.pl line 447.
+442:                     return $found;
+443:                 }
+444: 
+445:                 local $@;
+446:                 local $!;
+447:                 $list = do $file; die $@ if $@;
+448:             }
+449: 
+450:             $ListSorted = 1; ## we know that these lists are sorted
+451:         }
+452: 
+
+[Tue Mar 25 12:11:34 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:11:34 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:11:34 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:11:34 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:11:34 2014] [debug] 500 Internal Server Error (0.083943s, 11.913/s).
+[Tue Mar 25 12:11:35 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:35 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:35 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:35 2014] [error] Modification of non-creatable array value attempted, subscript -1 at /usr/local/share/perl/5.14.2/Mojo/Exception.pm line 97.
+
+[Tue Mar 25 12:11:35 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:11:35 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:11:35 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:11:35 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:11:35 2014] [debug] 500 Internal Server Error (0.038431s, 26.021/s).
+[Tue Mar 25 12:11:36 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:36 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:36 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:36 2014] [error] Modification of non-creatable array value attempted, subscript -1 at /usr/local/share/perl/5.14.2/Mojo/Exception.pm line 97.
+
+[Tue Mar 25 12:11:36 2014] [debug] Template "exception.development.html.ep" not found.
+[Tue Mar 25 12:11:36 2014] [debug] Template "exception.html.ep" not found.
+[Tue Mar 25 12:11:36 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:11:36 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:11:36 2014] [debug] 500 Internal Server Error (0.048607s, 20.573/s).
+[Tue Mar 25 12:11:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:11:44 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:11:44 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:11:44 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:11:45 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:11:45 2014] [debug] 200 OK (0.069878s, 14.311/s).
+[Tue Mar 25 12:12:10 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:12:10 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:12:10 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:12:10 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:12:10 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:12:10 2014] [debug] 200 OK (0.075918s, 13.172/s).
+[Tue Mar 25 12:12:14 2014] [debug] GET "/profile".
+[Tue Mar 25 12:12:14 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 12:12:14 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 12:12:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:12:14 2014] [debug] 200 OK (0.057958s, 17.254/s).
+[Tue Mar 25 12:12:17 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:12:17 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:12:17 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:12:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:12:17 2014] [debug] 200 OK (0.020166s, 49.588/s).
+[Tue Mar 25 12:12:20 2014] [debug] GET "/profile".
+[Tue Mar 25 12:12:20 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 12:12:20 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Tue Mar 25 12:12:20 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:12:20 2014] [debug] 200 OK (0.039132s, 25.555/s).
+[Tue Mar 25 12:12:22 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:12:22 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:12:22 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:12:22 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:12:22 2014] [debug] 200 OK (0.023461s, 42.624/s).
+[Tue Mar 25 12:12:50 2014] [debug] GET "/project/list".
+[Tue Mar 25 12:12:50 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 12:12:50 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 12:12:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:12:50 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:12:50 2014] [debug] 404 Not Found (0.050237s, 19.906/s).
+[Tue Mar 25 12:13:08 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:13:08 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:13:08 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:13:08 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:13:08 2014] [debug] 200 OK (0.023060s, 43.365/s).
+[Tue Mar 25 12:13:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:13:11 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:13:11 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:13:11 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:13:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:13:11 2014] [debug] 200 OK (0.071408s, 14.004/s).
+[Tue Mar 25 12:13:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:13:33 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:13:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:13:33 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:13:33 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:13:33 2014] [debug] 200 OK (0.068755s, 14.544/s).
+[Tue Mar 25 12:13:34 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:13:34 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:13:34 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:13:34 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:13:34 2014] [debug] 200 OK (0.034716s, 28.805/s).
+[Tue Mar 25 12:15:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:15:46 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:15:46 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:15:46 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:15:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:15:46 2014] [debug] 200 OK (0.074102s, 13.495/s).
+[Tue Mar 25 12:15:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:15:47 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:15:47 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:15:47 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:15:47 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:15:47 2014] [debug] 200 OK (0.056513s, 17.695/s).
+[Tue Mar 25 12:15:48 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:15:48 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:15:48 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:15:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:15:48 2014] [debug] 200 OK (0.023280s, 42.955/s).
+[Tue Mar 25 12:15:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:15:58 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:15:58 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:15:58 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:15:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:15:58 2014] [debug] 200 OK (0.069050s, 14.482/s).
+[Tue Mar 25 12:17:40 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:17:40 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:17:40 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:17:40 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:17:41 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:17:41 2014] [debug] 200 OK (0.068056s, 14.694/s).
+[Tue Mar 25 12:18:51 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:18:51 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:18:51 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:18:52 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:18:52 2014] [debug] 200 OK (0.025001s, 39.998/s).
+[Tue Mar 25 12:18:57 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:18:57 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:18:57 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:18:57 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:18:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:18:57 2014] [debug] 200 OK (0.071798s, 13.928/s).
+[Tue Mar 25 12:19:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:19:20 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:19:20 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:19:20 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:19:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:19:20 2014] [debug] 200 OK (0.065865s, 15.183/s).
+[Tue Mar 25 12:19:44 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:19:44 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:19:44 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:19:44 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:19:44 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:19:44 2014] [debug] 200 OK (0.075118s, 13.312/s).
+[Tue Mar 25 12:20:02 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:20:02 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:20:02 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:20:02 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:20:02 2014] [debug] 200 OK (0.038622s, 25.892/s).
+[Tue Mar 25 12:20:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:20:04 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:20:04 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:20:04 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:20:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:20:04 2014] [debug] 200 OK (0.079349s, 12.603/s).
+[Tue Mar 25 12:20:08 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:20:08 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:20:08 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:20:08 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:20:08 2014] [debug] 200 OK (0.026091s, 38.327/s).
+[Tue Mar 25 12:20:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:20:50 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:20:50 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:20:50 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:20:50 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:20:50 2014] [debug] 200 OK (0.070612s, 14.162/s).
+[Tue Mar 25 12:20:52 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:20:52 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:20:52 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:20:52 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:20:52 2014] [debug] 200 OK (0.028764s, 34.766/s).
+[Tue Mar 25 12:20:54 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:20:54 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:20:54 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:20:54 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:20:54 2014] [debug] 200 OK (0.023392s, 42.750/s).
+[Tue Mar 25 12:20:56 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:20:56 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:20:56 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:20:56 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:20:56 2014] [debug] 200 OK (0.022402s, 44.639/s).
+[Tue Mar 25 12:21:09 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:21:09 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:21:09 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:21:09 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:21:09 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:21:09 2014] [debug] 200 OK (0.077984s, 12.823/s).
+[Tue Mar 25 12:21:11 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:21:11 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:21:11 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:21:11 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:21:11 2014] [debug] 200 OK (0.029143s, 34.314/s).
+[Tue Mar 25 12:21:31 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:21:31 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:21:31 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:21:31 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:21:31 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:21:31 2014] [debug] 200 OK (0.072049s, 13.879/s).
+[Tue Mar 25 12:21:33 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:21:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:21:33 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:21:33 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:21:33 2014] [debug] 200 OK (0.035988s, 27.787/s).
+[Tue Mar 25 12:23:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:23:35 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:23:35 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:23:35 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:23:35 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:23:35 2014] [debug] 200 OK (0.071290s, 14.027/s).
+[Tue Mar 25 12:24:15 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:24:15 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:24:15 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:24:15 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:24:15 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:24:15 2014] [debug] 200 OK (0.074696s, 13.388/s).
+[Tue Mar 25 12:24:39 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:24:39 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:24:39 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:24:39 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:24:39 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:24:40 2014] [debug] 200 OK (0.076430s, 13.084/s).
+[Tue Mar 25 12:24:42 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:24:42 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:24:42 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:24:42 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:24:42 2014] [debug] 200 OK (0.021901s, 45.660/s).
+[Tue Mar 25 12:24:43 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:24:43 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:24:43 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:24:43 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:24:43 2014] [debug] 200 OK (0.029518s, 33.878/s).
+[Tue Mar 25 12:24:43 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:24:43 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:24:43 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:24:43 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:24:43 2014] [debug] 200 OK (0.023979s, 41.703/s).
+[Tue Mar 25 12:24:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:24:58 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:24:58 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:24:58 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:24:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:24:58 2014] [debug] 200 OK (0.074305s, 13.458/s).
+[Tue Mar 25 12:27:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:27:20 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:27:20 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:27:20 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:27:20 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:27:20 2014] [debug] 200 OK (0.073567s, 13.593/s).
+[Tue Mar 25 12:27:23 2014] [debug] GET "/user/profile/1".
+[Tue Mar 25 12:27:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Tue Mar 25 12:27:23 2014] [debug] Template "not_found.html.ep" not found.
+[Tue Mar 25 12:27:23 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Tue Mar 25 12:27:23 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Tue Mar 25 12:27:23 2014] [debug] 404 Not Found (0.045055s, 22.195/s).
+[Tue Mar 25 12:28:32 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:28:32 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:28:32 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:28:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:28:32 2014] [debug] 200 OK (0.025553s, 39.134/s).
+[Tue Mar 25 12:28:35 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:28:35 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:28:35 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:28:35 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:28:35 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:28:35 2014] [debug] 200 OK (0.070736s, 14.137/s).
+[Tue Mar 25 12:28:55 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:28:55 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:28:55 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:28:55 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:28:55 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:28:55 2014] [debug] 200 OK (0.070801s, 14.124/s).
+[Tue Mar 25 12:29:07 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:29:07 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:29:07 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:29:07 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:29:07 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:29:07 2014] [debug] 200 OK (0.078089s, 12.806/s).
+[Tue Mar 25 12:30:03 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:30:03 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:30:03 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:30:03 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:30:03 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:30:03 2014] [debug] 200 OK (0.076882s, 13.007/s).
+[Tue Mar 25 12:30:30 2014] [debug] GET "/profile".
+[Tue Mar 25 12:30:30 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 12:30:30 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 12:30:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:30:30 2014] [debug] 200 OK (0.055759s, 17.934/s).
+[Tue Mar 25 12:30:32 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:30:32 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:30:32 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:30:32 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:30:32 2014] [debug] 200 OK (0.026073s, 38.354/s).
+[Tue Mar 25 12:34:03 2014] [debug] GET "/profile".
+[Tue Mar 25 12:34:03 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 12:34:03 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Tue Mar 25 12:34:03 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:34:03 2014] [debug] 200 OK (0.037924s, 26.369/s).
+[Tue Mar 25 12:37:50 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 12:37:50 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:37:50 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:37:50 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 12:37:50 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:37:50 2014] [debug] 200 OK (0.069261s, 14.438/s).
+[Tue Mar 25 12:52:57 2014] [debug] GET "/profile".
+[Tue Mar 25 12:52:57 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 12:52:57 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 12:52:57 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 12:52:57 2014] [debug] 200 OK (0.076362s, 13.096/s).
+[Tue Mar 25 12:52:59 2014] [debug] GET "/task/list".
+[Tue Mar 25 12:52:59 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 12:52:59 2014] [debug] Rendering cached template "task/list.html.ep".
+[Tue Mar 25 12:52:59 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 12:52:59 2014] [debug] 200 OK (0.028394s, 35.219/s).
+[Tue Mar 25 13:11:48 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 13:11:49 2014] [debug] GET "/profile".
+[Tue Mar 25 13:11:49 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 13:11:49 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 13:11:49 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 13:11:49 2014] [debug] 200 OK (0.084101s, 11.890/s).
+[Tue Mar 25 13:13:58 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 13:13:58 2014] [debug] GET "/profile".
+[Tue Mar 25 13:13:58 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 13:13:58 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 13:13:58 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 13:13:58 2014] [debug] 200 OK (0.081382s, 12.288/s).
+[Tue Mar 25 13:14:01 2014] [debug] GET "/profile".
+[Tue Mar 25 13:14:01 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 13:14:01 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Tue Mar 25 13:14:01 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 13:14:01 2014] [debug] 200 OK (0.034808s, 28.729/s).
+[Tue Mar 25 13:14:33 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 13:14:34 2014] [debug] GET "/profile".
+[Tue Mar 25 13:14:34 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 13:14:34 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 13:14:34 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 13:14:34 2014] [debug] 200 OK (0.077543s, 12.896/s).
+[Tue Mar 25 13:14:36 2014] [debug] GET "/profile".
+[Tue Mar 25 13:14:36 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 13:14:36 2014] [debug] Rendering cached template "home/profile.html.ep".
+[Tue Mar 25 13:14:36 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Tue Mar 25 13:14:36 2014] [debug] 200 OK (0.035356s, 28.284/s).
+[Tue Mar 25 13:24:29 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 13:24:29 2014] [debug] GET "/task/list".
+[Tue Mar 25 13:24:29 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "list".
+[Tue Mar 25 13:24:29 2014] [debug] Rendering template "task/list.html.ep".
+[Tue Mar 25 13:24:29 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 13:24:29 2014] [debug] 200 OK (0.074087s, 13.498/s).
+[Tue Mar 25 13:24:30 2014] [debug] GET "/profile".
+[Tue Mar 25 13:24:30 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 13:24:30 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 13:24:30 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 13:24:30 2014] [debug] 200 OK (0.061810s, 16.179/s).
+[Tue Mar 25 13:29:06 2014] [debug] Your secret passphrase needs to be changed!!!
+[Tue Mar 25 13:29:06 2014] [debug] GET "/profile".
+[Tue Mar 25 13:29:06 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Tue Mar 25 13:29:06 2014] [debug] Rendering template "home/profile.html.ep".
+[Tue Mar 25 13:29:06 2014] [debug] Rendering template "layouts/default.html.ep".
+[Tue Mar 25 13:29:06 2014] [debug] 200 OK (0.078099s, 12.804/s).

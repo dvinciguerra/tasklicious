@@ -11,7 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <!-- link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css" -->
 
     <!-- Custom styles for this template -->
     <link href="/css/style.css" rel="stylesheet">
@@ -53,17 +53,17 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li class="<%= stash('controller') eq 'Home' && stash('action') eq 'profile'? 'active': '' %>"><a href="#">Overview</a></li>
+            <li class="<%= stash('controller') eq 'Home' && stash('action') eq 'profile'? 'active': '' %>">
+                <%= link_to '/profile' => begin  %> Overview <% end %>
             <li class="<%= stash('controller') eq 'Task'? 'active': '' %>">
-                <%= link_to '/task/list' => begin  %> Task <% end %>
+                <%= link_to '/task/list' => begin  %> Task List <% end %>
             </li>
             <li class="<%= stash('controller') eq 'Project'? 'active': '' %>">
-                <%= link_to '/project/list' => begin  %> Project <% end %>
+                <%= link_to '/project/list' => begin  %> Project List <% end %>
             </li>
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h2 class="page-header"> <i class="glyphicon glyphicon-dashboard"></i> Dashboard <small>Overview and informations about tasks and projects</small>  </h2>
 
             <%= content %> 
             
@@ -75,9 +75,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-    %= javascript 'http://anthonyterrien.com/js/jquery.knob.js'
-    
+    %= javascript '//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js'
+    %= javascript 'http://anthonyterrien.com/js/jquery.knob.js'    
     
     <script type="text/javascript">
     
