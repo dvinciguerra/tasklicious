@@ -8,48 +8,25 @@ sub load {
     die "error with route instance!\n"
       unless $route && $route->isa('Mojolicious::Routes');
 
-    # custom routes
-    my $custom = [
         
-        # routes for authentication
-        [ '/login'    => { controller => 'Account', action => 'login' } ],
-        [ '/register' => { controller => 'Account', action => 'register' } ],
-        [ '/forgot'   => { controller => 'Account', action => 'register' } ],
-        [
-            '/change/:token' =>
-              { controller => 'Account', action => 'change', token => 0 }
-        ],
+    # routes for authentication
+    $route->any('/login')->to( controller => 'Account', action => 'login' );
+    $route->any('/logout')->to( controller => 'Account', action => 'logout' );
+    $route->any('/register')->to( controller => 'Account', action => 'register' );
+    $route->any('/forgot')->to( controller => 'Account', action => 'register' );
+    $route->any('/change/:token')
+        ->to(controller => 'Account', action => 'change', token => 0 );
 
-        # route for user dashboard
-        [
-            '/profile' =>
-              { controller => 'Home', action => 'profile', authenticated => 1 }
-        ],
+    # route to dashboard
+    $route->any('/profile')->over( authenticated => 1 )
+        ->to( controller => 'Home', action => 'profile' );
+    
+    # routes to task actions
+    $route->any('/task/list')->over( authenticated => 1 )
+        ->to( controller => 'Task', action => 'list', );
 
-        
-        # route for task API
-        [
-            '/api/task/(:id)' =>
-              { controller => 'Task', action => 'index', id => 0, authenticated => 1 }
-        ],
-
-        # route for /user/edit/0
-        [
-            '/:controller/:action/:id' =>
-              { controller => 'Home', action => 'index', id => 0 }
-        ],
-
-        #add custom route here
-    ];
-
-    # add routes
-    map {
-        my ( $key, $value ) = @$_;
-
-        $route->any($key)
-          ->over( authenticated => $value->{authenticated} || 0 )->to($value)
-    } @$custom;
-
+    #add custom route here
+    
     return $route;
 }
 
