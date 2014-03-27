@@ -15,7 +15,7 @@ sub login {
 
         # user found
         if ( $self->authenticate( $email, $password ) ) {
-            return $self->redirect_to('/profile');
+            return $self->redirect_to('/');
         }
 
         # error
