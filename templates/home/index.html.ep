@@ -32,10 +32,10 @@
       <p class="text-right">
           <a href="#" class="btn btn-danger btn-xs"> <i class="glyphicon glyphicon-plus"></i> Create New</a>
       </p>
-      <table class="table table-striped table-bordered">
+      <table class="table table-striped ">
           <thead>
               <tr>
-                  <th>Action</th>
+                  <th class="text-center">Action</th>
                   <th>Title</th>
                   <th>Assigned</th>
                   <th>Due Date</th>
@@ -45,7 +45,7 @@
           <tbody>
 % for my $row ( $list->all ) {          
               <tr>
-                  <td>
+                  <td class="text-center">
                    %= link_to '#' => (class => 'btn_edit btn btn-danger btn-xs', 'data-id' => $row? $row->id : '0') => begin
                       <i class="glyphicon glyphicon-pencil"></i>
                    % end
@@ -59,7 +59,15 @@
                    % end
                   </td>
                   <td>
-                    %= $row->assigned
+                    % if($row->assigned > 0){
+                       %= link_to '/user/profile/'. $row->assigned_to->id => (class => 'btn_user label label-primary', 'data-id' => $row->assigned? $row->assigned_to->id : '0') => begin
+                        <i class="glyphicon glyphicon-user"></i>&nbsp; <%= $row->assigned_to->name %>
+                       % end
+                    % } else {
+                       %= link_to '#' => (class => 'btn_user label label-default', 'data-id' => '0') => begin
+                        <i class="glyphicon glyphicon-user"></i>&nbsp; Nobody
+                       % end
+                    % }
                   </td>
                   <td> -- </td>
                   <td>No</td>

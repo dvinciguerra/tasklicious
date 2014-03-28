@@ -10250,3 +10250,136 @@ Compilation failed in require at (eval 361) line 1.
 [Thu Mar 27 00:06:55 2014] [debug] Rendering cached template "home/index.html.ep".
 [Thu Mar 27 00:06:55 2014] [debug] Rendering cached template "layouts/default.html.ep".
 [Thu Mar 27 00:06:55 2014] [debug] 200 OK (0.029471s, 33.932/s).
+[Thu Mar 27 00:07:51 2014] [debug] GET "/".
+[Thu Mar 27 00:07:51 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:07:51 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:07:51 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:07:51 2014] [debug] 200 OK (0.027953s, 35.774/s).
+[Thu Mar 27 00:07:53 2014] [debug] GET "/".
+[Thu Mar 27 00:07:53 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:07:53 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:07:53 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:07:53 2014] [debug] 200 OK (0.027217s, 36.742/s).
+[Thu Mar 27 00:10:48 2014] [debug] GET "/".
+[Thu Mar 27 00:10:48 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:10:48 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:10:48 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:10:48 2014] [debug] 200 OK (0.027677s, 36.131/s).
+[Thu Mar 27 00:10:49 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:10:49 2014] [debug] GET "/".
+[Thu Mar 27 00:10:49 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:10:49 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:10:50 2014] [error] Can't call method "name" on an undefined value at template home/index.html.ep line 62.
+57:                    %= link_to '' => (class => 'btn_detail', 'data-id' => $row? $row->id : '0') => begin
+58:                     %= $row->title
+59:                    % end
+60:                   </td>
+61:                   <td>
+62:                     %= $row->assigned_to->name
+63:                   </td>
+64:                   <td> -- </td>
+65:                   <td>No</td>
+66:               </tr>
+67: % }              
+
+[Thu Mar 27 00:10:50 2014] [debug] Template "exception.development.html.ep" not found.
+[Thu Mar 27 00:10:50 2014] [debug] Template "exception.html.ep" not found.
+[Thu Mar 27 00:10:50 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Thu Mar 27 00:10:50 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Thu Mar 27 00:10:50 2014] [debug] 500 Internal Server Error (0.458786s, 2.180/s).
+[Thu Mar 27 00:11:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:11:12 2014] [debug] GET "/".
+[Thu Mar 27 00:11:12 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:11:12 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:11:12 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:11:12 2014] [debug] 200 OK (0.087673s, 11.406/s).
+[Thu Mar 27 00:11:12 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:11:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:11:36 2014] [debug] GET "/".
+[Thu Mar 27 00:11:36 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:11:36 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:11:36 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:11:37 2014] [debug] 200 OK (0.098487s, 10.154/s).
+[Thu Mar 27 00:12:04 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:12:05 2014] [debug] GET "/".
+[Thu Mar 27 00:12:05 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:12:05 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:12:05 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:12:05 2014] [debug] 200 OK (0.076193s, 13.125/s).
+[Thu Mar 27 00:12:56 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:12:56 2014] [debug] GET "/".
+[Thu Mar 27 00:12:56 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:12:56 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:12:56 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:12:56 2014] [debug] 200 OK (0.075928s, 13.170/s).
+[Thu Mar 27 00:12:58 2014] [debug] GET "/".
+[Thu Mar 27 00:12:58 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:12:58 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:12:58 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:12:58 2014] [debug] 200 OK (0.032095s, 31.158/s).
+[Thu Mar 27 00:13:10 2014] [debug] GET "/".
+[Thu Mar 27 00:13:10 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:13:10 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:13:10 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:13:10 2014] [debug] 200 OK (0.033462s, 29.885/s).
+[Thu Mar 27 00:13:11 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:13:11 2014] [debug] GET "/".
+[Thu Mar 27 00:13:11 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:13:11 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:13:11 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:13:11 2014] [debug] 200 OK (0.081706s, 12.239/s).
+[Thu Mar 27 00:13:11 2014] [debug] GET "/".
+[Thu Mar 27 00:13:11 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:13:11 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:13:12 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:13:12 2014] [debug] 200 OK (0.041180s, 24.284/s).
+[Thu Mar 27 00:13:21 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:13:21 2014] [debug] GET "/".
+[Thu Mar 27 00:13:21 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:13:21 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:13:21 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:13:21 2014] [debug] 200 OK (0.077616s, 12.884/s).
+[Thu Mar 27 00:15:17 2014] [debug] GET "/".
+[Thu Mar 27 00:15:17 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:15:17 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:15:17 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:15:17 2014] [debug] 200 OK (0.030031s, 33.299/s).
+[Thu Mar 27 00:15:19 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:15:19 2014] [debug] GET "/".
+[Thu Mar 27 00:15:19 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:15:19 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:15:19 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:15:19 2014] [debug] 200 OK (0.088870s, 11.252/s).
+[Thu Mar 27 00:15:35 2014] [debug] GET "/".
+[Thu Mar 27 00:15:35 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:15:35 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:15:35 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:15:35 2014] [debug] 200 OK (0.032383s, 30.880/s).
+[Thu Mar 27 00:15:36 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:15:36 2014] [debug] GET "/".
+[Thu Mar 27 00:15:36 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:15:36 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:15:36 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:15:36 2014] [debug] 200 OK (0.075006s, 13.332/s).
+[Thu Mar 27 00:16:16 2014] [debug] GET "/".
+[Thu Mar 27 00:16:16 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:16:16 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:16:16 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:16:16 2014] [debug] 200 OK (0.039201s, 25.510/s).
+[Thu Mar 27 00:16:46 2014] [debug] GET "/".
+[Thu Mar 27 00:16:46 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:16:46 2014] [debug] Rendering cached template "home/index.html.ep".
+[Thu Mar 27 00:16:46 2014] [debug] Rendering cached template "layouts/default.html.ep".
+[Thu Mar 27 00:16:46 2014] [debug] 200 OK (0.029908s, 33.436/s).
+[Thu Mar 27 00:16:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:16:47 2014] [debug] GET "/".
+[Thu Mar 27 00:16:47 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:16:47 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:16:47 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:16:47 2014] [debug] 200 OK (0.090804s, 11.013/s).
+[Thu Mar 27 00:17:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Thu Mar 27 00:17:14 2014] [debug] GET "/".
+[Thu Mar 27 00:17:14 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Thu Mar 27 00:17:14 2014] [debug] Rendering template "home/index.html.ep".
+[Thu Mar 27 00:17:14 2014] [debug] Rendering template "layouts/default.html.ep".
+[Thu Mar 27 00:17:14 2014] [debug] 200 OK (0.092115s, 10.856/s).
