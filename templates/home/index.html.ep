@@ -157,31 +157,31 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Task: <span id="txt_title">Lorem ipsum dolor sit amet</span></h4>
+        <h4 class="modal-title">Task: <span id="txt_title"></span></h4>
       </div>
       <div class="modal-body">
         <div class="form-group">
-            <a href="" id="txt_project" class="label label-default">Project: Foo Project</a>
+            <a href="/project/" class="label label-default">Project: <span id="txt_project"></span></a>
         </div>
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
                     <strong>Due Date</strong>
-                    <span class="form-control">22/03/2014</span>
+                    <span class="form-control" id="txt_duedate"></span>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="form-group">
                     <strong>Closed </strong>
-                    <span class="form-control">21/03/2014</span>
+                    <span class="form-control" id="txt_closed"></span>
                 </div>
             </div>
         </div>
         <div class="form-group">
-            <textarea disabled rows="5" class="well well-sm form-control" style="max:-height:200px;overflow:auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. </textarea>
+            <textarea disabled rows="5" class="well well-sm form-control" style="max:-height:200px;overflow:auto;" id="txt_description" ></textarea>
         </div>
         <small><i class="glyphicon glyphicon-user"></i> <strong>Assigned to</strong> 
-        <span id="txt_assigned" class="label label-default">Daniel Vinciguerra</span></small>
+        <span id="txt_assigned" class="label label-default"></span></small>
       </div>
       <div class="modal-footer">
         <small><a href="/task" class="label label-danger">View complete informations</a>&nbsp;
@@ -216,15 +216,26 @@
             var self = this;
 
             var id = $(self).attr('data-id');
-            //$.ajax({
-            //    url: '/task/' + id,
-            //    dataType: 'json',
-            //    type: 'json',
-            //    success: function(res){
-            //    },
-            //    error: function(res){
-            //    }
-            //});
+            $.ajax({
+                url: "<%= url_for '/task/load' %>/" + id,
+                dataType: 'json',
+                type: 'GET',
+                success: function(res){
+                    var modal = $(modalDetails);
+                    modal.find('span#txt_title').text(res.title);
+                    if(res.date) modal.find('span#txt_duedate').text(res.date);
+                    if(res.closed) modal.find('span#txt_closed').text(res.closed);
+                    modal.find('#txt_description').val(res.description);
+                    if(res.assigned_to) modal.find('span#txt_assigned').text(res.assigned_to);
+                    else modal.find('span#txt_assigned').text('none');
+                    if(res.project) modal.find('span#txt_project').text(res.project);
+                    else modal.find('span#txt_project').text('none');
+                    // DEBUG alert(JSON.stringify(res));
+                },
+                error: function(res){
+                    alert(JSON.stringify(res));
+                }
+            });
 
             $(modalDetails).modal('show');
         });

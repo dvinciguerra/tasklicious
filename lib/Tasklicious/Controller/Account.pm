@@ -140,29 +140,29 @@ sub forgot {
 
             # TODO send here an email to user with
             #   change-password form link
-            #my $mail = Tasklicious::Email->new(
-            #    to      => $user->email,
-            #    subject => '[Tasklicious] Change your password',
-            #    body    => qq{
-            #        Hi $name
+            my $mail = Tasklicious::Email->new(
+                to      => $user->email,
+                subject => '[Tasklicious] Change your password',
+                body    => qq{
+                    Hi $name
 
-            #        You request for change you password!
+                    You request for change you password!
 
-            #        If you want to chance then, please, click the link
-            #        below or copy/past it on address bar of your web
-            #        browser.
+                    If you want to chance then, please, click the link
+                    below or copy/past it on address bar of your web
+                    browser.
 
-            #        Link for change your password:
-            #        http://[WEBSITE_ROOT_URI]/change/$token
+                    Link for change your password:
+                    http://[WEBSITE_ROOT_URI]/change/$token
 
-            #        Thanks,
-            #        
-            #        --
-            #        Tasklicious Team
-            #    }
-            #);
+                    Thanks,
+                    
+                    --
+                    Tasklicious Team
+                }
+            );
 
-            #$mail->send;
+            $mail->send;
 
             # success
             return $self->stash(
