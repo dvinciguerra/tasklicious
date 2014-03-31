@@ -142,6 +142,6 @@ __PACKAGE__->set_primary_key("id");
 # You can replace this text with custom code or comments, and it will be preserved on regeneration
 
 __PACKAGE__->belongs_to('assigned_to', 'Tasklicious::Model::Result::User', {id => 'assigned'});
-__PACKAGE__->has_one('project', 'Tasklicious::Model::Result::Project', {id => 'project_id'});
+__PACKAGE__->has_one('project', 'Tasklicious::Model::Result::Project', {'foreign.id' => 'self.project_id'});
 
 1;

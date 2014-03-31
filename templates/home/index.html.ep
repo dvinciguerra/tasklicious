@@ -207,7 +207,28 @@
             e.preventDefault();
 
             var self = this;
-            $(modalEdit).modal('show');
+            var id = $(self).attr('data-id');
+            $.ajax({
+                url: "<%= url_for '/task/load' %>/" + id,
+                dataType: 'json',
+                type: 'GET',
+                success: function(res){
+                    var modal = $(modalEdit);
+
+                    modal.find('span#txt_title').text(res.title);
+                    modal.find('span#txt_duedate').text(res.date? res.date : '');
+                    modal.find('span#txt_closed').text(res.closed? res.closed : '');
+                    modal.find('#txt_description').val(res.description? res.description : '');
+                    modal.find('span#txt_assigned').text(res.assigned_to? res.assigned_to : 'Nobody');
+                    modal.find('span#txt_project').text(res.project? res.project : 'None');
+
+                    // DEBUG alert(JSON.stringify(res));
+                    $(modalEdit).modal('show');
+                },
+                error: function(res){
+                    alert(JSON.stringify(res));
+                }
+            });
         });
 
         $('.btn_detail').click(function(e){
@@ -222,6 +243,7 @@
                 type: 'GET',
                 success: function(res){
                     var modal = $(modalDetails);
+
                     modal.find('span#txt_title').text(res.title);
                     if(res.date) modal.find('span#txt_duedate').text(res.date);
                     if(res.closed) modal.find('span#txt_closed').text(res.closed);
@@ -230,14 +252,14 @@
                     else modal.find('span#txt_assigned').text('none');
                     if(res.project) modal.find('span#txt_project').text(res.project);
                     else modal.find('span#txt_project').text('none');
+
                     // DEBUG alert(JSON.stringify(res));
+                    $(modalDetails).modal('show');
                 },
                 error: function(res){
                     alert(JSON.stringify(res));
                 }
             });
-
-            $(modalDetails).modal('show');
         });
         
     });
