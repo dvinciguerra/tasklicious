@@ -18,8 +18,8 @@ sub load {
         ->to(controller => 'Account', action => 'change', token => 0 );
 
     # route to dashboard
-    $route->any('/profile')->over( authenticated => 1 )
-        ->to( controller => 'Home', action => 'profile' );
+    $route->any('/user/profile/:id')->over( authenticated => 1 )
+        ->to( controller => 'Home', action => 'profile', id => 0 );
     
     # routes to task actions
     $route->get('/task/list')->over( authenticated => 1 )

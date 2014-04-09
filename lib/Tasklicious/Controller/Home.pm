@@ -40,4 +40,20 @@ sub index {
     );
 }
 
+sub profile {
+    my $self = shift;
+    
+    my $id = $self->param('id') || 0;
+
+    # getting user info
+    my $user = $self->schema('User')->find($id);
+
+    #use Data::Dumper;
+    #return $self->render( text => Dumper $user || 'none' );
+
+    # TODO error page if user not-found
+
+    return $self->render( user => $user );
+}
+
 1;

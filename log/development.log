@@ -11586,3 +11586,212 @@ Global symbol "$title" requires explicit package name at template error.html.ep 
 [Wed Apr  9 12:46:45 2014] [debug] Rendering template "error.html.ep".
 [Wed Apr  9 12:46:45 2014] [debug] Rendering template "layouts/default.html.ep".
 [Wed Apr  9 12:46:45 2014] [debug] 200 OK (0.066435s, 15.052/s).
+[Wed Apr  9 14:51:00 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 14:51:00 2014] [debug] GET "/".
+[Wed Apr  9 14:51:00 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Wed Apr  9 14:51:00 2014] [debug] 302 Found (0.002462s, 406.174/s).
+[Wed Apr  9 14:51:00 2014] [debug] GET "/login".
+[Wed Apr  9 14:51:00 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Apr  9 14:51:00 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Apr  9 14:51:00 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Apr  9 14:51:00 2014] [debug] 200 OK (0.148190s, 6.748/s).
+[Wed Apr  9 14:51:04 2014] [debug] POST "/login".
+[Wed Apr  9 14:51:04 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Apr  9 14:51:04 2014] [debug] 302 Found (0.141562s, 7.064/s).
+[Wed Apr  9 14:51:04 2014] [debug] GET "/".
+[Wed Apr  9 14:51:04 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Wed Apr  9 14:51:04 2014] [debug] Rendering template "home/index.html.ep".
+[Wed Apr  9 14:51:04 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Apr  9 14:51:04 2014] [debug] 200 OK (0.082322s, 12.147/s).
+[Wed Apr  9 14:51:07 2014] [debug] GET "/task/load/6".
+[Wed Apr  9 14:51:07 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "load".
+[Wed Apr  9 14:51:07 2014] [debug] 200 OK (0.047833s, 20.906/s).
+[Wed Apr  9 15:01:33 2014] [debug] GET "/task/load/6".
+[Wed Apr  9 15:01:33 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "load".
+[Wed Apr  9 15:01:33 2014] [debug] 200 OK (0.011887s, 84.126/s).
+[Wed Apr  9 15:01:37 2014] [debug] GET "/task/load/6".
+[Wed Apr  9 15:01:37 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "load".
+[Wed Apr  9 15:01:37 2014] [debug] 200 OK (0.014798s, 67.577/s).
+[Wed Apr  9 15:01:43 2014] [debug] GET "/task/load/6".
+[Wed Apr  9 15:01:43 2014] [debug] Routing to controller "Tasklicious::Controller::Task" and action "load".
+[Wed Apr  9 15:01:43 2014] [debug] 200 OK (0.013500s, 74.074/s).
+[Wed Apr  9 15:07:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 15:07:14 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 15:07:14 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 15:07:14 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 15:07:14 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 15:07:14 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 15:07:14 2014] [debug] 404 Not Found (0.056893s, 17.577/s).
+[Wed Apr  9 15:07:46 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 15:07:46 2014] [debug] GET "/".
+[Wed Apr  9 15:07:46 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Wed Apr  9 15:07:46 2014] [debug] Rendering template "home/index.html.ep".
+[Wed Apr  9 15:07:46 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Apr  9 15:07:46 2014] [debug] 200 OK (0.098951s, 10.106/s).
+[Wed Apr  9 15:07:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 15:07:49 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 15:07:49 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 15:07:49 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 15:07:49 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 15:07:49 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 15:07:49 2014] [debug] 404 Not Found (0.051904s, 19.266/s).
+[Wed Apr  9 15:08:07 2014] [debug] GET "/".
+[Wed Apr  9 15:08:07 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Wed Apr  9 15:08:07 2014] [debug] Rendering template "home/index.html.ep".
+[Wed Apr  9 15:08:07 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Apr  9 15:08:07 2014] [debug] 200 OK (0.083720s, 11.945/s).
+[Wed Apr  9 15:08:10 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 15:08:10 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 15:08:10 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 15:08:10 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 15:08:10 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 15:08:10 2014] [debug] 404 Not Found (0.014472s, 69.099/s).
+[Wed Apr  9 16:13:20 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 16:13:20 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:20 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:20 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:20 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:20 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:20 2014] [debug] 404 Not Found (0.049019s, 20.400/s).
+[Wed Apr  9 16:13:23 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:23 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:23 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:23 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:23 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:23 2014] [debug] 404 Not Found (0.018218s, 54.891/s).
+[Wed Apr  9 16:13:25 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:25 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:25 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:25 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:25 2014] [debug] 404 Not Found (0.016257s, 61.512/s).
+[Wed Apr  9 16:13:25 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:25 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:25 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:25 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:25 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:25 2014] [debug] 404 Not Found (0.014706s, 67.999/s).
+[Wed Apr  9 16:13:26 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:26 2014] [debug] 404 Not Found (0.012230s, 81.766/s).
+[Wed Apr  9 16:13:26 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:26 2014] [debug] 404 Not Found (0.011479s, 87.116/s).
+[Wed Apr  9 16:13:26 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:26 2014] [debug] 404 Not Found (0.012537s, 79.764/s).
+[Wed Apr  9 16:13:26 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:26 2014] [debug] 404 Not Found (0.019012s, 52.598/s).
+[Wed Apr  9 16:13:26 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:26 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:26 2014] [debug] 404 Not Found (0.019045s, 52.507/s).
+[Wed Apr  9 16:13:27 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:27 2014] [debug] 404 Not Found (0.013904s, 71.922/s).
+[Wed Apr  9 16:13:27 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:27 2014] [debug] 404 Not Found (0.015009s, 66.627/s).
+[Wed Apr  9 16:13:27 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:27 2014] [debug] 404 Not Found (0.014620s, 68.399/s).
+[Wed Apr  9 16:13:27 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:13:27 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:13:27 2014] [debug] 404 Not Found (0.020656s, 48.412/s).
+[Wed Apr  9 16:13:40 2014] [info] Listening at "http://*:3000".
+[Wed Apr  9 16:18:14 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 16:18:14 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:18:14 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:18:14 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:18:14 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:18:14 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:18:14 2014] [debug] 404 Not Found (0.053835s, 18.575/s).
+[Wed Apr  9 16:18:46 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:18:46 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:18:46 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:18:46 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:18:46 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:18:46 2014] [debug] 404 Not Found (0.011285s, 88.613/s).
+[Wed Apr  9 16:18:47 2014] [debug] Your secret passphrase needs to be changed!!!
+[Wed Apr  9 16:18:47 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:18:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:18:47 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:18:47 2014] [debug] Rendering inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:18:47 2014] [debug] Rendering inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:18:47 2014] [debug] 404 Not Found (0.050621s, 19.755/s).
+[Wed Apr  9 16:18:47 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:18:47 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:18:47 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:18:47 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:18:47 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:18:47 2014] [debug] 404 Not Found (0.011892s, 84.090/s).
+[Wed Apr  9 16:18:48 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:18:48 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:18:48 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:18:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:18:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:18:48 2014] [debug] 404 Not Found (0.014156s, 70.641/s).
+[Wed Apr  9 16:18:48 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:18:48 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:18:48 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:18:48 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:18:48 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:18:49 2014] [debug] 404 Not Found (0.021682s, 46.121/s).
+[Wed Apr  9 16:41:28 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:41:28 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:41:28 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:41:28 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:41:28 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:41:28 2014] [debug] 404 Not Found (0.012292s, 81.354/s).
+[Wed Apr  9 16:41:37 2014] [debug] GET "/user/profile".
+[Wed Apr  9 16:41:37 2014] [debug] Template "not_found.development.html.ep" not found.
+[Wed Apr  9 16:41:37 2014] [debug] Template "not_found.html.ep" not found.
+[Wed Apr  9 16:41:37 2014] [debug] Rendering cached inline template "b260ba41ebf72d49075cbbc0f6086768".
+[Wed Apr  9 16:41:37 2014] [debug] Rendering cached inline template "8d0a7371fe951ba2316ef1ed58d59a50".
+[Wed Apr  9 16:41:37 2014] [debug] 404 Not Found (0.019897s, 50.259/s).
+[Wed Apr  9 16:41:44 2014] [debug] GET "/".
+[Wed Apr  9 16:41:44 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Wed Apr  9 16:41:44 2014] [debug] 302 Found (0.002452s, 407.830/s).
+[Wed Apr  9 16:41:44 2014] [debug] GET "/login".
+[Wed Apr  9 16:41:44 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Apr  9 16:41:44 2014] [debug] Rendering template "account/login.html.ep".
+[Wed Apr  9 16:41:44 2014] [debug] Rendering template "layouts/account.html.ep".
+[Wed Apr  9 16:41:44 2014] [debug] 200 OK (0.375404s, 2.664/s).
+[Wed Apr  9 16:41:48 2014] [debug] POST "/login".
+[Wed Apr  9 16:41:48 2014] [debug] Routing to controller "Tasklicious::Controller::Account" and action "login".
+[Wed Apr  9 16:41:48 2014] [debug] 302 Found (0.248217s, 4.029/s).
+[Wed Apr  9 16:41:48 2014] [debug] GET "/".
+[Wed Apr  9 16:41:48 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "index".
+[Wed Apr  9 16:41:48 2014] [debug] Rendering template "home/index.html.ep".
+[Wed Apr  9 16:41:48 2014] [debug] Rendering template "layouts/default.html.ep".
+[Wed Apr  9 16:41:48 2014] [debug] 200 OK (0.077237s, 12.947/s).
+[Wed Apr  9 16:41:51 2014] [debug] GET "/user/profile/1".
+[Wed Apr  9 16:41:51 2014] [debug] Routing to controller "Tasklicious::Controller::Home" and action "profile".
+[Wed Apr  9 16:41:51 2014] [debug] 200 OK (0.010585s, 94.473/s).
