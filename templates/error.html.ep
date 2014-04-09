@@ -1,0 +1,32 @@
+% layout 'default';
+
+
+<h2 class="page-header"> <i class="glyphicon glyphicon-warning-sign"></i> Error Page <small></small>  </h2>
+
+<div class="row">
+    <div class="col-xs-12">
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title"><%= $title? $title : 'System Error, Buddy!' %></h3>
+          </div>
+          <div class="panel-body">
+            <p><%= $message? $message : '' %></p>
+            <p class="text-right">
+                <a href="javascript:history.back(-1);" class="btn btn-danger">Back to previous page</a>
+            </p>
+          </div>
+        </div>
+    
+    </div>
+</div>
+
+
+
+% content_for 'javascript' => begin
+    $(function(){
+        
+        
+    });
+% end    
+

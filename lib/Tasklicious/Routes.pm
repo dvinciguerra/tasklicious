@@ -26,6 +26,8 @@ sub load {
         ->to( controller => 'Task', action => 'list', );
     $route->get('/task/load/:id')->over( authenticated => 1 )
         ->to( controller => 'Task', action => 'load', id => 0 );
+    $route->any('/task/edit/:id')->over( authenticated => 1 )
+        ->to( controller => 'Task', action => 'edit', id => 0 );
 
     #add custom route here
     

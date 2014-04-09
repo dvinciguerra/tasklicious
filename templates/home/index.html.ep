@@ -30,7 +30,7 @@
         
       <h4><i class="glyphicon glyphicon-tasks"></i> Last 5 tasks</h4>  
       <p class="text-right">
-          <a href="#" class="btn btn-danger btn-xs"> <i class="glyphicon glyphicon-plus"></i> Create New</a>
+          <a href="#" class="btn btn-danger btn-xs btn_create"> <i class="glyphicon glyphicon-plus"></i> Create New</a>
       </p>
       <table class="table table-striped ">
           <thead>
@@ -88,66 +88,77 @@
 
 
 <!-- Edit Modal -->
-<div id="modal_edit" class="modal fade">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Tasklicious - Edit Task</h4>
-      </div>
-      <div class="modal-body">
-        <div class="row">
-            <div class="col-md-8">
-                <div class="form-group">
-                    <strong>Title</strong>
-                    <input type="text" class="form-control" />
+%= form_for '', (id => 'form_task', method => 'POST') => begin
+    %= hidden_field 'id', '0'
+    <div id="modal_edit" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Tasklicious - Edit Task</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <strong>Title</strong>
+                        <input type="text" name="title" id="title" class="form-control" />
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="form-group">
-                    <strong>Project</strong>
-                    <select id="" name="" class="form-control">
-                        <option value="">None</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="form-group">
-                    <strong><i class="glyphicon glyphicon-calendar"></i> Due Date</strong>
-                    <span class="form-control">22/03/2014</span>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <strong><i class="glyphicon glyphicon-calendar"></i> Closed </strong><br />
-
-                    <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-danger btn-sm">
-                            <input type="radio" name="options" id="option1"> Yes, Closed!
-                        </label>
-                        <label class="btn btn-default btn-sm">
-                            <input type="radio" name="options" id="option2"> No, It's opened!
-                        </label>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <strong>Project</strong>
+                        <select id="projects" name="projects" class="form-control">
+                            <option value="0">None</option>
+% for my $item ($project_list->all) {                        
+                            <option value="<%= $item->id %>"><%= $item->name %></option>
+% }
+                        </select>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <strong><i class="glyphicon glyphicon-calendar"></i> Due Date</strong>
+                        <input type="text" name="duedate" id="duedate" class="form-control" value="" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <strong><i class="glyphicon glyphicon-calendar"></i> Closed </strong><br />
+
+                        <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-danger btn-sm">
+                                <input type="radio" name="closed" id="closed" value="1"> Yes, Closed!
+                            </label>
+                            <label class="btn btn-danger btn-sm">
+                                <input type="radio" name="closed" id="noclosed" value="0"> No, It's opened!
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" name="description" class="form-control"></textarea>
+            </div>
+            <strong>Assigned to</strong> 
+            <select id="assigned" name="assigned" class="form-control">
+                <option value="0">None</option>
+% for my $item ($user_list->all) {                        
+                <option value="<%= $item->id %>"><%= $item->name %></option>
+% }            
+            </select>
+          </div>
+          <div class="modal-footer">
+            <!-- small><a href="/task" class="label label-danger">(0) comments</a></small>&nbsp; -->
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-danger">Save Task</button>
+          </div>
         </div>
-        <div class="form-group">
-            <textarea rows="5" class="form-control">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. </textarea>
-        </div>
-        <strong>Assigned to</strong> 
-        <input class="form-control" type="text" />
       </div>
-      <div class="modal-footer">
-        <small><a href="/task" class="label label-danger">(0) comments</a></small>&nbsp;
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-danger">Save Task</button>
-      </div>
-    </div>
-  </div>
-</div><!-- /.modal -->
+    </div><!-- /.modal -->
+% end    
 
 
 
@@ -185,7 +196,7 @@
       </div>
       <div class="modal-footer">
         <small><a href="/task" class="label label-danger">View complete informations</a>&nbsp;
-        <a href="/task" class="label label-danger">(0) comments</a></small>&nbsp;
+        <!-- a href="/task" class="label label-danger">(0) comments</a></small>&nbsp; -->
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
@@ -199,9 +210,20 @@
         /**
         * Start Components
         */
+        $(".dial").knob();
         var modalDetails = $('#modal_details').modal({ show: false });
         var modalEdit = $('#modal_edit').modal({ show: false });
-        $(".dial").knob({ });
+
+        $('.btn_create').click(function(e){
+            e.preventDefault();
+            
+            var modal = $(modalEdit);
+            modal.parent().find('input#id').val('0');
+            modal.parent().attr('action', '<%= url_for "/task/create" %>');
+
+            // DEBUG alert(JSON.stringify(res));
+            $(modalEdit).modal('show');
+        });
 
         $('.btn_edit').click(function(e){
             e.preventDefault();
@@ -209,16 +231,19 @@
             var self = this;
             var id = $(self).attr('data-id');
             $.ajax({
-                url: "<%= url_for '/task/load' %>/" + id,
+                url: "<%= url_for '/task/load/' %>" + id,
                 dataType: 'json',
                 type: 'GET',
                 success: function(res){
                     var modal = $(modalEdit);
+                    var form  = $(modalEdit).parent();
 
-                    modal.find('span#txt_title').text(res.title);
-                    modal.find('span#txt_duedate').text(res.date? res.date : '');
-                    modal.find('span#txt_closed').text(res.closed? res.closed : '');
-                    modal.find('#txt_description').val(res.description? res.description : '');
+                    $(form).find('input[name=id]').val(res.id);
+                    $(form).attr('action', '<%= url_for "/task/edit" %>/' + res.id);
+                    modal.find('input#title').val(res.title);
+                    modal.find('input#duedate').val(res.date? res.date : '');
+                    if(res.closed) modal.find('radio#closed').val(res.closed? res.closed : '');
+                    modal.find('textarea[name=description]').val(res.description? res.description : '');
                     modal.find('span#txt_assigned').text(res.assigned_to? res.assigned_to : 'Nobody');
                     modal.find('span#txt_project').text(res.project? res.project : 'None');
 
@@ -226,7 +251,8 @@
                     $(modalEdit).modal('show');
                 },
                 error: function(res){
-                    alert(JSON.stringify(res));
+                    alert("Cannot load task data!");
+                    //alert(JSON.stringify(res));
                 }
             });
         });
