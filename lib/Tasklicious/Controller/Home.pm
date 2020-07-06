@@ -1,4 +1,4 @@
-package Tasklicious::Controller::Example {
+package Tasklicious::Controller::Home {
   use Mojo::Base 'Mojolicious::Controller', -signatures;
 
   sub index($self) {
