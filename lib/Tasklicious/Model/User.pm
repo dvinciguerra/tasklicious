@@ -1,5 +1,5 @@
 package Tasklicious::Model::User {
-  use Mojo::Base 'Tasklicious::Model::Base' -signatures;
+  use Mojo::Base 'Tasklicious::Model::Base', -signatures;
 
   sub all ($self) {
     $self->client->db->select('users')->hashes->to_array;

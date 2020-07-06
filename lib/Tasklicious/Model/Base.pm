@@ -1,5 +1,5 @@
 package Tasklicious::Model::Base {
-  use Mojo::Base -base -signatures;
+  use Mojo::Base -base, -signatures;
 
   has 'client';
 
